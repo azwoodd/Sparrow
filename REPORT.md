@@ -624,3 +624,45 @@ costs 11-13 W aerodynamic at 9-10 m/s and 3.5-4 Hz. A first version without lead
 - So the jump cannot be the launch; flight needs 8-10 m/s from a throw, launcher or long drop, or a wing redesign.
 - Not modelled: pitch stability, tail, flexibility, unsteady effects. All coefficients assumed.
 - Redesign sizing (F1 study section 7): jumping higher cannot close the gap (9 m/s needs ~21 J and ~43 g over 95 mm of stroke). Self take-off needs a combination: about 400 g or less, about +-60 deg flap stroke, half-inertia wings and large wing twist; with twist limited to 45 deg only a ~250 g variant fits. Model is least reliable at large twist.
+
+
+## Phase 3 - X. Game, brain and repository (15-17 Nov 2026, simulation only)
+
+Code: `game/` (game, Studio, pilot, flight, get-up, parameter trainer), `game/brain/` (reinforcement learning).
+Repository: https://github.com/azwoodd/Sparrow. Rules for contributors: `AGENTS.md`.
+
+**X1. Flight in the game (free body, nothing holds the attitude).** Uses assumed changes (wing x3 chord, tail x8 area,
+wing 15 mm aft, prescribed twist, 6 Nm flap drive). Findings: (a) the player's turn input had never reached the flight
+controller (my bug; the "lean right" was the model's own drift); (b) roll authority measured per effector in 1 s of
+steady flight: sweeping one wing back 0.3 rad rolls ~110 deg, +-5 deg differential incidence ~73 deg, 30% flap-size
+difference ~1 deg, tail roll ~0 - so roll now uses the existing wing-sweep servos; (c) steering on body yaw rate fails
+because the body yaws +-70-140 deg/s with each wingbeat; steering on the flight path works. Result: course held to
+~2 deg/s with no input, turns ~43 deg/s left / ~36 deg/s right (radius ~13 m), on mass +-7% and balance +-3 mm.
+Course hold and sweep roll act only above 7 m/s: below that they upset the dive off the launch tower.
+Tower take-off (12 m): 5/5 conditions with the walking brain on, 4/5 without. Landing: fails (5-7 m/s touchdown).
+
+**X2. Ground turning needs a hip-twist joint.** Pitch-only legs: 5 s of full steering bends the path a few degrees;
+training turn-on-the-spot ended at -6 deg. Model copy `v7e_game_hipyaw` (+2 hip-yaw servos, +19 g, PROPOSED): at
+0.12 rad twist per step, 300-340 deg in 5 s walking, slow or on the spot, 18/18 upright (heading tracked continuously;
+an earlier wrapped reading had suggested the opposite direction).
+
+**X3. Steps and get-up (scripted).** The 20 mm step cannot be walked up: 128 mm foot, ~30 mm stride, the toe meets the
+riser at any foot lift tried (12-30 mm). Parameter search of a jump-onto-step while walking: 0/5. Scripted get-up
+(wing push, crouch found by search, slow rise) reaches ~34 deg from side and backward falls, then stalls; it cannot
+right itself from upside down. Parameter search did not improve it.
+
+**X4. Brain (PPO, stable-baselines3).** Environments `getup`, `recover`, `step_up` in `game/brain/sparrow_env.py`.
+Ground training runs with air forces off (they cost ~90% of run time; 2,770 vs 283 control steps/s). Every brain is
+judged with air forces ON on unseen seeds (`evaluate.py`).
+- `recover` (corrections on the walking controller, random commands and 1-4 N shoves): 250k steps, 5 min-scale run on
+  2 workers. Unseen runs, full physics: brain 20/20 survive vs scripted 16/20. In the game routine: used while walking
+  and standing 3/5 (worse - it never saw landings); used while walking only 5/5 (scripted 4/5). Pinned in skills.json.
+- Brains see torso height above the ground they stand on (on the 12 m tower the absolute height was 60x anything seen
+  in training and the brain misbehaved).
+- `getup` first run (1.2M steps): 0% success and a reward exploit - the brain bounced in the air for height points
+  (end state: torso 154-171 mm, tilt 30-94 deg, no ground contact in 4/5). Reward fixed (height counts only with
+  weight on the feet; airborne penalised). Retrained 1.5M steps (`runs/getup_20261117_231647`): return rose -219 -> +800
+  but success is still 0%: it now ends on its side (79-91 deg) propped on one leg with ~0.5 body weight on that foot -
+  a partial-credit position, not standing. Evaluation, full physics, 12 unseen falls: brain 0% (return 809) vs scripted
+  0% (return 43). Not enabled in the game. Next: curriculum from near-upright starts, success-weighted reward, far more
+  steps (cloud).

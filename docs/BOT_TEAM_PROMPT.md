@@ -47,7 +47,7 @@ Sparrow bot team, keep them from colliding, and report evidence-backed progress 
 | Hops / jumps | 30-60 mm hops; 60/80/100 mm spring jumps validated; hop-while-walking works but mostly falls |
 | Steps | cannot climb a 20 mm step: 128 mm foot vs ~30 mm stride; needs a forward jump >= 130 mm |
 | Ground turning | weak on current legs (pitch-only); ~50-60 deg/s with the PROPOSED hip-twist servos (`model/v7e_game_hipyaw`) |
-| Get-up | scripted version stalls at ~34 deg; get-up brain training in progress (see `game/brain/runs/`) |
+| Get-up | 0% success so far. Scripted stalls at ~34 deg. Brain (1.5M steps, `runs/getup_20261117_231647`) gets partway (ends on its side propped on one leg); first version exploited the reward by bouncing - fixed. Not enabled in the game |
 | Flight | free-body flight, course hold, ~40 deg/s turns - only with ASSUMED wing/drive changes (`skills.json -> flight`) |
 | Take-off | from a 12 m tower only; ground take-off infeasible with the current wing (flight_research/) |
 | Landing | fails: 5-7 m/s touchdown tips over; flare stalls (tail lacks pitch authority) |
@@ -55,8 +55,9 @@ Sparrow bot team, keep them from colliding, and report evidence-backed progress 
 ## Assignments
 
 **Sparrow RL** (`game/brain/`) - top priority, most compute.
-1. Get-up brain: finish/scale `train_brain.py getup` (many workers, 10-50M steps); add curriculum (start from easier
-   fallen poses), reward shaping; target: evaluate.py success > 80% with air forces on.
+1. Get-up brain: today 0% success (baseline: `game/brain/runs/getup_20261117_231647/evaluation.json`). Add a curriculum
+   (start near upright, widen to full falls), a success-weighted reward, check end states for reward exploits (it has
+   already found two), then scale (many workers, 10-50M steps). Target: evaluate.py success > 80% with air forces on.
 2. Walking brain v2: add jumps, hops, landings and stairs to the `recover` task so the brain also works while
    standing after a landing (today it is used while walking only because standing use made the routine worse, 3/5).
 3. New tasks: `step_up` (jump onto the step while walking - the scaffold exists), `land` (from flight, touch down and

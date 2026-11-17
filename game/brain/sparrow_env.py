@@ -151,7 +151,11 @@ class SparrowEnv(gym.Env):
         if self.task == 'getup':
             standing = tilt < 15 and min(fl) > 0.2 and np.linalg.norm(d.qvel[:3]) < 0.15
             self.held = self.held + 1 if standing else 0
-            rew = up + 2.0 * float(np.clip((z - 0.06) / 0.10, 0, 1)) + (1.0 if standing else 0.0) - 0.02 * smooth
+            # height only counts with weight on the feet: the first version paid for height alone and the brain learned
+            # to bounce in the air instead of standing (reward exploit found 17 Nov 2026)
+            load = float(sum(fl)); grounded = min(1.0, load / 0.8)
+            airborne = not any(rec['fn'] > 0 for rec in cs.values())
+            rew = (up + 2.0 * float(np.clip((z - 0.06) / 0.10, 0, 1))) * grounded + (1.0 if standing else 0.0) - (0.5 if airborne else 0.0) - 0.1 * float(np.linalg.norm(d.qvel[:3])) - 0.02 * smooth
             if self.held >= 100: rew += 50.0; terminated = True; info['success'] = True
         else:
             other = any(g not in (lab.foot_geom['L'], lab.foot_geom['R']) and rec['fn'] > 0 for g, rec in cs.items())

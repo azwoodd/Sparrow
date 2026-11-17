@@ -1,0 +1,16 @@
+{
+ "task": "getup",
+ "episodes": 12,
+ "air_forces": true,
+ "scripted": {
+  "success": 0.0,
+  "fell": 0.0,
+  "return": 42.657648809473194
+ },
+ "brain": {
+  "success": 0.0,
+  "fell": 0.0,
+  "return": 808.5667086724079
+ },
+ "run": "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\game\\brain\\runs\\getup_20261117_231647"
+}
