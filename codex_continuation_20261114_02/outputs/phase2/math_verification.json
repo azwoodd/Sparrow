@@ -1,0 +1,38 @@
+{
+  "derivative_checks": [
+    {
+      "t": 0.01,
+      "velocity_error": 3.097834995794378e-11,
+      "acceleration_error": 1.488380141356771e-09
+    },
+    {
+      "t": 0.05,
+      "velocity_error": 4.593030955568622e-10,
+      "acceleration_error": 2.0844410641984723e-08
+    },
+    {
+      "t": 0.1,
+      "velocity_error": 5.751559228883707e-10,
+      "acceleration_error": 4.25799271397409e-08
+    },
+    {
+      "t": 0.14,
+      "velocity_error": 2.0190782379359007e-09,
+      "acceleration_error": 3.036785756194149e-08
+    },
+    {
+      "t": 0.2,
+      "velocity_error": 3.065059317464147e-10,
+      "acceleration_error": 1.5289231214410393e-08
+    },
+    {
+      "t": 0.4,
+      "velocity_error": 1.1688090495454162e-09,
+      "acceleration_error": 2.099375251418678e-08
+    }
+  ],
+  "pair_signed_work_J": -5.310384378003223e-09,
+  "pair_energy_change_J": -4.198030811863873e-16,
+  "energy_error_J": 5.310383958200142e-09,
+  "passed": true
+}

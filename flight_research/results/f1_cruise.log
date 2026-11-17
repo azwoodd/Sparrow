@@ -1,0 +1,13 @@
+﻿wing: 12 strips per side, tip radius 0.629 m, area 0.1661 m2, AR 12.1, lift slope 5.39; mass 0.529 kg, weight 5.19 N
+--- level cruise, stalled-plate coefficient 1.2, wing incidence 4 deg
+   6.0 m/s: no combination holds level flight
+   7.0 m/s: no combination holds level flight
+   8.0 m/s: no combination holds level flight
+   9.0 m/s: no combination holds level flight
+  10.0 m/s: least aero power  12.6 W at 3.5 Hz, tip twist 30 deg, body 2 deg nose-up (surplus lift 1%, thrust 1% of weight), peak motor torque 2.65 Nm per wing
+--- level cruise, stalled-plate coefficient 2.0, wing incidence 4 deg
+   6.0 m/s: no combination holds level flight
+   7.0 m/s: least aero power  84.7 W at 8.0 Hz, tip twist 35 deg, body 14 deg nose-up (surplus lift 1%, thrust 8% of weight), peak motor torque 7.87 Nm per wing
+   8.0 m/s: least aero power  54.0 W at 7.0 Hz, tip twist 40 deg, body 14 deg nose-up (surplus lift 1%, thrust 8% of weight), peak motor torque 6.22 Nm per wing
+   9.0 m/s: least aero power  11.0 W at 4.0 Hz, tip twist 40 deg, body 4 deg nose-up (surplus lift 7%, thrust 0% of weight), peak motor torque 2.89 Nm per wing
+  10.0 m/s: least aero power  12.9 W at 3.5 Hz, tip twist 30 deg, body 2 deg nose-up (surplus lift 2%, thrust 1% of weight), peak motor torque 2.66 Nm per wing

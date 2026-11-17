@@ -1,0 +1,25 @@
+﻿tip twist allowed up to 50 deg; jump at 60 deg, 80% of spring energy becomes speed; flapping starts 0.15 s after release
+--- Sparrow as designed, 529 g: wing loading 31.2 N/m2, model stall speed 7.1 m/s
+  jump 3 J (1.5 m/s fwd, 2.6 m/s up, apex 0.35 m): sustains flight from 10 Hz, twist 50 deg, pitch 80->30 deg; aero power 110 W, peak motor torque 10.8 Nm per wing; ends 0.2 m/s at 1.9 m
+  jump 7 J (2.3 m/s fwd, 4.0 m/s up, apex 0.81 m): sustains flight from 10 Hz, twist 50 deg, pitch 80->45 deg; aero power 110 W, peak motor torque 10.8 Nm per wing; ends 0.2 m/s at 2.5 m
+  jump 10 J (2.7 m/s fwd, 4.8 m/s up, apex 1.16 m): sustains flight from 10 Hz, twist 50 deg, pitch 80->45 deg; aero power 109 W, peak motor torque 10.8 Nm per wing; ends 0.2 m/s at 3.2 m
+--- 529 g, stroke +-60 deg: wing loading 31.2 N/m2, model stall speed 7.1 m/s
+  jump 3 J (1.5 m/s fwd, 2.6 m/s up, apex 0.35 m): sustains flight from 6 Hz, twist 50 deg, pitch 80->30 deg; aero power 168 W, peak motor torque 8.9 Nm per wing; ends 0.9 m/s at 4.0 m
+  jump 7 J (2.3 m/s fwd, 4.0 m/s up, apex 0.81 m): sustains flight from 6 Hz, twist 50 deg, pitch 80->45 deg; aero power 168 W, peak motor torque 8.8 Nm per wing; ends 0.9 m/s at 4.6 m
+  jump 10 J (2.7 m/s fwd, 4.8 m/s up, apex 1.16 m): sustains flight from 5 Hz, twist 50 deg, pitch 20->30 deg; aero power 90 W, peak motor torque 6.8 Nm per wing; ends 7.6 m/s at 1.0 m
+--- 529 g, wing area x2 (chord), stroke +-45 deg: wing loading 15.6 N/m2, model stall speed 5.1 m/s
+  jump 3 J (1.5 m/s fwd, 2.6 m/s up, apex 0.35 m): sustains flight from 5 Hz, twist 50 deg, pitch 80->45 deg; aero power 82 W, peak motor torque 5.9 Nm per wing; ends 1.0 m/s at 2.6 m
+  jump 7 J (2.3 m/s fwd, 4.0 m/s up, apex 0.81 m): sustains flight from 5 Hz, twist 50 deg, pitch 80->45 deg; aero power 82 W, peak motor torque 5.7 Nm per wing; ends 1.0 m/s at 3.2 m
+  jump 10 J (2.7 m/s fwd, 4.8 m/s up, apex 1.16 m): sustains flight from 5 Hz, twist 50 deg, pitch 80->45 deg; aero power 81 W, peak motor torque 5.8 Nm per wing; ends 1.0 m/s at 3.7 m
+--- 529 g, wing area x3 (chord), stroke +-45 deg: wing loading 10.4 N/m2, model stall speed 4.1 m/s
+  jump 3 J (1.5 m/s fwd, 2.6 m/s up, apex 0.35 m): sustains flight from 4 Hz, twist 50 deg, pitch 80->45 deg; aero power 63 W, peak motor torque 5.0 Nm per wing; ends 0.6 m/s at 0.8 m
+  jump 7 J (2.3 m/s fwd, 4.0 m/s up, apex 0.81 m): sustains flight from 4 Hz, twist 50 deg, pitch 80->45 deg; aero power 63 W, peak motor torque 5.0 Nm per wing; ends 0.6 m/s at 1.4 m
+  jump 10 J (2.7 m/s fwd, 4.8 m/s up, apex 1.16 m): sustains flight from 4 Hz, twist 50 deg, pitch 80->45 deg; aero power 63 W, peak motor torque 5.0 Nm per wing; ends 0.6 m/s at 2.0 m
+--- 450 g, wing area x2, stroke +-45 deg: wing loading 13.3 N/m2, model stall speed 4.7 m/s
+  jump 3 J (1.6 m/s fwd, 2.8 m/s up, apex 0.41 m): sustains flight from 5 Hz, twist 50 deg, pitch 80->45 deg; aero power 80 W, peak motor torque 5.8 Nm per wing; ends 1.2 m/s at 3.7 m
+  jump 7 J (2.5 m/s fwd, 4.3 m/s up, apex 0.95 m): sustains flight from 5 Hz, twist 50 deg, pitch 80->45 deg; aero power 80 W, peak motor torque 5.7 Nm per wing; ends 1.2 m/s at 4.4 m
+  jump 10 J (3.0 m/s fwd, 5.2 m/s up, apex 1.36 m): sustains flight from 4 Hz, twist 50 deg, pitch 20->15 deg; aero power 37 W, peak motor torque 4.6 Nm per wing; ends 8.6 m/s at 3.3 m
+--- 400 g, wing area x2, stroke +-45 deg: wing loading 11.8 N/m2, model stall speed 4.4 m/s
+  jump 3 J (1.7 m/s fwd, 3.0 m/s up, apex 0.46 m): sustains flight from 5 Hz, twist 50 deg, pitch 80->45 deg; aero power 79 W, peak motor torque 5.8 Nm per wing; ends 1.2 m/s at 4.3 m
+  jump 7 J (2.6 m/s fwd, 4.6 m/s up, apex 1.07 m): sustains flight from 4 Hz, twist 50 deg, pitch 20->15 deg; aero power 37 W, peak motor torque 5.0 Nm per wing; ends 9.4 m/s at 5.1 m
+  jump 10 J (3.2 m/s fwd, 5.5 m/s up, apex 1.53 m): sustains flight from 4 Hz, twist 50 deg, pitch 40->15 deg; aero power 36 W, peak motor torque 5.0 Nm per wing; ends 9.4 m/s at 8.2 m

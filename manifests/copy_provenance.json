@@ -1,0 +1,34 @@
+{
+ "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\model\\v7e_baseline\\sparrow_v7e.xml": {
+  "from": "C:\\Users\\Work\\Documents\\Codex\\2026-11-11\\blender-mcp-c-users-work-agents\\outputs\\Sparrow_V7D_Style\\mujoco\\sparrow_v7e.xml",
+  "sha256": "6dddfd24c8c4006771ab4d8ae421169e6a3dcf17a24ddfa96af3229b418fcbce"
+ },
+ "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\model\\v7e_baseline\\sparrow_v7e_model.json": {
+  "from": "C:\\Users\\Work\\Documents\\Codex\\2026-11-11\\blender-mcp-c-users-work-agents\\outputs\\Sparrow_V7D_Style\\mujoco\\sparrow_v7e_model.json",
+  "sha256": "fd5912efe669495602b92d317d83e9e0e27389ef830ad1705db590f286091466"
+ },
+ "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\model\\v7e_baseline\\sparrow_sim.py": {
+  "from": "C:\\Users\\Work\\Documents\\Codex\\2026-11-11\\blender-mcp-c-users-work-agents\\outputs\\Sparrow_V7D_Style\\mujoco\\sparrow_sim.py",
+  "sha256": "ae93a12ab08402a91c2a1ead3e68750e525c43a7bbcfdb23ca43ff97a5fc983b"
+ },
+ "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\model\\v7e_baseline\\meshes": {
+  "from": "C:\\Users\\Work\\Documents\\Codex\\2026-11-11\\blender-mcp-c-users-work-agents\\outputs\\Sparrow_V7D_Style\\mujoco\\meshes",
+  "files": 110
+ },
+ "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\src\\vendor\\control.py": {
+  "from": "C:\\Users\\Work\\Documents\\Codex\\2026-11-12\\new-chat-2\\Sparrow_Control_Development\\control.py",
+  "sha256": "7a4f56539d80a531af531f7cda6fc06572f7f849262bd10620773a8a56d2cc53"
+ },
+ "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\src\\vendor\\fast_aero.py": {
+  "from": "C:\\Users\\Work\\Documents\\Codex\\2026-11-12\\new-chat-2\\Sparrow_Control_Development\\fast_aero.py",
+  "sha256": "115078646f2a0725bf20835b9835c95043c34da8ad1564ab43bed0d6db042f5a"
+ },
+ "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\src\\vendor\\gains.json": {
+  "from": "C:\\Users\\Work\\Documents\\Codex\\2026-11-12\\new-chat-2\\Sparrow_Control_Development\\gains.json",
+  "sha256": "039c919b23025c69d214e69d2ce764f1b3723c42da1f4a396cf0f5b4a18caea2"
+ },
+ "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\src\\vendor\\torque_gains.json": {
+  "from": "C:\\Users\\Work\\Documents\\Codex\\2026-11-12\\new-chat-2\\Sparrow_Control_Development\\torque_gains.json",
+  "sha256": "984e7bc1fff5a35331bb644185f97d449950d056c7e93f9046b88d4fdcb4bfb7"
+ }
+}

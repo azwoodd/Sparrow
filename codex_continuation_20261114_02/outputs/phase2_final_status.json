@@ -1,0 +1,22 @@
+{
+  "current_resources": {
+    "cpu": 2.97,
+    "ram": 61,
+    "available_gb": 6.04
+  },
+  "python_processes": [
+    {
+      "pid": 40884,
+      "parent": 33312,
+      "name": "python.exe",
+      "threads": 4
+    },
+    {
+      "pid": 43804,
+      "parent": 40884,
+      "name": "python.exe",
+      "threads": 4
+    }
+  ],
+  "sources_unchanged": true
+}

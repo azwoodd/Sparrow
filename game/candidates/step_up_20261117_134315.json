@@ -1,0 +1,34 @@
+{
+ "task": "step_up",
+ "description": "Jump up the first 20 mm step while walking and stay up on top",
+ "unit": "points",
+ "target": null,
+ "when": "2026-11-17 14:03",
+ "score": -240.29656960929188,
+ "start_score": -269.1952886314191,
+ "settings": {
+  "hops.jump_moving.E_scale": 1.300112171314588,
+  "hops.jump_moving.hip_bias": 0.24377466185555904,
+  "hops.jump_moving.dy_c": -0.024004369415549443,
+  "hops.jump_moving.dy_l": -0.013793258888639004,
+  "hops.jump_moving.t_c": 0.27816624319793637,
+  "step_trigger": 0.7627586116914503
+ },
+ "history": [
+  -269.1952886314191,
+  -264.4287720960251,
+  -244.1352095147024,
+  -241.0853741749722,
+  -241.0853741749722,
+  -241.0853741749722,
+  -240.6921032861302,
+  -240.6921032861302,
+  -240.6921032861302,
+  -240.29656960929188,
+  -240.29656960929188
+ ],
+ "generation": 10,
+ "validated": "0/5 conditions without a fall, score -368.8",
+ "routine": "0/5 conditions completed the full routine",
+ "done": true
+}

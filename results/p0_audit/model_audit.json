@@ -1,0 +1,723 @@
+{
+ "model_dir": "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\model\\v7e_baseline",
+ "mujoco": "4.0.0",
+ "nbody": 27,
+ "njnt": 26,
+ "nu": 17,
+ "ngeom": 118,
+ "nmesh": 110,
+ "timestep": 0.001,
+ "total_mass_kg": 0.5198950000000001,
+ "weight_N": 5.1001699500000015,
+ "bodies": [
+  {
+   "name": "torso",
+   "mass_g": 273.2,
+   "subtree_g": 519.9
+  },
+  {
+   "name": "tail_pitch",
+   "mass_g": 0.5,
+   "subtree_g": 5.58
+  },
+  {
+   "name": "tail_roll",
+   "mass_g": 5.08,
+   "subtree_g": 5.08
+  },
+  {
+   "name": "wing_L_flap",
+   "mass_g": 3.15,
+   "subtree_g": 55.79
+  },
+  {
+   "name": "wing_L_sweep",
+   "mass_g": 15.39,
+   "subtree_g": 52.64
+  },
+  {
+   "name": "wing_L_panel_in",
+   "mass_g": 7.81,
+   "subtree_g": 7.81
+  },
+  {
+   "name": "wing_L_elbow",
+   "mass_g": 7.45,
+   "subtree_g": 29.44
+  },
+  {
+   "name": "wing_L_panel_mid",
+   "mass_g": 8.55,
+   "subtree_g": 8.55
+  },
+  {
+   "name": "wing_L_wrist",
+   "mass_g": 3.63,
+   "subtree_g": 13.44
+  },
+  {
+   "name": "wing_L_panel_out",
+   "mass_g": 9.81,
+   "subtree_g": 9.81
+  },
+  {
+   "name": "wing_R_flap",
+   "mass_g": 3.15,
+   "subtree_g": 55.79
+  },
+  {
+   "name": "wing_R_sweep",
+   "mass_g": 15.39,
+   "subtree_g": 52.64
+  },
+  {
+   "name": "wing_R_panel_in",
+   "mass_g": 7.81,
+   "subtree_g": 7.81
+  },
+  {
+   "name": "wing_R_elbow",
+   "mass_g": 7.45,
+   "subtree_g": 29.44
+  },
+  {
+   "name": "wing_R_panel_mid",
+   "mass_g": 8.55,
+   "subtree_g": 8.55
+  },
+  {
+   "name": "wing_R_wrist",
+   "mass_g": 3.63,
+   "subtree_g": 13.44
+  },
+  {
+   "name": "wing_R_panel_out",
+   "mass_g": 9.81,
+   "subtree_g": 9.81
+  },
+  {
+   "name": "leg_L_thigh",
+   "mass_g": 16.97,
+   "subtree_g": 40.54
+  },
+  {
+   "name": "leg_L_shin",
+   "mass_g": 14.58,
+   "subtree_g": 23.57
+  },
+  {
+   "name": "leg_L_ankle",
+   "mass_g": 8.99,
+   "subtree_g": 8.99
+  },
+  {
+   "name": "leg_R_thigh",
+   "mass_g": 16.97,
+   "subtree_g": 40.54
+  },
+  {
+   "name": "leg_R_shin",
+   "mass_g": 14.58,
+   "subtree_g": 23.57
+  },
+  {
+   "name": "leg_R_ankle",
+   "mass_g": 8.99,
+   "subtree_g": 8.99
+  },
+  {
+   "name": "neck_yaw",
+   "mass_g": 11.86,
+   "subtree_g": 48.46
+  },
+  {
+   "name": "head_pitch",
+   "mass_g": 34.57,
+   "subtree_g": 36.6
+  },
+  {
+   "name": "beak",
+   "mass_g": 2.03,
+   "subtree_g": 2.03
+  }
+ ],
+ "joints": [
+  {
+   "name": "root",
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "tail_pitch",
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -0.6109,
+    0.6109
+   ]
+  },
+  {
+   "name": "tail_roll",
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    -0.5236,
+    0.5236
+   ]
+  },
+  {
+   "name": "wing_L_flap",
+   "axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "range": [
+    -0.5411,
+    0.5411
+   ]
+  },
+  {
+   "name": "wing_L_sweep",
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    0.0,
+    1.5184
+   ]
+  },
+  {
+   "name": "wing_L_panel_in",
+   "axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    2.0595
+   ]
+  },
+  {
+   "name": "wing_L_elbow",
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    -3.0369,
+    0.0
+   ]
+  },
+  {
+   "name": "wing_L_panel_mid",
+   "axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "wing_L_wrist",
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    0.0,
+    3.0718
+   ]
+  },
+  {
+   "name": "wing_L_panel_out",
+   "axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    1.6755
+   ]
+  },
+  {
+   "name": "wing_R_flap",
+   "axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "range": [
+    -0.5411,
+    0.5411
+   ]
+  },
+  {
+   "name": "wing_R_sweep",
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "range": [
+    0.0,
+    1.5184
+   ]
+  },
+  {
+   "name": "wing_R_panel_in",
+   "axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    2.0595
+   ]
+  },
+  {
+   "name": "wing_R_elbow",
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "range": [
+    -3.0369,
+    0.0
+   ]
+  },
+  {
+   "name": "wing_R_panel_mid",
+   "axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    1.5708
+   ]
+  },
+  {
+   "name": "wing_R_wrist",
+   "axis": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "range": [
+    0.0,
+    3.0718
+   ]
+  },
+  {
+   "name": "wing_R_panel_out",
+   "axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    1.6755
+   ]
+  },
+  {
+   "name": "leg_L_thigh",
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -1.0472,
+    1.0472
+   ]
+  },
+  {
+   "name": "leg_L_shin",
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -1.0472,
+    1.1345
+   ]
+  },
+  {
+   "name": "leg_L_ankle",
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -1.2217,
+    1.2217
+   ]
+  },
+  {
+   "name": "leg_R_thigh",
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -1.0472,
+    1.0472
+   ]
+  },
+  {
+   "name": "leg_R_shin",
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -1.0472,
+    1.1345
+   ]
+  },
+  {
+   "name": "leg_R_ankle",
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -1.2217,
+    1.2217
+   ]
+  },
+  {
+   "name": "neck_yaw",
+   "axis": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "range": [
+    -1.0472,
+    1.0472
+   ]
+  },
+  {
+   "name": "head_pitch",
+   "axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    -0.3491,
+    0.5236
+   ]
+  },
+  {
+   "name": "beak",
+   "axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "range": [
+    0.0,
+    0.5236
+   ]
+  }
+ ],
+ "actuators": [
+  {
+   "name": "act_tail_pitch",
+   "kp": 1.0,
+   "ctrlrange": [
+    -0.6109,
+    0.6109
+   ],
+   "forcerange": [
+    -0.1,
+    0.1
+   ]
+  },
+  {
+   "name": "act_tail_roll",
+   "kp": 1.0,
+   "ctrlrange": [
+    -0.5236,
+    0.5236
+   ],
+   "forcerange": [
+    -0.1,
+    0.1
+   ]
+  },
+  {
+   "name": "act_wing_L_flap",
+   "kp": 12.0,
+   "ctrlrange": [
+    -0.5411,
+    0.5411
+   ],
+   "forcerange": [
+    -1.5,
+    1.5
+   ]
+  },
+  {
+   "name": "act_wing_L_sweep",
+   "kp": 3.0,
+   "ctrlrange": [
+    0.0,
+    1.5184
+   ],
+   "forcerange": [
+    -0.3,
+    0.3
+   ]
+  },
+  {
+   "name": "act_wing_R_flap",
+   "kp": 12.0,
+   "ctrlrange": [
+    -0.5411,
+    0.5411
+   ],
+   "forcerange": [
+    -1.5,
+    1.5
+   ]
+  },
+  {
+   "name": "act_wing_R_sweep",
+   "kp": 3.0,
+   "ctrlrange": [
+    0.0,
+    1.5184
+   ],
+   "forcerange": [
+    -0.3,
+    0.3
+   ]
+  },
+  {
+   "name": "act_leg_L_thigh",
+   "kp": 4.0,
+   "ctrlrange": [
+    -1.0472,
+    1.0472
+   ],
+   "forcerange": [
+    -0.35,
+    0.35
+   ]
+  },
+  {
+   "name": "act_leg_L_shin",
+   "kp": 4.0,
+   "ctrlrange": [
+    -1.0472,
+    1.1345
+   ],
+   "forcerange": [
+    -0.35,
+    0.35
+   ]
+  },
+  {
+   "name": "act_leg_L_ankle",
+   "kp": 2.5,
+   "ctrlrange": [
+    -1.2217,
+    1.2217
+   ],
+   "forcerange": [
+    -0.2,
+    0.2
+   ]
+  },
+  {
+   "name": "act_leg_R_thigh",
+   "kp": 4.0,
+   "ctrlrange": [
+    -1.0472,
+    1.0472
+   ],
+   "forcerange": [
+    -0.35,
+    0.35
+   ]
+  },
+  {
+   "name": "act_leg_R_shin",
+   "kp": 4.0,
+   "ctrlrange": [
+    -1.0472,
+    1.1345
+   ],
+   "forcerange": [
+    -0.35,
+    0.35
+   ]
+  },
+  {
+   "name": "act_leg_R_ankle",
+   "kp": 2.5,
+   "ctrlrange": [
+    -1.2217,
+    1.2217
+   ],
+   "forcerange": [
+    -0.2,
+    0.2
+   ]
+  },
+  {
+   "name": "act_neck_yaw",
+   "kp": 1.5,
+   "ctrlrange": [
+    -1.0472,
+    1.0472
+   ],
+   "forcerange": [
+    -0.15,
+    0.15
+   ]
+  },
+  {
+   "name": "act_head_pitch",
+   "kp": 1.5,
+   "ctrlrange": [
+    -0.3491,
+    0.5236
+   ],
+   "forcerange": [
+    -0.15,
+    0.15
+   ]
+  },
+  {
+   "name": "act_beak",
+   "kp": 0.5,
+   "ctrlrange": [
+    0.0,
+    0.5236
+   ],
+   "forcerange": [
+    -0.05,
+    0.05
+   ]
+  },
+  {
+   "name": "jump_spring_L",
+   "kp": 1.0,
+   "ctrlrange": [
+    -3.0,
+    3.0
+   ],
+   "forcerange": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "jump_spring_R",
+   "kp": 1.0,
+   "ctrlrange": [
+    -3.0,
+    3.0
+   ],
+   "forcerange": [
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "standing_reset": {
+  "com_m": [
+   0.00028,
+   -0.00869,
+   0.18723
+  ],
+  "root_qpos": [
+   0.0,
+   0.0,
+   0.16242,
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "leg_q": {
+   "leg_L_thigh": 0.06691,
+   "leg_L_shin": 0.0,
+   "leg_L_ankle": -0.06691,
+   "leg_R_thigh": 0.06691,
+   "leg_R_shin": 0.0,
+   "leg_R_ankle": -0.06691
+  },
+  "balance_error_mm": -9.320148819380591e-11,
+  "foot_L": {
+   "centre_m": [
+    0.033,
+    -0.00869,
+    0.0025
+   ],
+   "x_range_mm": [
+    9.0,
+    57.0
+   ],
+   "y_range_mm": [
+    -72.69,
+    55.31
+   ],
+   "lowest_mm": 1.0
+  },
+  "foot_R": {
+   "centre_m": [
+    -0.033,
+    -0.00869,
+    0.0025
+   ],
+   "x_range_mm": [
+    -57.0,
+    -9.0
+   ],
+   "y_range_mm": [
+    -72.69,
+    55.31
+   ],
+   "lowest_mm": 1.0
+  },
+  "com_x_to_inner_edge_L_mm": 8.72,
+  "com_x_to_inner_edge_R_mm": 9.28
+ }
+}

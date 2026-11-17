@@ -1,0 +1,3 @@
+  fwd0 gen  0 best=   15.57 median=   317.0  t=12s
+  fwd0 gen  5 best=    6.11 median=    24.4  t=84s
+  fwd0 gen 10 best=    4.12 median=    19.3  t=163s

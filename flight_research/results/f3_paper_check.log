@@ -1,0 +1,14 @@
+﻿--- reference robot, assumed flap amplitude +-30 deg: wing area 0.191 m2, wing loading 9.2 N/m2, model stall speed 3.9 m/s
+  4 Hz: comes down at 1.2 s  (best twist 50 deg, pitch 40->45 deg; ends 0.4 m/s fwd at -0.0 m; aero power 2.4 W)
+  5 Hz: comes down at 1.4 s  (best twist 60 deg, pitch 40->45 deg; ends 0.4 m/s fwd at -0.0 m; aero power 3.6 W)
+  6 Hz: comes down at 1.7 s  (best twist 60 deg, pitch 80->45 deg; ends 0.3 m/s fwd at -0.0 m; aero power 6.0 W)
+  7 Hz: comes down at 2.3 s  (best twist 60 deg, pitch 40->45 deg; ends 0.5 m/s fwd at -0.0 m; aero power 8.7 W)
+  8 Hz: comes down at 4.4 s  (best twist 60 deg, pitch 40->45 deg; ends 1.1 m/s fwd at -0.0 m; aero power 12.5 W)
+  9 Hz: SUSTAINS FLIGHT  (best twist 60 deg, pitch 80->45 deg; ends -0.2 m/s fwd at 2.7 m; aero power 17.7 W)
+--- reference robot, assumed flap amplitude +-40 deg: wing area 0.191 m2, wing loading 9.2 N/m2, model stall speed 3.9 m/s
+  4 Hz: comes down at 1.4 s  (best twist 60 deg, pitch 40->45 deg; ends 0.6 m/s fwd at -0.0 m; aero power 4.2 W)
+  5 Hz: comes down at 2.0 s  (best twist 60 deg, pitch 40->45 deg; ends 0.7 m/s fwd at -0.0 m; aero power 7.6 W)
+  6 Hz: comes down at 4.0 s  (best twist 60 deg, pitch 40->45 deg; ends 1.4 m/s fwd at -0.0 m; aero power 12.4 W)
+  7 Hz: SUSTAINS FLIGHT  (best twist 60 deg, pitch 80->45 deg; ends 0.3 m/s fwd at 4.3 m; aero power 19.1 W)
+  8 Hz: SUSTAINS FLIGHT  (best twist 60 deg, pitch 80->45 deg; ends -0.2 m/s fwd at 5.1 m; aero power 28.2 W)
+  9 Hz: SUSTAINS FLIGHT  (best twist 60 deg, pitch 80->45 deg; ends -0.3 m/s fwd at 5.6 m; aero power 40.2 W)

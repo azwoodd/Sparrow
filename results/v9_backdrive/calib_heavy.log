@@ -1,0 +1,10 @@
+﻿=== bi_E080 with HEAVY servo back-drive: stored energy x hip-servo trim
+  energy x1.80 (2.88 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0   best 0/5 at -0.35 Nm, clearance 46-54 mm
+  energy x2.20 (3.52 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0   best 0/5 at -0.35 Nm, clearance 63-67 mm
+  energy x2.60 (4.16 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:2   best 2/5 at +0.35 Nm, clearance 70-74 mm
+  energy x3.00 (4.80 J): good/5 by trim -0.35:2 -0.21:3 -0.07:4 +0.07:5 +0.21:5 +0.35:5   best 5/5 at +0.07 Nm, clearance 77-81 mm
+=== bi_E110 with HEAVY servo back-drive: stored energy x hip-servo trim
+  energy x1.80 (3.96 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0   best 0/5 at -0.35 Nm, clearance 66-72 mm
+  energy x2.20 (4.84 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:5 +0.21:5 +0.35:5   best 5/5 at +0.07 Nm, clearance 79-84 mm
+  energy x2.60 (5.72 J): good/5 by trim -0.35:5 -0.21:5 -0.07:5 +0.07:5 +0.21:3 +0.35:0   best 5/5 at -0.35 Nm, clearance 87-91 mm
+  energy x3.00 (6.60 J): good/5 by trim -0.35:4 -0.21:2 -0.07:1 +0.07:0 +0.21:0 +0.35:0   best 4/5 at -0.35 Nm, clearance 92-95 mm

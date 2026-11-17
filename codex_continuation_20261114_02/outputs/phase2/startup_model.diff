@@ -1,0 +1,31 @@
+--- original_wing_forces
++++ finite_startup_experiment
+@@ -1,10 +1,11 @@
+ def wing_forces(t, f, theta_tip, i0, beta, vel, cn_stall):
+     """Both wings. Returns force (fwd, up) in world axes [N], motor power against air [W], aero hinge torque of one wing [Nm]."""
+-    w = 2 * math.pi * f
+-    phi = PHI * math.sin(w * t); dphi = PHI * w * math.cos(w * t)
++    phase, omega, alpha = MOTION(t, f)
++    phi = PHI * math.sin(phase); dphi = PHI * omega * math.cos(phase)
++    ddphi = PHI * (alpha * math.cos(phase) - omega**2 * math.sin(phase))
+     fh = np.array([0.0, math.cos(beta), math.sin(beta)]); uh = np.array([0.0, -math.sin(beta), math.cos(beta)]); lh = np.array([1.0, 0.0, 0.0])
+     nf = -math.sin(phi) * lh + math.cos(phi) * uh                      # direction the wing moves when phi increases
+-    th = -theta_tip * (r / R) * math.cos(w * t) - i0                    # effective panel pitch, per strip
++    th = -theta_tip * (r / R) * math.cos(phase) - i0                    # effective panel pitch, per strip
+     npan = np.cos(th)[:, None] * nf[None, :] + np.sin(th)[:, None] * fh[None, :]      # panel normal (-sin(th) * aft = +sin(th) * fwd)
+     vb = np.array([0.0, vel[0], vel[1]])
+     vrel = -(vb[None, :] + (r * dphi)[:, None] * nf[None, :])           # air relative to each strip
+@@ -22,6 +23,7 @@
+     Fn = F @ nf
+     power = -2 * float((Fn * r * dphi).sum())                           # both wings
+     tot = 2 * F.sum(axis=0)                                             # lateral cancels between the wings
++    if MIRROR_RESULTANT: tot[0] = 0.0
+     # induced drag of the finite wing, from the force across the flight path (capped at low speed where the formula fails)
+     V = math.hypot(vel[0], vel[1])
+     if V > 1.0:
+@@ -29,4 +31,4 @@
+         perp = tot - (tot @ vh) * vh; Lp = float(np.linalg.norm(perp))
+         Di = min(Lp ** 2 / (0.5 * RHO * V * V * math.pi * 0.8 * SPAN ** 2), 0.5 * Lp)
+         tot = tot - Di * vh
+-    return np.array([tot[1], tot[2]]), power, float((Fn * r).sum()), dphi, -PHI * w * w * math.sin(w * t)
++    return np.array([tot[1], tot[2]]), power, float((Fn * r).sum()), dphi, ddphi

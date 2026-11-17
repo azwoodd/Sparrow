@@ -1,0 +1,6 @@
+﻿--- 529 g, wing area x2, stroke +-60 deg, jump 10 J at 60 deg: effect of when flapping starts
+  already flapping at release           : least power  83.7 W at 4.0 Hz; lowest point after 0.3 s +0.85 m; ends 13.3 m/s at 14.7 m
+  0.10 s after release                  : least power  96.0 W at 4.0 Hz; lowest point after 0.3 s +0.91 m; ends 0.6 m/s at 1.7 m
+  0.20 s after release                  : least power  96.2 W at 4.0 Hz; lowest point after 0.3 s +0.81 m; ends 2.2 m/s at 1.1 m
+  0.30 s after release                  : least power  96.7 W at 4.0 Hz; lowest point after 0.3 s +0.91 m; ends 0.5 m/s at 1.4 m
+  0.50 s after release (near the top)   : least power  97.2 W at 4.0 Hz; lowest point after 0.3 s +0.91 m; ends 1.5 m/s at 1.1 m

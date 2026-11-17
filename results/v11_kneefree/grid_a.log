@@ -1,0 +1,4 @@
+﻿E=0.5 rho=-0.9 dy_c=-30mm landing dy_l=-23 dz_l=10mm: good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0  best 0/5 at -0.35, clearance 67-79 mm
+E=0.5 rho=-0.9 dy_c=-30mm landing dy_l=-10 dz_l=10mm: good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0  best 0/5 at -0.35, clearance 78-88 mm
+E=0.5 rho=-0.9 dy_c=-30mm landing dy_l=-35 dz_l=10mm: good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0  best 0/5 at -0.35, clearance 59-69 mm
+E=0.5 rho=-0.9 dy_c=-30mm landing dy_l=-23 dz_l=20mm: good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0  best 0/5 at -0.35, clearance 58-68 mm

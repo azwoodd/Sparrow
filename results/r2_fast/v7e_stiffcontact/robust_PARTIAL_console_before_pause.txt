@@ -1,0 +1,9 @@
+robust_nominal                     PASS=True  fall= None fwd= 1528.9mm v= 136.6mm/s alt= 60 tilt=  3.9 roll= 2.6 lat=  -3.8 yaw= +0.3 sat=0.02 single=0.60 flight=0.000
+robust_friction0.6                 PASS=True  fall= None fwd= 1622.1mm v= 145.0mm/s alt= 61 tilt=  6.9 roll= 3.1 lat= -52.5 yaw= -4.2 sat=0.23 single=0.58 flight=0.002
+robust_friction0.8                 PASS=True  fall= None fwd= 1610.9mm v= 144.1mm/s alt= 61 tilt=  5.5 roll= 3.0 lat= -15.7 yaw= -1.2 sat=0.19 single=0.58 flight=0.000
+robust_friction1.3                 PASS=True  fall= None fwd= 1534.0mm v= 137.4mm/s alt= 60 tilt=  3.4 roll= 2.0 lat=  +1.4 yaw= +0.2 sat=0.01 single=0.58 flight=0.000
+robust_mass0.92                    PASS=True  fall= None fwd= 1558.3mm v= 139.1mm/s alt= 60 tilt=  4.1 roll= 2.6 lat=  -9.3 yaw= -0.2 sat=0.02 single=0.61 flight=0.000
+robust_mass1.08                    PASS=True  fall= None fwd= 1511.8mm v= 135.1mm/s alt= 60 tilt=  4.3 roll= 2.5 lat=  +3.0 yaw= +0.0 sat=0.05 single=0.59 flight=0.000
+robust_comY+3mm                    PASS=True  fall= None fwd= 1543.8mm v= 137.9mm/s alt= 60 tilt=  3.7 roll= 2.5 lat=  -6.3 yaw= +0.2 sat=0.02 single=0.60 flight=0.000
+robust_comY-3mm                    PASS=True  fall= None fwd= 1534.2mm v= 137.3mm/s alt= 61 tilt=  4.0 roll= 2.6 lat=  -6.0 yaw= -0.7 sat=0.04 single=0.59 flight=0.000
+robust_lean_pitch+2                PASS=True  fall= None fwd= 1526.8mm v= 137.2mm/s alt= 60 tilt=  4.2 roll= 2.5 lat=  +3.7 yaw= +0.3 sat=0.01 single=0.60 flight=0.000

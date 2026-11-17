@@ -1,0 +1,43 @@
+[
+ {
+  "duration_s": 28.300000000011604,
+  "fell": false,
+  "first_fall_s": null,
+  "forward_com_mm": 254.33786623290754,
+  "lateral_com_mm": -1.5128053205626202,
+  "max_tilt_deg": 2.459512915634404,
+  "max_abs_roll_deg": 2.410155337126535,
+  "max_abs_pitch_deg": 1.7979622907012884,
+  "sat_fraction": 0.0,
+  "mean_load_frac_L": 0.502836357522847,
+  "mean_load_frac_R": 0.49706515116278877,
+  "min_load_frac_L": 0.0,
+  "min_load_frac_R": 0.0,
+  "max_clear_L_mm": 10.014920853107446,
+  "max_clear_R_mm": 10.340939314920341,
+  "single_support_L_frac": 0.14398064125831822,
+  "single_support_R_frac": 0.14447884416924664,
+  "other_contact_frac": 0.0,
+  "swing_intervals": 19,
+  "valid_steps": 10,
+  "strict_steps": 10,
+  "valid_alternating_steps": 10,
+  "name": "walk_nominal_10steps",
+  "params": {
+   "n_steps": 10
+  },
+  "case": {},
+  "planned_steps": 10,
+  "gate": {
+   "valid_alternating_ge_5": true,
+   "forward_ge_250mm": true,
+   "upright_ge_10s": true
+  },
+  "PASS": true,
+  "speed_mm_s": 8.987203753809302,
+  "mean_clear_mm": 10.17735703905109,
+  "mean_advance_mm": 56.23907521796173,
+  "max_stance_slip_mm": 0.4558886083821608,
+  "min_stance_load": 0.9992773079041476
+ }
+]

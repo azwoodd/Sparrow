@@ -1,0 +1,2 @@
+﻿bi_E080 k=6.0 energy 2.40 J trim -0.28 : development 9/9 good, clearance 70-81 mm, forward 46-89 mm, touchdown up to 67 N, gear-train peak push 1.44/0.81/0.19 landing 0.52/0.59/0.32 Nm (hip/knee/ankle), gear loss 1.33 J, coupling deflection up to 0.23 rad
+bi_E080 k=6.0 energy 2.40 J trim -0.28 : holdout 4/5 good, clearance 72-76 mm, forward 20-86 mm, touchdown up to 69 N, gear-train peak push 1.44/0.80/0.19 landing 0.50/0.59/0.34 Nm (hip/knee/ankle), gear loss 1.08 J, coupling deflection up to 0.23 rad  failed: ['H_fr1.6']

@@ -1,0 +1,2 @@
+﻿bi_E110 k=30.0 energy 3.30 J trim +0.28 : development 9/9 good, clearance 92-109 mm, forward 27-59 mm, touchdown up to 132 N, gear-train peak push 1.68/1.43/0.42 landing 0.90/1.79/0.99 Nm (hip/knee/ankle), gear loss 1.85 J, coupling deflection up to 0.06 rad
+bi_E110 k=30.0 energy 3.30 J trim +0.28 : holdout 5/5 good, clearance 100-106 mm, forward 41-60 mm, touchdown up to 137 N, gear-train peak push 1.70/1.39/0.45 landing 0.82/1.62/0.98 Nm (hip/knee/ankle), gear loss 1.82 J, coupling deflection up to 0.06 rad

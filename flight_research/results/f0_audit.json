@@ -1,0 +1,251 @@
+{
+ "measured": {
+  "mass_kg": 0.5198950000000001,
+  "weight_N": 5.1001699500000015,
+  "mass_by_group_g": {
+   "battery": 45.0,
+   "body": 63.3,
+   "dock": 0.0,
+   "electronics": 55.3,
+   "head and neck": 57.5,
+   "legs": 127.1,
+   "tail": 14.1,
+   "wings and flap drive": 157.2
+  },
+  "com_deployed_m": [
+   0.0001,
+   -0.0237,
+   0.1951
+  ],
+  "wing_span_m_export": 1.42,
+  "wing_tip_collider_span_m": 1.2599999974276,
+  "outermost_aero_strip_span_m": 1.3384599974276,
+  "wing_area_m2_strips": 0.166072,
+  "wing_area_m2_export_reference": 0.16608,
+  "tail_area_m2": 0.012054,
+  "aspect_ratio": 12.141721662893202,
+  "mean_chord_m": 0.11695211267605635,
+  "chord_by_span_station_m": {
+   "0.072": 0.1055,
+   "0.117": 0.1055,
+   "0.162": 0.1055,
+   "0.207": 0.1055,
+   "0.254": 0.1108,
+   "0.301": 0.1096,
+   "0.349": 0.1083,
+   "0.396": 0.1071,
+   "0.456": 0.1619,
+   "0.528": 0.1555,
+   "0.600": 0.1367,
+   "0.669": 0.0915
+  },
+  "wing_loading_N_m2": 30.710595103328686,
+  "wing_loading_g_dm2": 31.305397658846772,
+  "one_wing_mass_kg": 0.055789000000000005,
+  "one_wing_inertia_about_flap_hinge_kgm2": 0.004879129481314873,
+  "one_wing_cg_from_hinge_m": 0.2356338994409864,
+  "flap_range_rad": [
+   -0.541052,
+   0.541052
+  ],
+  "flap_range_deg": [
+   -31.0,
+   31.0
+  ],
+  "flap_actuator_model": {
+   "type": "ideal position servo (placeholder, NOT the crank gearbox)",
+   "kp": 12.0,
+   "torque_limit_Nm": 1.5,
+   "speed_limit": "none modelled"
+  },
+  "tail_actuators": {
+   "pitch_range_deg": 35,
+   "roll_range_deg": 30,
+   "torque_limit_Nm": 0.1,
+   "tail_mass_g": 5.6
+  },
+  "battery_mass_g_target": 45.0,
+  "wings_and_flap_drive_g": 157.2
+ },
+ "fixed_wing_speed": {
+  "CLmax_0.8": {
+   "stall_speed_m_s": 7.91673442047567,
+   "cruise_1.2Vs_m_s": 9.500081304570804
+  },
+  "CLmax_1.0": {
+   "stall_speed_m_s": 7.080942529598401,
+   "cruise_1.2Vs_m_s": 8.49713103551808
+  },
+  "CLmax_1.2": {
+   "stall_speed_m_s": 6.463986586431227,
+   "cruise_1.2Vs_m_s": 7.756783903717473
+  },
+  "CLmax_1.4": {
+   "stall_speed_m_s": 5.984488706378193,
+   "cruise_1.2Vs_m_s": 7.181386447653831
+  }
+ },
+ "level_flight_min_power": {
+  "CD0_0.03": {
+   "V_m_s": 6.25,
+   "CL": 1.2835775259513704,
+   "drag_N": 0.33373137244063295,
+   "L_over_D": 15.282261037377493,
+   "aero_power_W": 2.085821077753956
+  },
+  "CD0_0.05": {
+   "V_m_s": 6.25,
+   "CL": 1.2835775259513704,
+   "drag_N": 0.413199419315633,
+   "L_over_D": 12.343119838956273,
+   "aero_power_W": 2.582496370722706
+  },
+  "CD0_0.08": {
+   "V_m_s": 6.25,
+   "CL": 1.2835775259513704,
+   "drag_N": 0.5324014896281329,
+   "L_over_D": 9.579556123260142,
+   "aero_power_W": 3.327509310175831
+  }
+ },
+ "reynolds_at_7m_s": 55406.87106061786,
+ "flapping": {
+  "stroke_amplitude_deg": 30.999996097112216,
+  "tip_excursion_peak_to_peak_m": 0.7313539834602789,
+  "cases": {
+   "U5_St0.2": {
+    "freq_Hz": 1.3673269341730627,
+    "peak_hinge_speed_rad_s": 4.64826890083489,
+    "peak_tip_speed_m_s": 3.300270919592772,
+    "peak_inertial_torque_per_wing_Nm": 0.1948434561580101,
+    "peak_inertial_power_per_wing_W": 0.4528423888952324
+   },
+   "U5_St0.3": {
+    "freq_Hz": 2.050990401259594,
+    "peak_hinge_speed_rad_s": 6.9724033512523365,
+    "peak_tip_speed_m_s": 4.950406379389158,
+    "peak_inertial_torque_per_wing_Nm": 0.4383977763555228,
+    "peak_inertial_power_per_wing_W": 1.5283430625214096
+   },
+   "U5_St0.4": {
+    "freq_Hz": 2.7346538683461254,
+    "peak_hinge_speed_rad_s": 9.29653780166978,
+    "peak_tip_speed_m_s": 6.600541839185544,
+    "peak_inertial_torque_per_wing_Nm": 0.7793738246320404,
+    "peak_inertial_power_per_wing_W": 3.622739111161859
+   },
+   "U7_St0.2": {
+    "freq_Hz": 1.914257707842288,
+    "peak_hinge_speed_rad_s": 6.507576461168847,
+    "peak_tip_speed_m_s": 4.6203792874298815,
+    "peak_inertial_torque_per_wing_Nm": 0.3818931740696999,
+    "peak_inertial_power_per_wing_W": 1.2425995151285183
+   },
+   "U7_St0.3": {
+    "freq_Hz": 2.871386561763432,
+    "peak_hinge_speed_rad_s": 9.76136469175327,
+    "peak_tip_speed_m_s": 6.930568931144822,
+    "peak_inertial_torque_per_wing_Nm": 0.8592596416568247,
+    "peak_inertial_power_per_wing_W": 4.193773363558748
+   },
+   "U7_St0.4": {
+    "freq_Hz": 3.828515415684576,
+    "peak_hinge_speed_rad_s": 13.015152922337695,
+    "peak_tip_speed_m_s": 9.240758574859763,
+    "peak_inertial_torque_per_wing_Nm": 1.5275726962787997,
+    "peak_inertial_power_per_wing_W": 9.940796121028146
+   },
+   "U9_St0.2": {
+    "freq_Hz": 2.461188481511513,
+    "peak_hinge_speed_rad_s": 8.366884021502802,
+    "peak_tip_speed_m_s": 5.940487655266989,
+    "peak_inertial_torque_per_wing_Nm": 0.6312927979519527,
+    "peak_inertial_power_per_wing_W": 2.6409768120369947
+   },
+   "U9_St0.3": {
+    "freq_Hz": 3.691782722267269,
+    "peak_hinge_speed_rad_s": 12.550326032254203,
+    "peak_tip_speed_m_s": 8.910731482900484,
+    "peak_inertial_torque_per_wing_Nm": 1.4204087953918934,
+    "peak_inertial_power_per_wing_W": 8.913296740624856
+   },
+   "U9_St0.4": {
+    "freq_Hz": 4.922376963023026,
+    "peak_hinge_speed_rad_s": 16.733768043005604,
+    "peak_tip_speed_m_s": 11.880975310533978,
+    "peak_inertial_torque_per_wing_Nm": 2.525171191807811,
+    "peak_inertial_power_per_wing_W": 21.127814496295958
+   }
+  }
+ },
+ "flap_placeholder_servo_check": {
+  "model_torque_limit_Nm": 1.5,
+  "note": "compare with peak inertial torque per wing above; aerodynamic torque comes on top"
+ },
+ "hover_bound": {
+  "swept_area_m2": 0.5454886264,
+  "ideal_induced_power_W_swept_area": 9.96325119640126,
+  "ideal_induced_power_W_full_disc": 5.847370937300516,
+  "realistic_aero_power_W_at_figure_of_merit_0.25_0.5": [
+   19.92650239280252,
+   39.85300478560504
+  ]
+ },
+ "cruise_electrical_power_scenarios": {
+  "optimistic_CD0_0.03": {
+   "electrical_power_cruise_W": 4.966240661318943
+  },
+  "optimistic_CD0_0.05": {
+   "electrical_power_cruise_W": 6.14880088267311
+  },
+  "optimistic_CD0_0.08": {
+   "electrical_power_cruise_W": 7.92264121470436
+  },
+  "middle_CD0_0.03": {
+   "electrical_power_cruise_W": 8.69092115730815
+  },
+  "middle_CD0_0.05": {
+   "electrical_power_cruise_W": 10.760401544677944
+  },
+  "middle_CD0_0.08": {
+   "electrical_power_cruise_W": 13.864622125732629
+  },
+  "pessimistic_CD0_0.03": {
+   "electrical_power_cruise_W": 16.686568622031647
+  },
+  "pessimistic_CD0_0.05": {
+   "electrical_power_cruise_W": 20.65997096578165
+  },
+  "pessimistic_CD0_0.08": {
+   "electrical_power_cruise_W": 26.620074481406647
+  }
+ },
+ "battery_45g_scenarios_80pct_usable": {
+  "120_Wh_per_kg": {
+   "energy_Wh": 5.4,
+   "minutes_at_10W": 25.92,
+   "minutes_at_25W": 10.368000000000002,
+   "minutes_at_50W": 5.184000000000001
+  },
+  "160_Wh_per_kg": {
+   "energy_Wh": 7.2,
+   "minutes_at_10W": 34.56,
+   "minutes_at_25W": 13.824000000000002,
+   "minutes_at_50W": 6.912000000000001
+  },
+  "200_Wh_per_kg": {
+   "energy_Wh": 9.0,
+   "minutes_at_10W": 43.2,
+   "minutes_at_25W": 17.28,
+   "minutes_at_50W": 8.64
+  }
+ },
+ "launch_gap": {
+  "min_flying_speed_m_s_CL1.2": 6.463986586431227,
+  "fastest_tested_gait_m_s": 0.249,
+  "low_hop_takeoff_speed_m_s": 0.77,
+  "kinetic_energy_at_min_flying_speed_J": 10.861418259350385,
+  "height_to_dive_for_that_speed_m": 2.129618888356923,
+  "note": "legs + springs supply < 1 m/s today; the remaining speed must come from flapping thrust or a drop"
+ }
+}

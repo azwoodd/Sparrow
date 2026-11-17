@@ -1,0 +1,197 @@
+{
+ "summary": {
+  "duration_s": 3.3709999999997398,
+  "fell": true,
+  "first_fall_s": 2.869999999999795,
+  "forward_com_mm": -112.32721117874596,
+  "lateral_com_mm": -236.62336185042142,
+  "max_tilt_deg": 92.42187599157089,
+  "max_abs_roll_deg": 92.48788528276945,
+  "max_abs_pitch_deg": 100.46601243424689,
+  "sat_fraction": 0.012925598991172762,
+  "mean_load_frac_L": 0.5089693463896701,
+  "mean_load_frac_R": 0.4051349744002492,
+  "min_load_frac_L": 0.0,
+  "min_load_frac_R": 0.0,
+  "max_clear_L_mm": 74.01984415782235,
+  "max_clear_R_mm": 12.109921606936995,
+  "single_support_L_frac": 0.16424968474148802,
+  "single_support_R_frac": 0.25,
+  "other_contact_frac": 0.15037831021437578,
+  "swing_intervals": 3,
+  "valid_steps": 0,
+  "strict_steps": 0,
+  "valid_alternating_steps": 0,
+  "name": "dbg_friction1.3",
+  "params": {
+   "n_steps": 10,
+   "s": 0.04,
+   "lift": 0.02,
+   "back": 0.03,
+   "t_ds": 0.7
+  },
+  "case": {
+   "friction": 1.3
+  },
+  "planned_steps": 10,
+  "gate": {
+   "valid_alternating_ge_5": false,
+   "forward_ge_250mm": false,
+   "upright_ge_10s": false
+  },
+  "PASS": false,
+  "speed_mm_s": -33.321628946530595
+ },
+ "plan": [
+  {
+   "step": 1,
+   "swing": "R",
+   "t_lift": 1.8,
+   "t_down": 2.8,
+   "world_advance_m": 0.04000000000000001
+  },
+  {
+   "step": 2,
+   "swing": "L",
+   "t_lift": 3.9499999999999993,
+   "t_down": 4.949999999999999,
+   "world_advance_m": 0.08000000000000002
+  },
+  {
+   "step": 3,
+   "swing": "R",
+   "t_lift": 6.1,
+   "t_down": 7.1,
+   "world_advance_m": 0.08
+  },
+  {
+   "step": 4,
+   "swing": "L",
+   "t_lift": 8.25,
+   "t_down": 9.250000000000002,
+   "world_advance_m": 0.08
+  },
+  {
+   "step": 5,
+   "swing": "R",
+   "t_lift": 10.400000000000002,
+   "t_down": 11.400000000000004,
+   "world_advance_m": 0.08
+  },
+  {
+   "step": 6,
+   "swing": "L",
+   "t_lift": 12.550000000000004,
+   "t_down": 13.550000000000006,
+   "world_advance_m": 0.08
+  },
+  {
+   "step": 7,
+   "swing": "R",
+   "t_lift": 14.700000000000006,
+   "t_down": 15.700000000000008,
+   "world_advance_m": 0.08
+  },
+  {
+   "step": 8,
+   "swing": "L",
+   "t_lift": 16.85000000000001,
+   "t_down": 17.85000000000001,
+   "world_advance_m": 0.08
+  },
+  {
+   "step": 9,
+   "swing": "R",
+   "t_lift": 19.000000000000007,
+   "t_down": 20.000000000000007,
+   "world_advance_m": 0.08
+  },
+  {
+   "step": 10,
+   "swing": "L",
+   "t_lift": 21.150000000000006,
+   "t_down": 22.150000000000006,
+   "world_advance_m": 0.08
+  }
+ ],
+ "events": [
+  {
+   "foot": "R",
+   "t_liftoff": 1.9009999999999014,
+   "t_touchdown": 2.4219999999998443,
+   "swing_s": 0.5209999999999426,
+   "max_clear_mm": 12.109921606936995,
+   "stance_mean_load_frac": 0.9983747463649479,
+   "stance_min_load_frac": 0.9655667278701695,
+   "other_part_contact_N": 0.0,
+   "advance_mm": 33.40907497828773,
+   "lateral_mm": -1.8917284899302445,
+   "stance_slip_mm": 0.49899666182955016,
+   "reloaded": true,
+   "t_reload": 2.4719999999998388,
+   "no_fall_through_recovery": false,
+   "criteria": {
+    "unloaded": true,
+    "clear_gt_5mm": true,
+    "stance_loaded": true,
+    "advance_ge_10mm": true,
+    "reloaded_20pct_30ms": true,
+    "recovered": false
+   },
+   "valid": false,
+   "strict": false
+  },
+  {
+   "foot": "L",
+   "t_liftoff": 2.5719999999998278,
+   "t_touchdown": null,
+   "swing_s": 0.7999999999999119,
+   "max_clear_mm": 74.01984415782235,
+   "stance_mean_load_frac": 0.6554548927438719,
+   "stance_min_load_frac": 0.0,
+   "other_part_contact_N": 13.346690641182228,
+   "advance_mm": -2.128805177028001,
+   "lateral_mm": -114.13856674938187,
+   "stance_slip_mm": 72.00762869261803,
+   "reloaded": false,
+   "t_reload": null,
+   "no_fall_through_recovery": false,
+   "criteria": {
+    "unloaded": true,
+    "clear_gt_5mm": true,
+    "stance_loaded": false,
+    "advance_ge_10mm": false,
+    "reloaded_20pct_30ms": false,
+    "recovered": false
+   },
+   "valid": false,
+   "strict": false
+  },
+  {
+   "foot": "R",
+   "t_liftoff": 2.9479999999997863,
+   "t_touchdown": 2.9549999999997856,
+   "swing_s": 0.006999999999999229,
+   "max_clear_mm": 0.11421579688393815,
+   "stance_mean_load_frac": 0.0,
+   "stance_min_load_frac": 0.0,
+   "other_part_contact_N": 3.896930935751764,
+   "advance_mm": -1.8706819284943084,
+   "lateral_mm": 1.2735090953113273,
+   "stance_slip_mm": 0.5567344826822896,
+   "reloaded": true,
+   "t_reload": 2.986999999999782,
+   "no_fall_through_recovery": false,
+   "criteria": {
+    "unloaded": true,
+    "clear_gt_5mm": false,
+    "stance_loaded": false,
+    "advance_ge_10mm": false,
+    "reloaded_20pct_30ms": true,
+    "recovered": false
+   },
+   "valid": false,
+   "strict": false
+  }
+ ]
+}

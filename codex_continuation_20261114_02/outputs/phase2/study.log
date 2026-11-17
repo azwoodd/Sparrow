@@ -1,0 +1,5 @@
+Force-function compatibility error 2.842170943040401e-14
+Completed startup family 0.529 3.0 3.5 36
+Completed startup family 0.559 2.5 4.0 68
+Completed startup family 0.559 3.0 4.0 100
+{"count": 102, "force_compatibility_max_error": 2.842170943040401e-14, "finite_startup_airborne": 1, "no_spring_candidates": 0, "ideal_spring_candidates": 0}

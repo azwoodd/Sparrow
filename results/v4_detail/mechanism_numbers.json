@@ -1,0 +1,203 @@
+{
+ "bi_E080": {
+  "target": "60 mm",
+  "energy_per_leg_J": 0.8,
+  "energy_total_J": 1.6,
+  "rho": -0.6,
+  "spring_stretch_rad": 1.0495630260885283,
+  "stiffness_Nm_per_rad": 1.4524558383744584,
+  "peak_knee_torque_Nm": 1.5244731652440315,
+  "peak_hip_torque_Nm": 0.9146838991464189,
+  "push_duration_ms": 19,
+  "peak_ground_force_N": 73.4146363399511,
+  "peak_knee_speed_rad_s": 23.49428792122705,
+  "peak_hip_speed_rad_s": 20.848882411706896,
+  "peak_ankle_speed_rad_s": 4.46197744437178,
+  "crouch_knee_rad": 0.6528024974658057,
+  "crouch_hip_rad": -0.5961068575718464,
+  "standing_knee_rad": 0.0,
+  "standing_hip_rad": 0.06705671604987509,
+  "clearance_mm": 61.478794793051,
+  "hip_servo_trim_Nm": 0.0,
+  "pulleys": {
+   "knee_r_6mm": {
+    "hip_radius_mm": 3.6,
+    "cable_travel_mm": 6.2973781565311695,
+    "peak_cable_tension_N": 254.07886087400524,
+    "linear_spring_N_per_mm": 40.34599551040162,
+    "check_energy_J": 0.7999999999999999
+   },
+   "knee_r_8mm": {
+    "hip_radius_mm": 4.8,
+    "cable_travel_mm": 8.396504208708226,
+    "peak_cable_tension_N": 190.55914565550393,
+    "linear_spring_N_per_mm": 22.694622474600912,
+    "check_energy_J": 0.8000000000000003
+   },
+   "knee_r_10mm": {
+    "hip_radius_mm": 6.0,
+    "cable_travel_mm": 10.495630260885283,
+    "peak_cable_tension_N": 152.44731652440316,
+    "linear_spring_N_per_mm": 14.524558383744584,
+    "check_energy_J": 0.8
+   },
+   "knee_r_12mm": {
+    "hip_radius_mm": 7.2,
+    "cable_travel_mm": 12.594756313062339,
+    "peak_cable_tension_N": 127.03943043700262,
+    "linear_spring_N_per_mm": 10.086498877600405,
+    "check_energy_J": 0.7999999999999999
+   }
+  },
+  "stored_total_at_eff_1.0": {
+   "J": 1.6,
+   "steel_spring_g_at_100J_kg": 16.0,
+   "composite_leaf_g_at_500J_kg": 3.2,
+   "rubber_g_at_2000J_kg": 0.8,
+   "winding_s_at_1W_shaft_50pct": 3.2,
+   "winding_s_at_2W_shaft_50pct": 1.6
+  },
+  "stored_total_at_eff_0.8": {
+   "J": 2.0,
+   "steel_spring_g_at_100J_kg": 20.0,
+   "composite_leaf_g_at_500J_kg": 4.0,
+   "rubber_g_at_2000J_kg": 1.0,
+   "winding_s_at_1W_shaft_50pct": 4.0,
+   "winding_s_at_2W_shaft_50pct": 2.0
+  }
+ },
+ "bi_E100": {
+  "target": "80 mm",
+  "energy_per_leg_J": 1.0,
+  "energy_total_J": 2.0,
+  "rho": -0.6,
+  "spring_stretch_rad": 1.0845212239768507,
+  "stiffness_Nm_per_rad": 1.7004109171059378,
+  "peak_knee_torque_Nm": 1.8441745046339952,
+  "peak_hip_torque_Nm": 1.1065047027803971,
+  "push_duration_ms": 19,
+  "peak_ground_force_N": 86.40405424096427,
+  "peak_knee_speed_rad_s": 26.79052456242729,
+  "peak_hip_speed_rad_s": 23.47445484754821,
+  "peak_ankle_speed_rad_s": 5.7658482535244,
+  "crouch_knee_rad": 0.6457163835101909,
+  "crouch_hip_rad": -0.6668439683626199,
+  "standing_knee_rad": 0.0,
+  "standing_hip_rad": 0.06705671604987509,
+  "clearance_mm": 85.33512863834422,
+  "hip_servo_trim_Nm": -0.06086270257380272,
+  "pulleys": {
+   "knee_r_6mm": {
+    "hip_radius_mm": 3.6,
+    "cable_travel_mm": 6.507127343861105,
+    "peak_cable_tension_N": 307.3624174389992,
+    "linear_spring_N_per_mm": 47.23363658627605,
+    "check_energy_J": 1.0
+   },
+   "knee_r_8mm": {
+    "hip_radius_mm": 4.8,
+    "cable_travel_mm": 8.676169791814806,
+    "peak_cable_tension_N": 230.5218130792494,
+    "linear_spring_N_per_mm": 26.56892057978028,
+    "check_energy_J": 1.0
+   },
+   "knee_r_10mm": {
+    "hip_radius_mm": 6.0,
+    "cable_travel_mm": 10.845212239768507,
+    "peak_cable_tension_N": 184.41745046339952,
+    "linear_spring_N_per_mm": 17.00410917105938,
+    "check_energy_J": 1.0
+   },
+   "knee_r_12mm": {
+    "hip_radius_mm": 7.2,
+    "cable_travel_mm": 13.01425468772221,
+    "peak_cable_tension_N": 153.6812087194996,
+    "linear_spring_N_per_mm": 11.808409146569012,
+    "check_energy_J": 1.0
+   }
+  },
+  "stored_total_at_eff_1.0": {
+   "J": 2.0,
+   "steel_spring_g_at_100J_kg": 20.0,
+   "composite_leaf_g_at_500J_kg": 4.0,
+   "rubber_g_at_2000J_kg": 1.0,
+   "winding_s_at_1W_shaft_50pct": 4.0,
+   "winding_s_at_2W_shaft_50pct": 2.0
+  },
+  "stored_total_at_eff_0.8": {
+   "J": 2.5,
+   "steel_spring_g_at_100J_kg": 25.0,
+   "composite_leaf_g_at_500J_kg": 5.0,
+   "rubber_g_at_2000J_kg": 1.25,
+   "winding_s_at_1W_shaft_50pct": 5.0,
+   "winding_s_at_2W_shaft_50pct": 2.5
+  }
+ },
+ "bi_E110": {
+  "target": "100 mm",
+  "energy_per_leg_J": 1.1,
+  "energy_total_J": 2.2,
+  "rho": -0.6,
+  "spring_stretch_rad": 1.0858656552696322,
+  "stiffness_Nm_per_rad": 1.8658231904091986,
+  "peak_knee_torque_Nm": 2.026077700475287,
+  "peak_hip_torque_Nm": 1.2156466202851721,
+  "push_duration_ms": 18,
+  "peak_ground_force_N": 92.59681145806323,
+  "peak_knee_speed_rad_s": 28.607399667617482,
+  "peak_hip_speed_rad_s": 25.20787304058922,
+  "peak_ankle_speed_rad_s": 6.421014708684152,
+  "crouch_knee_rad": 0.645746644764851,
+  "crouch_hip_rad": -0.6693325080566412,
+  "standing_knee_rad": 0.0,
+  "standing_hip_rad": 0.06705671604987509,
+  "clearance_mm": 97.24345788798853,
+  "hip_servo_trim_Nm": -0.1399339926137291,
+  "pulleys": {
+   "knee_r_6mm": {
+    "hip_radius_mm": 3.6,
+    "cable_travel_mm": 6.515193931617794,
+    "peak_cable_tension_N": 337.67961674588116,
+    "linear_spring_N_per_mm": 51.82842195581107,
+    "check_energy_J": 1.1000000000000003
+   },
+   "knee_r_8mm": {
+    "hip_radius_mm": 4.8,
+    "cable_travel_mm": 8.686925242157058,
+    "peak_cable_tension_N": 253.25971255941087,
+    "linear_spring_N_per_mm": 29.153487350143727,
+    "check_energy_J": 1.1000000000000003
+   },
+   "knee_r_10mm": {
+    "hip_radius_mm": 6.0,
+    "cable_travel_mm": 10.858656552696322,
+    "peak_cable_tension_N": 202.6077700475287,
+    "linear_spring_N_per_mm": 18.658231904091988,
+    "check_energy_J": 1.1000000000000003
+   },
+   "knee_r_12mm": {
+    "hip_radius_mm": 7.2,
+    "cable_travel_mm": 13.030387863235587,
+    "peak_cable_tension_N": 168.83980837294058,
+    "linear_spring_N_per_mm": 12.957105488952768,
+    "check_energy_J": 1.1000000000000003
+   }
+  },
+  "stored_total_at_eff_1.0": {
+   "J": 2.2,
+   "steel_spring_g_at_100J_kg": 22.000000000000004,
+   "composite_leaf_g_at_500J_kg": 4.4,
+   "rubber_g_at_2000J_kg": 1.1,
+   "winding_s_at_1W_shaft_50pct": 4.4,
+   "winding_s_at_2W_shaft_50pct": 2.2
+  },
+  "stored_total_at_eff_0.8": {
+   "J": 2.75,
+   "steel_spring_g_at_100J_kg": 27.5,
+   "composite_leaf_g_at_500J_kg": 5.5,
+   "rubber_g_at_2000J_kg": 1.375,
+   "winding_s_at_1W_shaft_50pct": 5.5,
+   "winding_s_at_2W_shaft_50pct": 2.75
+  }
+ }
+}

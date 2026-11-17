@@ -1,0 +1,14 @@
+﻿largest tip twist allowed: 45 deg
+variant | flapping needed | aero power | peak torque per wing | with hinge spring | verdict
+as designed: 529 g, +-31 deg, 56 g wings           | 10.50 Hz, twist 45 deg |    140 W |  11.6 Nm |   4.2 Nm | power too high
+flap stroke +-60 deg                               |  5.50 Hz, twist 45 deg |    146 W |   7.0 Nm |   4.3 Nm | power too high
+flap stroke +-75 deg                               |  4.25 Hz, twist 45 deg |    132 W |   5.8 Nm |   4.0 Nm | power too high
+wings half the inertia                             | 10.50 Hz, twist 45 deg |    140 W |   6.7 Nm |   4.2 Nm | power too high
+robot 400 g                                        |  9.00 Hz, twist 45 deg |     88 W |   8.5 Nm |   3.1 Nm | power too high
+robot 300 g                                        |  7.75 Hz, twist 45 deg |     56 W |   6.3 Nm |   2.3 Nm | power too high
+wing chord +50% (area x1.5), same inertia          |  8.50 Hz, twist 45 deg |    112 W |   8.0 Nm |   4.1 Nm | power too high
++-60 deg and half-inertia wings                    |  5.50 Hz, twist 45 deg |    146 W |   5.2 Nm |   4.3 Nm | power too high
+400 g, +-60 deg, half-inertia wings                |  4.75 Hz, twist 45 deg |     94 W |   3.9 Nm |   3.2 Nm | power too high
+300 g, +-60 deg, half-inertia wings                |  4.25 Hz, twist 45 deg |     67 W |   3.1 Nm |   2.6 Nm | power too high
+300 g, +-75 deg, half-inertia wings, chord +50%    |  2.75 Hz, twist 45 deg |     54 W |   2.7 Nm |   2.5 Nm | power too high
+250 g, +-75 deg, third-inertia wings, chord +50%   |  2.50 Hz, twist 45 deg |     40 W |   2.2 Nm |   2.1 Nm | within both limits

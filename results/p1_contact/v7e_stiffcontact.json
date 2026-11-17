@@ -1,0 +1,67 @@
+[
+ {
+  "variant": "v7e_stiffcontact",
+  "friction": 0.6,
+  "fell": null,
+  "quiet_pad_penetration_mm": 0.015529973411020826,
+  "ds_wing_out_roll_deg": 0.02605507448015495,
+  "ds_com_margin_L_mm": 13.57392894689131,
+  "ss_roll_deg": -0.01999880427459775,
+  "ss_com_margin_L_mm": 13.422117148665478,
+  "ss_pad_penetration_mm": 0.03242983194116927,
+  "ss_load_L": 1.000302041187559,
+  "ss_min_margin_mm": 13.40424382965563
+ },
+ {
+  "variant": "v7e_stiffcontact",
+  "friction": 1.0,
+  "fell": null,
+  "quiet_pad_penetration_mm": 0.04896091107605976,
+  "ds_wing_out_roll_deg": 0.09766195383173264,
+  "ds_com_margin_L_mm": 13.809033485850481,
+  "ss_roll_deg": -0.08149267502504617,
+  "ss_com_margin_L_mm": 13.220512523800478,
+  "ss_pad_penetration_mm": 0.13111368935410772,
+  "ss_load_L": 1.000337940787843,
+  "ss_min_margin_mm": 13.104694669050122
+ },
+ {
+  "variant": "v7e_stiffcontact",
+  "friction": 1.3,
+  "fell": null,
+  "quiet_pad_penetration_mm": 0.10826961017003821,
+  "ds_wing_out_roll_deg": 0.19167381984249446,
+  "ds_com_margin_L_mm": 14.118298404986689,
+  "ss_roll_deg": -0.1739329005738044,
+  "ss_com_margin_L_mm": 12.91756691550151,
+  "ss_pad_penetration_mm": 0.2808963358074406,
+  "ss_load_L": 1.0004341869822746,
+  "ss_min_margin_mm": 12.486535499449294
+ },
+ {
+  "variant": "v7e_stiffcontact",
+  "friction": 1.6,
+  "fell": null,
+  "quiet_pad_penetration_mm": 0.2078468160750716,
+  "ds_wing_out_roll_deg": 0.32301835440271726,
+  "ds_com_margin_L_mm": 14.5492364565512,
+  "ss_roll_deg": -0.2794747684267353,
+  "ss_com_margin_L_mm": 12.571910314058709,
+  "ss_pad_penetration_mm": 0.473554620929894,
+  "ss_load_L": 1.0003593836841334,
+  "ss_min_margin_mm": 11.48839648874575
+ },
+ {
+  "variant": "v7e_stiffcontact",
+  "friction": 2.0,
+  "fell": null,
+  "quiet_pad_penetration_mm": 0.3937263974819786,
+  "ds_wing_out_roll_deg": 0.4713171503249808,
+  "ds_com_margin_L_mm": 15.03239885732135,
+  "ss_roll_deg": -0.3838134327485437,
+  "ss_com_margin_L_mm": 12.229900655214172,
+  "ss_pad_penetration_mm": 0.7410974340327645,
+  "ss_load_L": 1.0000730158261344,
+  "ss_min_margin_mm": 10.404542439224025
+ }
+]

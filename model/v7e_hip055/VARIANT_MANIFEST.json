@@ -1,0 +1,30 @@
+{
+ "variant": "v7e_hip055",
+ "kind": "MECHANICAL counterfactual: hip servos 0.55 Nm instead of 0.35 Nm, +12 g added to the torso (two heavier servos); speed not modelled",
+ "built_from": "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\model\\v7e_baseline\\sparrow_v7e.xml",
+ "baseline_sha256": "ec09172ab0befc85aa7791ce342c616affb19536f9a0485327b3e83e3a7048e9",
+ "variant_sha256": "b8a0993230efb8d756ea15071650cfd8e26f2c71affbb665ae10c3a57fcac145",
+ "changed_lines": 6,
+ "unified_diff": [
+  "--- v7e_baseline",
+  "+++ v7e_hip055",
+  "@@ -1 +1 @@",
+  "-<mujoco model=\"sparrow_v7e\">",
+  "+<mujoco model=\"sparrow_v7e_hip055\">",
+  "@@ -7 +7 @@",
+  "-    <default class=\"col\"><geom contype=\"1\" conaffinity=\"0\" group=\"3\" density=\"0\" rgba=\"1 0 0 0.3\"/></default>",
+  "+    <default class=\"col\"><geom contype=\"1\" conaffinity=\"0\" group=\"3\" density=\"0\" rgba=\"1 0 0 0.3\" solref=\"0.004 1\"/></default>",
+  "@@ -146 +146 @@",
+  "-    <geom name=\"floor\" type=\"plane\" size=\"6 6 0.1\" material=\"grid\" contype=\"0\" conaffinity=\"1\" friction=\"1.0 0.02 0.001\"/>",
+  "+    <geom name=\"floor\" type=\"plane\" size=\"6 6 0.1\" material=\"grid\" contype=\"0\" conaffinity=\"1\" friction=\"1.0 0.02 0.001\" solref=\"0.004 1\"/>",
+  "@@ -149 +149 @@",
+  "-      <inertial pos=\"0.000570781 -0.00639425 0.0331198\" mass=\"0.273197\" fullinertia=\"0.00087 0.000234767 0.000773319 5.33503e-06 1.85614e-06 3.88572e-05\"/>",
+  "+      <inertial pos=\"0.000570781 -0.00639425 0.0331198\" mass=\"0.285197\" fullinertia=\"0.00087 0.000234767 0.000773319 5.33503e-06 1.85614e-06 3.88572e-05\"/>",
+  "@@ -389 +389 @@",
+  "-    <position name=\"act_leg_L_thigh\" joint=\"leg_L_thigh\" kp=\"4\" ctrlrange=\"-1.0472 1.0472\" forcerange=\"-0.35 0.35\"/>",
+  "+    <position name=\"act_leg_L_thigh\" joint=\"leg_L_thigh\" kp=\"4\" ctrlrange=\"-1.0472 1.0472\" forcerange=\"-0.55 0.55\"/>",
+  "@@ -392 +392 @@",
+  "-    <position name=\"act_leg_R_thigh\" joint=\"leg_R_thigh\" kp=\"4\" ctrlrange=\"-1.0472 1.0472\" forcerange=\"-0.35 0.35\"/>",
+  "+    <position name=\"act_leg_R_thigh\" joint=\"leg_R_thigh\" kp=\"4\" ctrlrange=\"-1.0472 1.0472\" forcerange=\"-0.55 0.55\"/>"
+ ]
+}

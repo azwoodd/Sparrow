@@ -1,0 +1,36 @@
+﻿=== bi_E080, coupling 30.0 Nm/rad
+  energy x0.8 (1.28 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:4 +0.35:5
+      best 5/5 at +0.35: clearance 29-34 mm, forward 0-13 mm, touchdown up to 65 N, gear-train peak push 0.97/0.60/0.20 landing 0.41/0.66/0.59 Nm (hip/knee/ankle), gear loss 0.65 J, coupling deflection up to 0.03 rad
+  energy x1.0 (1.60 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:3
+      best 3/5 at +0.35: clearance 35-40 mm, forward 3-10 mm, touchdown up to 76 N, gear-train peak push 1.06/0.71/0.21 landing 0.55/0.75/0.64 Nm (hip/knee/ankle), gear loss 0.85 J, coupling deflection up to 0.04 rad
+  energy x1.2 (1.92 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:2
+      best 2/5 at +0.35: clearance 43-48 mm, forward 7-15 mm, touchdown up to 83 N, gear-train peak push 1.14/0.82/0.25 landing 0.60/0.83/0.70 Nm (hip/knee/ankle), gear loss 1.05 J, coupling deflection up to 0.04 rad
+  energy x1.5 (2.40 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:1 +0.21:5 +0.35:5
+      best 5/5 at +0.21: clearance 61-67 mm, forward 31-43 mm, touchdown up to 101 N, gear-train peak push 1.35/1.04/0.33 landing 0.67/1.13/0.76 Nm (hip/knee/ankle), gear loss 1.30 J, coupling deflection up to 0.04 rad
+=== bi_E080, coupling 12.0 Nm/rad
+  energy x0.8 (1.28 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0
+      best 0/5 at -0.35: clearance 39-45 mm, forward -16--10 mm, touchdown up to 48 N, gear-train peak push 1.02/0.56/0.19 landing 0.35/0.45/0.44 Nm (hip/knee/ankle), gear loss 0.86 J, coupling deflection up to 0.08 rad
+  energy x1.0 (1.60 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0
+      best 0/5 at -0.35: clearance 48-54 mm, forward -30--14 mm, touchdown up to 52 N, gear-train peak push 1.19/0.72/0.21 landing 0.41/0.55/0.50 Nm (hip/knee/ankle), gear loss 1.04 J, coupling deflection up to 0.10 rad
+  energy x1.2 (1.92 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:1
+      best 1/5 at +0.35: clearance 44-48 mm, forward -5-16 mm, touchdown up to 58 N, gear-train peak push 1.15/0.73/0.18 landing 0.45/0.63/0.44 Nm (hip/knee/ankle), gear loss 1.04 J, coupling deflection up to 0.09 rad
+  energy x1.5 (2.40 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:1 +0.35:5
+      best 5/5 at +0.35: clearance 59-66 mm, forward 41-66 mm, touchdown up to 72 N, gear-train peak push 1.34/1.00/0.20 landing 0.54/0.73/0.44 Nm (hip/knee/ankle), gear loss 1.33 J, coupling deflection up to 0.11 rad
+=== bi_E080, coupling 6.0 Nm/rad
+  energy x0.8 (1.28 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0
+      best 0/5 at -0.35: clearance 40-44 mm, forward -52--43 mm, touchdown up to 41 N, gear-train peak push 0.95/0.46/0.16 landing 0.40/0.43/0.32 Nm (hip/knee/ankle), gear loss 0.91 J, coupling deflection up to 0.15 rad
+  energy x1.0 (1.60 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:1 +0.21:4 +0.35:5
+      best 5/5 at +0.35: clearance 42-45 mm, forward 30-52 mm, touchdown up to 48 N, gear-train peak push 1.01/0.56/0.13 landing 0.46/0.44/0.25 Nm (hip/knee/ankle), gear loss 0.72 J, coupling deflection up to 0.16 rad
+  energy x1.2 (1.92 J): good/5 by trim -0.35:0 -0.21:0 -0.07:3 +0.07:5 +0.21:5 +0.35:0
+      best 5/5 at +0.07: clearance 51-58 mm, forward 19-48 mm, touchdown up to 56 N, gear-train peak push 1.17/0.66/0.16 landing 0.44/0.46/0.29 Nm (hip/knee/ankle), gear loss 0.90 J, coupling deflection up to 0.19 rad
+  energy x1.5 (2.40 J): good/5 by trim -0.35:5 -0.21:4 -0.07:2 +0.07:1 +0.21:0 +0.35:0
+      best 5/5 at -0.35: clearance 72-77 mm, forward 34-80 mm, touchdown up to 67 N, gear-train peak push 1.45/0.80/0.20 landing 0.48/0.60/0.33 Nm (hip/knee/ankle), gear loss 1.14 J, coupling deflection up to 0.23 rad
+=== bi_E080, coupling 3.0 Nm/rad
+  energy x0.8 (1.28 J): good/5 by trim -0.35:0 -0.21:0 -0.07:2 +0.07:5 +0.21:5 +0.35:5
+      best 5/5 at +0.07: clearance 34-40 mm, forward -5-17 mm, touchdown up to 42 N, gear-train peak push 0.82/0.32/0.12 landing 0.39/0.39/0.26 Nm (hip/knee/ankle), gear loss 0.35 J, coupling deflection up to 0.26 rad
+  energy x1.0 (1.60 J): good/5 by trim -0.35:5 -0.21:5 -0.07:5 +0.07:4 +0.21:0 +0.35:0
+      best 5/5 at -0.35: clearance 50-56 mm, forward 28-55 mm, touchdown up to 46 N, gear-train peak push 0.95/0.41/0.14 landing 0.49/0.39/0.25 Nm (hip/knee/ankle), gear loss 0.48 J, coupling deflection up to 0.30 rad
+  energy x1.2 (1.92 J): good/5 by trim -0.35:1 -0.21:1 -0.07:0 +0.07:0 +0.21:0 +0.35:0
+      best 1/5 at -0.35: clearance 68-72 mm, forward 53-81 mm, touchdown up to 56 N, gear-train peak push 1.06/0.50/0.14 landing 0.55/0.43/0.24 Nm (hip/knee/ankle), gear loss 0.61 J, coupling deflection up to 0.33 rad
+  energy x1.5 (2.40 J): good/5 by trim -0.35:0 -0.21:0 -0.07:0 +0.07:0 +0.21:0 +0.35:0
+      best 0/5 at -0.35: clearance 100-109 mm, forward 157-186 mm, touchdown up to 70 N, gear-train peak push 1.19/0.63/0.15 landing 0.56/0.50/0.27 Nm (hip/knee/ankle), gear loss 0.77 J, coupling deflection up to 0.37 rad

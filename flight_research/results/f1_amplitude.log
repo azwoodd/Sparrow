@@ -1,0 +1,12 @@
+﻿amplitude +-31 deg, tip twist 45 deg: thrust below weight up to 10 Hz (at 10 Hz: 0.95 of weight, 121 W)
+amplitude +-31 deg, tip twist 60 deg: thrust = weight first at 10 Hz: thrust 5.4 N, aero power 92 W, peak motor torque 10.5 Nm per wing
+amplitude +-31 deg, tip twist 75 deg: thrust = weight first at 10 Hz: thrust 5.3 N, aero power 64 W, peak motor torque 10.5 Nm per wing
+amplitude +-45 deg, tip twist 45 deg: thrust = weight first at 8 Hz: thrust 6.6 N, aero power 190 W, peak motor torque 10.2 Nm per wing
+amplitude +-45 deg, tip twist 60 deg: thrust = weight first at 8 Hz: thrust 7.3 N, aero power 144 W, peak motor torque 10.1 Nm per wing
+amplitude +-45 deg, tip twist 75 deg: thrust = weight first at 8 Hz: thrust 7.1 N, aero power 100 W, peak motor torque 10.0 Nm per wing
+amplitude +-60 deg, tip twist 45 deg: thrust = weight first at 6 Hz: thrust 6.6 N, aero power 190 W, peak motor torque 8.4 Nm per wing
+amplitude +-60 deg, tip twist 60 deg: thrust = weight first at 6 Hz: thrust 7.3 N, aero power 144 W, peak motor torque 8.0 Nm per wing
+amplitude +-60 deg, tip twist 75 deg: thrust = weight first at 6 Hz: thrust 7.1 N, aero power 100 W, peak motor torque 7.8 Nm per wing
+amplitude +-70 deg, tip twist 45 deg: thrust = weight first at 5 Hz: thrust 6.3 N, aero power 174 W, peak motor torque 7.2 Nm per wing
+amplitude +-70 deg, tip twist 60 deg: thrust = weight first at 5 Hz: thrust 6.9 N, aero power 132 W, peak motor torque 6.8 Nm per wing
+amplitude +-70 deg, tip twist 75 deg: thrust = weight first at 5 Hz: thrust 6.7 N, aero power 92 W, peak motor torque 6.5 Nm per wing

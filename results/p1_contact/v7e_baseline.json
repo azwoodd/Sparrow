@@ -1,0 +1,67 @@
+[
+ {
+  "variant": "v7e_baseline",
+  "friction": 0.6,
+  "fell": null,
+  "quiet_pad_penetration_mm": 0.47595022159120914,
+  "ds_wing_out_roll_deg": 0.37243400656218045,
+  "ds_com_margin_L_mm": 14.709638653079327,
+  "ss_roll_deg": -0.3185572360684532,
+  "ss_com_margin_L_mm": 12.443622079195054,
+  "ss_pad_penetration_mm": 0.5630360936246899,
+  "ss_load_L": 1.0000463870083434,
+  "ss_min_margin_mm": 11.79711917805641
+ },
+ {
+  "variant": "v7e_baseline",
+  "friction": 1.0,
+  "fell": null,
+  "quiet_pad_penetration_mm": 0.6746172521677947,
+  "ds_wing_out_roll_deg": 0.6774594462891897,
+  "ds_com_margin_L_mm": 15.706115967331534,
+  "ss_roll_deg": -1.0754840322099466,
+  "ss_com_margin_L_mm": 9.967614724255005,
+  "ss_pad_penetration_mm": 1.6116773185170996,
+  "ss_load_L": 0.9999991740822549,
+  "ss_min_margin_mm": 6.475847024484286
+ },
+ {
+  "variant": "v7e_baseline",
+  "friction": 1.3,
+  "fell": null,
+  "quiet_pad_penetration_mm": 1.1583161353538558,
+  "ds_wing_out_roll_deg": 1.499088787899459,
+  "ds_com_margin_L_mm": 18.382243838575437,
+  "ss_roll_deg": -14.524024739869096,
+  "ss_com_margin_L_mm": -31.760871278262755,
+  "ss_pad_penetration_mm": 2.0719712500879233,
+  "ss_load_L": 0.48892415967715447,
+  "ss_min_margin_mm": -42.106905436814856
+ },
+ {
+  "variant": "v7e_baseline",
+  "friction": 1.6,
+  "fell": null,
+  "quiet_pad_penetration_mm": 2.1858175387481653,
+  "ds_wing_out_roll_deg": 2.833973370235172,
+  "ds_com_margin_L_mm": 22.727235429083013,
+  "ss_roll_deg": -13.333312574599297,
+  "ss_com_margin_L_mm": -28.324735386355187,
+  "ss_pad_penetration_mm": 3.9986954596181943,
+  "ss_load_L": 0.5467437826367093,
+  "ss_min_margin_mm": -44.26660092342304
+ },
+ {
+  "variant": "v7e_baseline",
+  "friction": 2.0,
+  "fell": null,
+  "quiet_pad_penetration_mm": 4.589552493691433,
+  "ds_wing_out_roll_deg": 10.52185378013051,
+  "ds_com_margin_L_mm": 0.9822429478604133,
+  "ss_roll_deg": 21.310629019294918,
+  "ss_com_margin_L_mm": -29.79943601849642,
+  "ss_pad_penetration_mm": 12.711741511661877,
+  "ss_load_L": 0.9422556042033419,
+  "ss_min_margin_mm": -33.53651984615694
+ }
+]

@@ -1,0 +1,55 @@
+{
+  "stage": "screen",
+  "area": 3.0,
+  "mass": 0.559,
+  "phi": 45,
+  "E": 13,
+  "f": 3.5,
+  "tw": 50,
+  "b0": 40,
+  "be": 15,
+  "cn": 1.6,
+  "eta": 0.7,
+  "dt": 0.002,
+  "T": 5,
+  "eff": 0.8,
+  "delay": 0.15,
+  "angle": 45,
+  "ok": true,
+  "forward_ok": true,
+  "hmin": 0.5888838619461857,
+  "end": [
+    5.001999999999671,
+    4.259279262899416,
+    0.07057133774684514,
+    1.76073192986491,
+    0.21440148710239182
+  ],
+  "aero_W": 39.45035778404944,
+  "torque_Nm": 4.4401020678250624,
+  "metrics": {
+    "1.0": {
+      "peak_torque_per_wing_Nm": 4.4401020678250624,
+      "positive_mech_both_W": 42.36085840932142,
+      "rms_torque_per_wing_Nm": 2.395205190850034,
+      "peak_positive_mech_both_W": 134.28069045095089
+    },
+    "0.5": {
+      "peak_torque_per_wing_Nm": 3.9109180704773965,
+      "positive_mech_both_W": 40.317014562451824,
+      "rms_torque_per_wing_Nm": 2.0286990764573503,
+      "peak_positive_mech_both_W": 124.22696890781945
+    },
+    "0.25": {
+      "peak_torque_per_wing_Nm": 3.685734718759042,
+      "positive_mech_both_W": 39.760580318307404,
+      "rms_torque_per_wing_Nm": 1.9052570992882938,
+      "peak_positive_mech_both_W": 120.19690825499582
+    }
+  },
+  "wall_s": 0.2348898999625817,
+  "wing_area_m2": 0.498216,
+  "span_m": 1.42,
+  "vx0": 4.313310928137537,
+  "vz0": 4.313310928137537
+}

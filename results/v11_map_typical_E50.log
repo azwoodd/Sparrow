@@ -1,0 +1,30 @@
+﻿E=0.50 rho=+0.0 dy_c= -50mm    L= +28.9mNms vz=1.32 vfwd=-0.23 clr=122.7 fwd=-249.5 pitchTD= +99.5 kneeTau=1.56 hipTau=0.00Nm landF=   0N tiltAfter=100.1 flights=1 good=False fall=1.3909999999999576
+E=0.50 rho=+0.0 dy_c= -40mm    L= +28.5mNms vz=1.32 vfwd=-0.10 clr=151.7 fwd=-197.3 pitchTD=+101.6 kneeTau=1.52 hipTau=0.00Nm landF=   0N tiltAfter=102.4 flights=1 good=False fall=1.3989999999999567
+E=0.50 rho=+0.0 dy_c= -30mm    L= +27.4mNms vz=1.32 vfwd=+0.03 clr=170.4 fwd=-148.4 pitchTD=+101.1 kneeTau=1.52 hipTau=0.00Nm landF=   0N tiltAfter=101.7 flights=1 good=False fall=1.405999999999956
+E=0.50 rho=+0.0 dy_c= -20mm    L= +26.7mNms vz=1.32 vfwd=+0.15 clr=184.4 fwd=-101.7 pitchTD=+100.0 kneeTau=1.56 hipTau=0.00Nm landF=   0N tiltAfter=100.5 flights=1 good=False fall=1.4119999999999553
+E=0.50 rho=+0.0 dy_c= -10mm    L= +25.7mNms vz=1.31 vfwd=+0.26 clr=176.2 fwd= -59.4 pitchTD= +94.2 kneeTau=1.64 hipTau=0.00Nm landF=   0N tiltAfter= 94.2 flights=1 good=False fall=1.4119999999999553
+E=0.50 rho=+0.0 dy_c=  +0mm    L= +24.4mNms vz=1.31 vfwd=+0.37 clr=160.6 fwd= -15.6 pitchTD= +89.0 kneeTau=1.78 hipTau=0.00Nm landF=   0N tiltAfter= 89.0 flights=1 good=False fall=1.4109999999999554
+E=0.50 rho=-0.3 dy_c= -50mm    L= +20.8mNms vz=1.23 vfwd=-0.13 clr=108.0 fwd=-212.6 pitchTD= +75.5 kneeTau=1.13 hipTau=0.34Nm landF=  61N tiltAfter= 75.5 flights=1 good=False fall=1.4769999999999481
+E=0.50 rho=-0.3 dy_c= -40mm    L= +19.8mNms vz=1.23 vfwd=-0.00 clr=121.2 fwd=-159.2 pitchTD= +74.2 kneeTau=1.15 hipTau=0.34Nm landF=  61N tiltAfter= 74.2 flights=1 good=False fall=1.477999999999948
+E=0.50 rho=-0.3 dy_c= -30mm    L= +19.1mNms vz=1.21 vfwd=+0.11 clr=111.4 fwd=-113.0 pitchTD= +71.6 kneeTau=1.19 hipTau=0.36Nm landF=  53N tiltAfter= 71.6 flights=1 good=False fall=1.477999999999948
+E=0.50 rho=-0.3 dy_c= -20mm    L= +18.4mNms vz=1.21 vfwd=+0.22 clr=113.7 fwd= -66.6 pitchTD= +71.7 kneeTau=1.26 hipTau=0.38Nm landF=  47N tiltAfter= 71.7 flights=1 good=False fall=1.4729999999999486
+E=0.50 rho=-0.3 dy_c= -10mm    L= +18.5mNms vz=1.18 vfwd=+0.31 clr=104.3 fwd= -30.0 pitchTD= +71.5 kneeTau=1.37 hipTau=0.41Nm landF=  49N tiltAfter= 71.5 flights=1 good=False fall=1.4639999999999496
+E=0.50 rho=-0.3 dy_c=  +0mm    L= +17.8mNms vz=1.16 vfwd=+0.39 clr= 94.1 fwd=   9.0 pitchTD= +65.1 kneeTau=1.53 hipTau=0.46Nm landF=  23N tiltAfter= 65.1 flights=1 good=False fall=1.4619999999999498
+E=0.50 rho=-0.6 dy_c= -50mm    L= +15.8mNms vz=1.10 vfwd=-0.07 clr= 85.3 fwd=-173.0 pitchTD= +56.1 kneeTau=0.89 hipTau=0.54Nm landF=  40N tiltAfter= 59.0 flights=1 good=False fall=1.5379999999999414
+E=0.50 rho=-0.6 dy_c= -40mm    L= +15.3mNms vz=1.12 vfwd=+0.04 clr= 89.3 fwd=-127.4 pitchTD= +55.4 kneeTau=0.92 hipTau=0.55Nm landF=  37N tiltAfter= 58.7 flights=1 good=False fall=1.5379999999999414
+E=0.50 rho=-0.6 dy_c= -30mm    L= +14.6mNms vz=1.11 vfwd=+0.15 clr= 86.9 fwd= -78.8 pitchTD= +53.2 kneeTau=0.97 hipTau=0.58Nm landF=  57N tiltAfter= 58.1 flights=1 good=False fall=1.5379999999999414
+E=0.50 rho=-0.6 dy_c= -20mm    L= +13.9mNms vz=1.08 vfwd=+0.25 clr= 78.4 fwd= -35.6 pitchTD= +50.3 kneeTau=1.05 hipTau=0.63Nm landF=  58N tiltAfter= 61.8 flights=1 good=False fall=1.5389999999999413
+E=0.50 rho=-0.6 dy_c= -10mm    L= +13.3mNms vz=1.04 vfwd=+0.33 clr= 68.5 fwd=  -0.0 pitchTD= +46.6 kneeTau=1.17 hipTau=0.70Nm landF=  59N tiltAfter= 57.6 flights=2 good=False fall=1.541999999999941
+E=0.50 rho=-0.6 dy_c=  +0mm    L= +12.6mNms vz=1.01 vfwd=+0.40 clr= 59.5 fwd=  31.9 pitchTD= +42.3 kneeTau=1.35 hipTau=0.81Nm landF=  59N tiltAfter= 75.4 flights=1 good=False fall=1.5369999999999415
+E=0.50 rho=-0.9 dy_c= -50mm    L= +11.7mNms vz=1.02 vfwd=-0.03 clr= 70.5 fwd=-121.5 pitchTD= +34.4 kneeTau=0.74 hipTau=0.66Nm landF=  77N tiltAfter= 76.9 flights=1 good=False fall=1.6009999999999345
+E=0.50 rho=-0.9 dy_c= -40mm    L= +11.8mNms vz=1.01 vfwd=+0.07 clr= 68.7 fwd= -82.8 pitchTD= +35.7 kneeTau=0.77 hipTau=0.69Nm landF=  78N tiltAfter= 75.2 flights=1 good=False fall=1.5909999999999356
+E=0.50 rho=-0.9 dy_c= -30mm    L= +12.2mNms vz=0.98 vfwd=+0.16 clr= 63.8 fwd= -53.9 pitchTD= +38.1 kneeTau=0.82 hipTau=0.74Nm landF=  71N tiltAfter= 73.4 flights=1 good=False fall=1.5769999999999371
+E=0.50 rho=-0.9 dy_c= -20mm    L= +12.2mNms vz=0.94 vfwd=+0.23 clr= 54.8 fwd= -25.0 pitchTD= +37.6 kneeTau=0.90 hipTau=0.81Nm landF=  71N tiltAfter= 72.8 flights=1 good=False fall=1.5649999999999384
+E=0.50 rho=-0.9 dy_c= -10mm    L= +11.3mNms vz=0.89 vfwd=+0.30 clr= 48.9 fwd=   6.5 pitchTD= +33.2 kneeTau=1.02 hipTau=0.92Nm landF=  68N tiltAfter= 75.0 flights=1 good=False fall=1.5569999999999393
+E=0.50 rho=-0.9 dy_c=  +0mm    L=  +8.6mNms vz=0.87 vfwd=+0.38 clr= 42.0 fwd=  40.4 pitchTD= +22.8 kneeTau=1.20 hipTau=1.08Nm landF=  60N tiltAfter= 77.5 flights=1 good=False fall=1.569999999999938
+E=0.50 rho=-1.2 dy_c= -50mm    L=  +9.4mNms vz=0.95 vfwd=-0.01 clr= 54.8 fwd= -90.2 pitchTD= +22.8 kneeTau=0.63 hipTau=0.75Nm landF=  94N tiltAfter= 77.4 flights=1 good=False fall=1.6249999999999318
+E=0.50 rho=-1.2 dy_c= -40mm    L= +10.0mNms vz=0.89 vfwd=+0.07 clr= 26.9 fwd= -63.1 pitchTD= +22.8 kneeTau=0.66 hipTau=0.79Nm landF=  74N tiltAfter= 78.0 flights=1 good=False fall=1.6109999999999334
+E=0.50 rho=-1.2 dy_c= -30mm    L= +10.0mNms vz=0.87 vfwd=+0.16 clr= 46.6 fwd= -48.3 pitchTD= +26.0 kneeTau=0.71 hipTau=0.85Nm landF=  75N tiltAfter= 76.8 flights=1 good=False fall=1.5889999999999358
+E=0.50 rho=-1.2 dy_c= -20mm    L= +10.9mNms vz=0.77 vfwd=+0.21 clr= 40.1 fwd= -22.0 pitchTD= +27.7 kneeTau=0.79 hipTau=0.95Nm landF=  62N tiltAfter= 76.7 flights=1 good=False fall=1.568999999999938
+E=0.50 rho=-1.2 dy_c= -10mm    L=  +7.9mNms vz=0.79 vfwd=+0.29 clr= 35.6 fwd=   7.8 pitchTD= +17.8 kneeTau=0.90 hipTau=1.09Nm landF=  62N tiltAfter= 74.5 flights=1 good=False fall=1.5919999999999355
+E=0.50 rho=-1.2 dy_c=  +0mm    L=  +3.6mNms vz=0.78 vfwd=+0.39 clr= 32.6 fwd=  48.3 pitchTD=  +6.3 kneeTau=1.09 hipTau=1.30Nm landF=  52N tiltAfter= 72.7 flights=1 good=False fall=1.6379999999999304

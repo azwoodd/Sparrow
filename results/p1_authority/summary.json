@@ -1,0 +1,671 @@
+[
+ {
+  "name": "00_control_none",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": 0.002748918905435367,
+  "com_x_abs_mm": 0.3045743542983016,
+  "cop_x_mm": 0.3045748414567532,
+  "load_L": 0.5010122135460219,
+  "load_R": 0.49899145722607413,
+  "roll_deg": 0.007751365249778464,
+  "pitch_deg": 0.9153168293560124,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -8.694980350971338,
+  "com_margin_R_mm": -9.30501947129161,
+  "foot_tilt_L_deg": 0.014449046696259413,
+  "foot_tilt_R_deg": 0.014666832474112856,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "tail_roll_+0.52",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "tail_roll": [
+    0.524,
+    0.524
+   ]
+  },
+  "com_x_shift_mm": 0.0055926937429786015,
+  "com_x_abs_mm": 0.3074181291358448,
+  "cop_x_mm": 0.30741863961671534,
+  "load_L": 0.5010219120369553,
+  "load_R": 0.4989817640913484,
+  "roll_deg": 0.007825849693258662,
+  "pitch_deg": 0.9153116757787098,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -8.692050208670455,
+  "com_margin_R_mm": -9.30794961014675,
+  "foot_tilt_L_deg": 0.014487724436194664,
+  "foot_tilt_R_deg": 0.014706995377406855,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "tail_roll_-0.52",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "tail_roll": [
+    -0.524,
+    -0.524
+   ]
+  },
+  "com_x_shift_mm": -0.0034056972781136108,
+  "com_x_abs_mm": 0.2984197381147526,
+  "cop_x_mm": 0.2984201909213442,
+  "load_L": 0.500992028452824,
+  "load_R": 0.49901163806068305,
+  "roll_deg": 0.0075963183658587854,
+  "pitch_deg": 0.9153200668499824,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -8.701079727176372,
+  "com_margin_R_mm": -9.29892010215335,
+  "foot_tilt_L_deg": 0.014368914391069871,
+  "foot_tilt_R_deg": 0.014583565085589846,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "tail_pitch_+0.61",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "tail_pitch": [
+    0.61,
+    0.608
+   ]
+  },
+  "com_x_shift_mm": 0.0028182670732756847,
+  "com_x_abs_mm": 0.3046437024661419,
+  "cop_x_mm": 0.3046448048895426,
+  "load_L": 0.5010122341655793,
+  "load_R": 0.4989911290993731,
+  "roll_deg": 0.007752710494957166,
+  "pitch_deg": 0.9206745609556973,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -8.694939251883337,
+  "com_margin_R_mm": -9.305060570277998,
+  "foot_tilt_L_deg": 0.014830390790654416,
+  "foot_tilt_R_deg": 0.015051145006616766,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "neck_yaw_+1.05",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "neck_yaw": [
+    1.047,
+    1.047
+   ]
+  },
+  "com_x_shift_mm": 2.6114750672741036,
+  "com_x_abs_mm": 2.91330050266697,
+  "cop_x_mm": 2.9132547428428417,
+  "load_L": 0.5096681882044514,
+  "load_R": 0.4903350552316669,
+  "roll_deg": 0.07428881434898948,
+  "pitch_deg": 0.8386698810361152,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -6.080973283679196,
+  "com_margin_R_mm": -11.91901027947065,
+  "foot_tilt_L_deg": 0.0744348288756899,
+  "foot_tilt_R_deg": 0.07462220450368875,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "neck_yaw_-1.05",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "neck_yaw": [
+    -1.047,
+    -1.047
+   ]
+  },
+  "com_x_shift_mm": -2.576593275615777,
+  "com_x_abs_mm": -2.2747678402229106,
+  "cop_x_mm": -2.2747235164512745,
+  "load_L": 0.49245664120433147,
+  "load_R": 0.5075466140969497,
+  "roll_deg": -0.0579919176089037,
+  "pitch_deg": 0.8360559176565597,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -11.279954739336539,
+  "com_margin_R_mm": -6.720035237354881,
+  "foot_tilt_L_deg": 0.05836448590882764,
+  "foot_tilt_R_deg": 0.05818524645028202,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_deploy_25pct",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_sweep": [
+    1.139,
+    1.14
+   ]
+  },
+  "com_x_shift_mm": 9.446053009512552,
+  "com_x_abs_mm": 9.747878444905417,
+  "cop_x_mm": 9.747947908123827,
+  "load_L": 0.532729267254359,
+  "load_R": 0.467273327561083,
+  "roll_deg": 0.25352358176016604,
+  "pitch_deg": 0.9421146225605465,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": 0.7557427195913538,
+  "com_margin_R_mm": -18.7555424899247,
+  "foot_tilt_L_deg": 0.2537241063611941,
+  "foot_tilt_R_deg": 0.2542844596085329,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_deploy_50pct",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_sweep": [
+    0.759,
+    0.762
+   ]
+  },
+  "com_x_shift_mm": 17.372883925685187,
+  "com_x_abs_mm": 17.674709361078055,
+  "cop_x_mm": 17.674702393041493,
+  "load_L": 0.5623390729170789,
+  "load_R": 0.4376617535499116,
+  "roll_deg": 0.49290684940775303,
+  "pitch_deg": 1.0102044168111775,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": 8.698189663659953,
+  "com_margin_R_mm": -26.69734912294236,
+  "foot_tilt_L_deg": 0.4930597595364146,
+  "foot_tilt_R_deg": 0.49400742090310795,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_deploy_75pct",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_sweep": [
+    0.38,
+    0.384
+   ]
+  },
+  "com_x_shift_mm": 22.774964107689385,
+  "com_x_abs_mm": 23.076789543082253,
+  "cop_x_mm": 23.076785433429336,
+  "load_L": 0.5855992289773067,
+  "load_R": 0.4144010128064634,
+  "roll_deg": 0.6866147990306065,
+  "pitch_deg": 1.1344420276003584,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": 14.103796188070717,
+  "com_margin_R_mm": -32.10204276579917,
+  "foot_tilt_L_deg": 0.6870186829815067,
+  "foot_tilt_R_deg": 0.6885454455709868,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_deploy_100pct",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_sweep": [
+    0.0,
+    0.004
+   ]
+  },
+  "com_x_shift_mm": 24.6429933671477,
+  "com_x_abs_mm": 24.944818802540567,
+  "cop_x_mm": 24.94484844578541,
+  "load_L": 0.5944680364575529,
+  "load_R": 0.4055321440806498,
+  "roll_deg": 0.7616977953057505,
+  "pitch_deg": 1.3215119874165406,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": 15.96716517802851,
+  "com_margin_R_mm": -33.96493396712319,
+  "foot_tilt_L_deg": 0.7630801282808586,
+  "foot_tilt_R_deg": 0.7653118484468819,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingR_deploy_100pct",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_R_sweep": [
+    0.0,
+    0.004
+   ]
+  },
+  "com_x_shift_mm": -24.831634677618805,
+  "com_x_abs_mm": -24.529809242225937,
+  "cop_x_mm": -24.529841468019576,
+  "load_L": 0.4074482656724921,
+  "load_R": 0.5925519300180262,
+  "roll_deg": -0.7454405076396379,
+  "pitch_deg": 1.3260505734986736,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -33.55297268503902,
+  "com_margin_R_mm": 15.555099141844622,
+  "foot_tilt_L_deg": 0.7491435802921584,
+  "foot_tilt_R_deg": 0.7468702243321438,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_deploy_100_flap_up",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_sweep": [
+    0.0,
+    0.001
+   ],
+   "wing_L_flap": [
+    -0.54,
+    -0.531
+   ]
+  },
+  "com_x_shift_mm": -5.293672492424629,
+  "com_x_abs_mm": -4.991847057031762,
+  "cop_x_mm": -4.9918369608143465,
+  "load_L": 0.09268673464429578,
+  "load_R": 0.8265007562152291,
+  "roll_deg": -6.678167322051691,
+  "pitch_deg": 1.8978238249078954,
+  "tilt_max_deg": 7.681486983749461,
+  "com_margin_L_mm": -9.543769864299142,
+  "com_margin_R_mm": -7.982681725635437,
+  "foot_tilt_L_deg": 7.248490727564451,
+  "foot_tilt_R_deg": 6.675512152034221,
+  "sat_frac": 1.0,
+  "other_contacts": [
+   "col_tip_L"
+  ]
+ },
+ {
+  "name": "wingL_deploy_100_flap_down",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_sweep": [
+    0.0,
+    0.003
+   ],
+   "wing_L_flap": [
+    0.54,
+    0.531
+   ]
+  },
+  "com_x_shift_mm": 20.067581131931608,
+  "com_x_abs_mm": 20.369406567324475,
+  "cop_x_mm": 20.369236529686095,
+  "load_L": 0.5740475084958757,
+  "load_R": 0.4259527898267415,
+  "roll_deg": 0.5899614088808105,
+  "pitch_deg": 1.3362455462889102,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": 11.412799814059268,
+  "com_margin_R_mm": -29.411535330767457,
+  "foot_tilt_L_deg": 0.5917113381645817,
+  "foot_tilt_R_deg": 0.5941909645077781,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_stowed_flap_up",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_flap": [
+    -0.54,
+    -0.541
+   ]
+  },
+  "com_x_shift_mm": -0.7471392080259227,
+  "com_x_abs_mm": -0.4453137726330565,
+  "cop_x_mm": -0.44541054714665307,
+  "load_L": 0.49854003805710956,
+  "load_R": 0.5014632034186596,
+  "roll_deg": -0.011237312934693513,
+  "pitch_deg": 0.9145336009863273,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -9.441849618284733,
+  "com_margin_R_mm": -8.558150003174063,
+  "foot_tilt_L_deg": 0.01675842930174281,
+  "foot_tilt_R_deg": 0.01648453611831033,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_stowed_flap_down",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_flap": [
+    0.54,
+    0.539
+   ]
+  },
+  "com_x_shift_mm": 0.2706668757604796,
+  "com_x_abs_mm": 0.5724923111533458,
+  "cop_x_mm": 0.5724929123168064,
+  "load_L": 0.5019036339529797,
+  "load_R": 0.4980970045650113,
+  "roll_deg": 0.014611398797233492,
+  "pitch_deg": 0.9169465936534302,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -8.425141875656212,
+  "com_margin_R_mm": -9.574857490394677,
+  "foot_tilt_L_deg": 0.01905459370774917,
+  "foot_tilt_R_deg": 0.01936948207302766,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_deploy100_neckL_tailroll",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_sweep": [
+    0.0,
+    0.004
+   ],
+   "neck_yaw": [
+    1.047,
+    1.047
+   ],
+   "tail_roll": [
+    0.524,
+    0.524
+   ]
+  },
+  "com_x_shift_mm": 27.481303819502536,
+  "com_x_abs_mm": 27.7831292548954,
+  "cop_x_mm": 27.783202194599703,
+  "load_L": 0.6091003484319485,
+  "load_R": 0.3908998195796009,
+  "roll_deg": 0.8993830364178532,
+  "pitch_deg": 1.247866562261454,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": 18.813431409469693,
+  "com_margin_R_mm": -36.81006459195815,
+  "foot_tilt_L_deg": 0.9002226462714225,
+  "foot_tilt_R_deg": 0.9027484483808996,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "wingL_deploy100_neckR_tailroll-",
+  "fell": null,
+  "commanded_vs_achieved": {
+   "wing_L_sweep": [
+    0.0,
+    0.004
+   ],
+   "neck_yaw": [
+    -1.047,
+    -1.047
+   ],
+   "tail_roll": [
+    -0.524,
+    -0.524
+   ]
+  },
+  "com_x_shift_mm": 21.9098350020022,
+  "com_x_abs_mm": 22.211660437395064,
+  "cop_x_mm": 22.211689190754505,
+  "load_L": 0.5818950172383297,
+  "load_R": 0.4181053912898991,
+  "roll_deg": 0.6554070461903783,
+  "pitch_deg": 1.2391524912331935,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": 13.24553611925981,
+  "com_margin_R_mm": -31.243947841529433,
+  "foot_tilt_L_deg": 0.6563691062051319,
+  "foot_tilt_R_deg": 0.6583577048292818,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "legdiff_L_long_R_short_2mm",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -1.5169448780494357,
+  "com_x_abs_mm": -1.2151194426565661,
+  "cop_x_mm": -1.215037885004549,
+  "load_L": 0.6672277890336771,
+  "load_R": 0.3327732592127099,
+  "roll_deg": -0.4559543154960617,
+  "pitch_deg": 0.9308705440808274,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -10.197678707845451,
+  "com_margin_R_mm": -7.804398736509425,
+  "foot_tilt_L_deg": 0.45594111470536225,
+  "foot_tilt_R_deg": 0.4582987849203135,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "legdiff_L_long_R_short_4mm",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -4.017418962904031,
+  "com_x_abs_mm": -3.715593527511162,
+  "cop_x_mm": -3.7155958913822795,
+  "load_L": 0.7657542312057427,
+  "load_R": 0.23424571226877766,
+  "roll_deg": -1.2249055803087163,
+  "pitch_deg": 0.9589128350300428,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -12.684271338252124,
+  "com_margin_R_mm": -5.330043755155306,
+  "foot_tilt_L_deg": 1.2250303573646089,
+  "foot_tilt_R_deg": 1.2289017436268572,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "legdiff_L_long_R_short_6mm",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -11.90069017982885,
+  "com_x_abs_mm": -11.59886474443598,
+  "cop_x_mm": -11.599496014991441,
+  "load_L": 0.6871906321313903,
+  "load_R": 0.31280912766855445,
+  "roll_deg": -3.6443550262450297,
+  "pitch_deg": 0.9417699395460668,
+  "tilt_max_deg": 4.360372111850226,
+  "com_margin_L_mm": -20.46278864281708,
+  "com_margin_R_mm": 2.4294218458907055,
+  "foot_tilt_L_deg": 3.643951125234294,
+  "foot_tilt_R_deg": 3.64452509330454,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "legdiff_L_long_R_short_8mm",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -22.258763737782953,
+  "com_x_abs_mm": -21.956938302390085,
+  "cop_x_mm": -21.954944514968325,
+  "load_L": 0.5300943315082584,
+  "load_R": 0.4699056940982652,
+  "roll_deg": -6.818453779519536,
+  "pitch_deg": 0.9181037743028476,
+  "tilt_max_deg": 7.959181819657906,
+  "com_margin_L_mm": -30.50480736868774,
+  "com_margin_R_mm": 12.495809300955907,
+  "foot_tilt_L_deg": 6.817596470347915,
+  "foot_tilt_R_deg": 6.817679720872761,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "legdiff_L_long_R_short_12mm",
+  "fell": 2.1829999999998706,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -113.18030104527062,
+  "com_x_abs_mm": -112.87847560987777,
+  "cop_x_mm": -91.18502845862335,
+  "load_L": 0.02757253884792234,
+  "load_R": 0.7313269369812813,
+  "roll_deg": -38.81448280140209,
+  "pitch_deg": 18.602560047807597,
+  "tilt_max_deg": 94.52325752063248,
+  "com_margin_L_mm": -59.25960418786969,
+  "com_margin_R_mm": -8.725921150695095,
+  "foot_tilt_L_deg": 40.64771633987676,
+  "foot_tilt_R_deg": 39.46944960846467,
+  "sat_frac": 0.8111888111888111,
+  "other_contacts": [
+   "col_head+col_tip_R",
+   "col_tip_R"
+  ]
+ },
+ {
+  "name": "legdiff_L_long_R_short_16mm",
+  "fell": 1.6449999999999296,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -102.7236978713733,
+  "com_x_abs_mm": -102.42187243598045,
+  "cop_x_mm": -80.75046093318133,
+  "load_L": 0.21083107607327461,
+  "load_R": 0.544998124010106,
+  "roll_deg": -35.35318113603093,
+  "pitch_deg": 17.110068457208197,
+  "tilt_max_deg": 94.21330149721963,
+  "com_margin_L_mm": -47.25704334541857,
+  "com_margin_R_mm": -5.126305035642658,
+  "foot_tilt_L_deg": 36.41833449087164,
+  "foot_tilt_R_deg": 35.96531095756562,
+  "sat_frac": 0.3996003996003996,
+  "other_contacts": [
+   "col_head+col_tip_R",
+   "col_tip_R"
+  ]
+ },
+ {
+  "name": "leg_R_short_only_4mm",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -3.8546321941612725,
+  "com_x_abs_mm": -3.5528067587684107,
+  "cop_x_mm": -3.5528028612115365,
+  "load_L": 0.7639927665295012,
+  "load_R": 0.23600722625190867,
+  "roll_deg": -1.1861592499247473,
+  "pitch_deg": 0.940994572600214,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -12.520992879575912,
+  "com_margin_R_mm": -5.492529960107618,
+  "foot_tilt_L_deg": 1.1862459745866836,
+  "foot_tilt_R_deg": 1.1900898620703564,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "leg_R_short_only_8mm",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -21.388405218102758,
+  "com_x_abs_mm": -21.086579782709894,
+  "cop_x_mm": -21.08414471669351,
+  "load_L": 0.5432631994700907,
+  "load_R": 0.45673691658699395,
+  "roll_deg": -6.682044502347246,
+  "pitch_deg": 0.8872407977376944,
+  "tilt_max_deg": 7.8839525165383835,
+  "com_margin_L_mm": -29.6545093792758,
+  "com_margin_R_mm": 11.64169413519777,
+  "foot_tilt_L_deg": 6.681261149597802,
+  "foot_tilt_R_deg": 6.681358863761965,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "leg_R_short_only_16mm",
+  "fell": 1.6549999999999285,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -99.83887683831173,
+  "com_x_abs_mm": -99.53705140291886,
+  "cop_x_mm": -79.92902763766051,
+  "load_L": 0.20901014181120595,
+  "load_R": 0.5537405904025732,
+  "roll_deg": -35.48619986691185,
+  "pitch_deg": 17.226008520026813,
+  "tilt_max_deg": 93.96853729095729,
+  "com_margin_L_mm": -46.074360597896046,
+  "com_margin_R_mm": -3.6176718283482185,
+  "foot_tilt_L_deg": 36.62630178082167,
+  "foot_tilt_R_deg": 36.12845918539751,
+  "sat_frac": 0.43456543456543456,
+  "other_contacts": [
+   "col_head+col_tip_R",
+   "col_tip_R"
+  ]
+ },
+ {
+  "name": "leg_R_short_only_24mm",
+  "fell": 1.4009999999999565,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -90.38378043164202,
+  "com_x_abs_mm": -90.08195499624915,
+  "cop_x_mm": -72.02084910333734,
+  "load_L": 0.3477014788872749,
+  "load_R": 0.4083440952300909,
+  "roll_deg": -33.03353907260983,
+  "pitch_deg": 17.01253840747536,
+  "tilt_max_deg": 95.31615627455422,
+  "com_margin_L_mm": -37.31945650021951,
+  "com_margin_R_mm": -3.5487409906315612,
+  "foot_tilt_L_deg": 33.71650704116964,
+  "foot_tilt_R_deg": 33.56376790928487,
+  "sat_frac": 0.2627372627372627,
+  "other_contacts": [
+   "col_head+col_tip_R",
+   "col_tip_R"
+  ]
+ },
+ {
+  "name": "leg_L_long_only_4mm",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -4.188233255248689,
+  "com_x_abs_mm": -3.8864078198558256,
+  "cop_x_mm": -3.886416017904061,
+  "load_L": 0.7675143693488449,
+  "load_R": 0.23248556065004264,
+  "roll_deg": -1.265365813030534,
+  "pitch_deg": 0.9776179540660443,
+  "tilt_max_deg": 3.406312878403645,
+  "com_margin_L_mm": -12.855647980431836,
+  "com_margin_R_mm": -5.159510297907673,
+  "foot_tilt_L_deg": 1.2655351248763331,
+  "foot_tilt_R_deg": 1.2694328199728822,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ },
+ {
+  "name": "leg_L_long_only_8mm",
+  "fell": null,
+  "commanded_vs_achieved": {},
+  "com_x_shift_mm": -23.07876400397648,
+  "com_x_abs_mm": -22.776938568583617,
+  "cop_x_mm": -22.776694680100864,
+  "load_L": 0.5176258927527215,
+  "load_R": 0.48237413118589145,
+  "roll_deg": -6.935335215495656,
+  "pitch_deg": 0.9519791022027164,
+  "tilt_max_deg": 8.00110008939499,
+  "com_margin_L_mm": -31.30973349100028,
+  "com_margin_R_mm": 13.304440213442547,
+  "foot_tilt_L_deg": 6.934396316733741,
+  "foot_tilt_R_deg": 6.934465807099139,
+  "sat_frac": 0.0,
+  "other_contacts": []
+ }
+]

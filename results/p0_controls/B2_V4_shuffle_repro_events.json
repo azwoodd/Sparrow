@@ -1,0 +1,54 @@
+[
+ {
+  "foot": "L",
+  "t_liftoff": 0.001,
+  "t_touchdown": 0.015000000000000006,
+  "swing_s": 0.013999999999998458,
+  "max_clear_mm": 1.0000000000000095,
+  "stance_mean_load_frac": 0.0,
+  "stance_min_load_frac": 0.0,
+  "other_part_contact_N": 0.0,
+  "advance_mm": -0.0036631298434078308,
+  "lateral_mm": -0.00566633502298991,
+  "stance_slip_mm": 0.011826599750484992,
+  "reloaded": true,
+  "t_reload": 0.046000000000000034,
+  "no_fall_through_recovery": true,
+  "criteria": {
+   "unloaded": true,
+   "clear_gt_5mm": false,
+   "stance_loaded": false,
+   "advance_ge_10mm": false,
+   "reloaded_20pct_30ms": true,
+   "recovered": true
+  },
+  "valid": false,
+  "strict": false
+ },
+ {
+  "foot": "R",
+  "t_liftoff": 0.001,
+  "t_touchdown": 0.015000000000000006,
+  "swing_s": 0.013999999999998458,
+  "max_clear_mm": 1.0000000000000095,
+  "stance_mean_load_frac": 0.0,
+  "stance_min_load_frac": 0.0,
+  "other_part_contact_N": 0.0,
+  "advance_mm": -0.02209340235260343,
+  "lateral_mm": -0.00566796642174211,
+  "stance_slip_mm": 0.005477983813845572,
+  "reloaded": true,
+  "t_reload": 0.046000000000000034,
+  "no_fall_through_recovery": true,
+  "criteria": {
+   "unloaded": true,
+   "clear_gt_5mm": false,
+   "stance_loaded": false,
+   "advance_ge_10mm": false,
+   "reloaded_20pct_30ms": true,
+   "recovered": true
+  },
+  "valid": false,
+  "strict": false
+ }
+]

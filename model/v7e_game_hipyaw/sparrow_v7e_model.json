@@ -1,0 +1,2210 @@
+{
+ "total_mass_g": 519.4,
+ "mass_by_group_g": {
+  "battery": 45.0,
+  "body": 63.3,
+  "dock": 0.0,
+  "electronics": 55.3,
+  "head and neck": 57.5,
+  "legs": 127.1,
+  "tail": 14.1,
+  "wings and flap drive": 157.2
+ },
+ "wing_area_cm2": 1660.8,
+ "wing_span_mm": 1420.0,
+ "joint_order": [
+  "tail_pitch",
+  "tail_roll",
+  "wing_L_flap",
+  "wing_L_sweep",
+  "wing_L_panel_in",
+  "wing_L_elbow",
+  "wing_L_panel_mid",
+  "wing_L_wrist",
+  "wing_L_panel_out",
+  "wing_R_flap",
+  "wing_R_sweep",
+  "wing_R_panel_in",
+  "wing_R_elbow",
+  "wing_R_panel_mid",
+  "wing_R_wrist",
+  "wing_R_panel_out",
+  "leg_L_thigh",
+  "leg_L_shin",
+  "leg_L_ankle",
+  "leg_R_thigh",
+  "leg_R_shin",
+  "leg_R_ankle",
+  "neck_yaw",
+  "head_pitch",
+  "beak"
+ ],
+ "poses": {
+  "stand_wings_stowed": {
+   "controls": {
+    "fold": 80
+   },
+   "q": {
+    "tail_pitch": 0.0,
+    "tail_roll": 0.0,
+    "wing_L_flap": 0.0,
+    "wing_R_flap": 0.0,
+    "leg_L_thigh": 0.0,
+    "leg_L_shin": 0.0,
+    "leg_L_ankle": 0.0,
+    "leg_R_thigh": 0.0,
+    "leg_R_shin": 0.0,
+    "leg_R_ankle": 0.0,
+    "neck_yaw": 0.0,
+    "head_pitch": -0.0,
+    "beak": 0.0,
+    "wing_L_sweep": 1.518436,
+    "wing_L_panel_in": 2.059489,
+    "wing_L_elbow": -3.036873,
+    "wing_L_panel_mid": 1.570796,
+    "wing_L_wrist": 3.071779,
+    "wing_L_panel_out": 1.675516,
+    "wing_R_sweep": 1.518436,
+    "wing_R_panel_in": 2.059489,
+    "wing_R_elbow": -3.036873,
+    "wing_R_panel_mid": 1.570796,
+    "wing_R_wrist": 3.071779,
+    "wing_R_panel_out": 1.675516,
+    "leg_L_yaw": 0.0,
+    "leg_R_yaw": 0.0
+   }
+  },
+  "stand_wings_deployed": {
+   "controls": {},
+   "q": {
+    "tail_pitch": 0.0,
+    "tail_roll": 0.0,
+    "wing_L_flap": 0.0,
+    "wing_R_flap": 0.0,
+    "leg_L_thigh": 0.0,
+    "leg_L_shin": 0.0,
+    "leg_L_ankle": 0.0,
+    "leg_R_thigh": 0.0,
+    "leg_R_shin": 0.0,
+    "leg_R_ankle": 0.0,
+    "neck_yaw": 0.0,
+    "head_pitch": -0.0,
+    "beak": 0.0,
+    "wing_L_sweep": 0.0,
+    "wing_L_panel_in": -0.0,
+    "wing_L_elbow": 0.0,
+    "wing_L_panel_mid": -0.0,
+    "wing_L_wrist": 0.0,
+    "wing_L_panel_out": -0.0,
+    "wing_R_sweep": -0.0,
+    "wing_R_panel_in": -0.0,
+    "wing_R_elbow": -0.0,
+    "wing_R_panel_mid": -0.0,
+    "wing_R_wrist": -0.0,
+    "wing_R_panel_out": -0.0,
+    "leg_L_yaw": 0.0,
+    "leg_R_yaw": 0.0
+   }
+  },
+  "flap_up": {
+   "controls": {
+    "crank": 90
+   },
+   "q": {
+    "tail_pitch": 0.0,
+    "tail_roll": 0.0,
+    "wing_L_flap": -0.526927,
+    "wing_R_flap": -0.526927,
+    "leg_L_thigh": 0.0,
+    "leg_L_shin": 0.0,
+    "leg_L_ankle": 0.0,
+    "leg_R_thigh": 0.0,
+    "leg_R_shin": 0.0,
+    "leg_R_ankle": 0.0,
+    "neck_yaw": 0.0,
+    "head_pitch": -0.0,
+    "beak": 0.0,
+    "wing_L_sweep": 0.0,
+    "wing_L_panel_in": -0.0,
+    "wing_L_elbow": 0.0,
+    "wing_L_panel_mid": -0.0,
+    "wing_L_wrist": 0.0,
+    "wing_L_panel_out": -0.0,
+    "wing_R_sweep": -0.0,
+    "wing_R_panel_in": -0.0,
+    "wing_R_elbow": -0.0,
+    "wing_R_panel_mid": -0.0,
+    "wing_R_wrist": -0.0,
+    "wing_R_panel_out": -0.0,
+    "leg_L_yaw": 0.0,
+    "leg_R_yaw": 0.0
+   }
+  },
+  "flap_down": {
+   "controls": {
+    "crank": -90
+   },
+   "q": {
+    "tail_pitch": 0.0,
+    "tail_roll": 0.0,
+    "wing_L_flap": 0.517498,
+    "wing_R_flap": 0.517498,
+    "leg_L_thigh": 0.0,
+    "leg_L_shin": 0.0,
+    "leg_L_ankle": 0.0,
+    "leg_R_thigh": 0.0,
+    "leg_R_shin": 0.0,
+    "leg_R_ankle": 0.0,
+    "neck_yaw": 0.0,
+    "head_pitch": -0.0,
+    "beak": 0.0,
+    "wing_L_sweep": 0.0,
+    "wing_L_panel_in": -0.0,
+    "wing_L_elbow": 0.0,
+    "wing_L_panel_mid": -0.0,
+    "wing_L_wrist": 0.0,
+    "wing_L_panel_out": -0.0,
+    "wing_R_sweep": -0.0,
+    "wing_R_panel_in": -0.0,
+    "wing_R_elbow": -0.0,
+    "wing_R_panel_mid": -0.0,
+    "wing_R_wrist": -0.0,
+    "wing_R_panel_out": -0.0,
+    "leg_L_yaw": 0.0,
+    "leg_R_yaw": 0.0
+   }
+  },
+  "crouch": {
+   "controls": {
+    "fold": 80,
+    "hip_L": -25,
+    "hip_R": -25,
+    "knee_L": 55,
+    "knee_R": 55,
+    "ankle_L": -30,
+    "ankle_R": -30
+   },
+   "q": {
+    "tail_pitch": 0.0,
+    "tail_roll": 0.0,
+    "wing_L_flap": 0.0,
+    "wing_R_flap": 0.0,
+    "leg_L_thigh": -0.436332,
+    "leg_L_shin": 0.959931,
+    "leg_L_ankle": -0.523599,
+    "leg_R_thigh": -0.436332,
+    "leg_R_shin": 0.959931,
+    "leg_R_ankle": -0.523599,
+    "neck_yaw": 0.0,
+    "head_pitch": -0.0,
+    "beak": 0.0,
+    "wing_L_sweep": 1.518436,
+    "wing_L_panel_in": 2.059489,
+    "wing_L_elbow": -3.036873,
+    "wing_L_panel_mid": 1.570796,
+    "wing_L_wrist": 3.071779,
+    "wing_L_panel_out": 1.675516,
+    "wing_R_sweep": 1.518436,
+    "wing_R_panel_in": 2.059489,
+    "wing_R_elbow": -3.036873,
+    "wing_R_panel_mid": 1.570796,
+    "wing_R_wrist": 3.071779,
+    "wing_R_panel_out": 1.675516,
+    "leg_L_yaw": 0.0,
+    "leg_R_yaw": 0.0
+   }
+  },
+  "glide_legs_tucked": {
+   "controls": {
+    "hip_L": 35,
+    "hip_R": 35,
+    "knee_L": 60,
+    "knee_R": 60,
+    "ankle_L": -40,
+    "ankle_R": -40
+   },
+   "q": {
+    "tail_pitch": 0.0,
+    "tail_roll": 0.0,
+    "wing_L_flap": 0.0,
+    "wing_R_flap": 0.0,
+    "leg_L_thigh": 0.610865,
+    "leg_L_shin": 1.047198,
+    "leg_L_ankle": -0.698132,
+    "leg_R_thigh": 0.610865,
+    "leg_R_shin": 1.047198,
+    "leg_R_ankle": -0.698132,
+    "neck_yaw": 0.0,
+    "head_pitch": -0.0,
+    "beak": 0.0,
+    "wing_L_sweep": 0.0,
+    "wing_L_panel_in": -0.0,
+    "wing_L_elbow": 0.0,
+    "wing_L_panel_mid": -0.0,
+    "wing_L_wrist": 0.0,
+    "wing_L_panel_out": -0.0,
+    "wing_R_sweep": -0.0,
+    "wing_R_panel_in": -0.0,
+    "wing_R_elbow": -0.0,
+    "wing_R_panel_mid": -0.0,
+    "wing_R_wrist": -0.0,
+    "wing_R_panel_out": -0.0,
+    "leg_L_yaw": 0.0,
+    "leg_R_yaw": 0.0
+   }
+  },
+  "look_left_beak_open": {
+   "controls": {
+    "fold": 80,
+    "head_yaw": 60,
+    "head_pitch": 10,
+    "beak": 25
+   },
+   "q": {
+    "tail_pitch": 0.0,
+    "tail_roll": 0.0,
+    "wing_L_flap": 0.0,
+    "wing_R_flap": 0.0,
+    "leg_L_thigh": 0.0,
+    "leg_L_shin": 0.0,
+    "leg_L_ankle": 0.0,
+    "leg_R_thigh": 0.0,
+    "leg_R_shin": 0.0,
+    "leg_R_ankle": 0.0,
+    "neck_yaw": 1.047198,
+    "head_pitch": 0.174533,
+    "beak": 0.436332,
+    "wing_L_sweep": 1.518436,
+    "wing_L_panel_in": 2.059489,
+    "wing_L_elbow": -3.036873,
+    "wing_L_panel_mid": 1.570796,
+    "wing_L_wrist": 3.071779,
+    "wing_L_panel_out": 1.675516,
+    "wing_R_sweep": 1.518436,
+    "wing_R_panel_in": 2.059489,
+    "wing_R_elbow": -3.036873,
+    "wing_R_panel_mid": 1.570796,
+    "wing_R_wrist": 3.071779,
+    "wing_R_panel_out": 1.675516,
+    "leg_L_yaw": 0.0,
+    "leg_R_yaw": 0.0
+   }
+  }
+ },
+ "aero_strips": [
+  {
+   "body": "tail_roll",
+   "pos": [
+    -0.03768,
+    0.07491,
+    -0.0
+   ],
+   "area_m2": 0.000492,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "tail_roll",
+   "pos": [
+    -0.01826,
+    0.08053,
+    -0.0
+   ],
+   "area_m2": 0.005535,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "tail_roll",
+   "pos": [
+    0.01826,
+    0.08053,
+    -0.0
+   ],
+   "area_m2": 0.005535,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "tail_roll",
+   "pos": [
+    0.03768,
+    0.07491,
+    -0.0
+   ],
+   "area_m2": 0.000492,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_in",
+   "pos": [
+    -0.0275,
+    0.02232,
+    0.00262
+   ],
+   "area_m2": 0.006242,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_in",
+   "pos": [
+    0.0175,
+    0.02232,
+    0.00262
+   ],
+   "area_m2": 0.006242,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_in",
+   "pos": [
+    0.0625,
+    0.02232,
+    0.00262
+   ],
+   "area_m2": 0.006242,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_in",
+   "pos": [
+    0.1075,
+    0.02232,
+    0.00262
+   ],
+   "area_m2": 0.006242,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_mid",
+   "pos": [
+    -0.03629,
+    0.02213,
+    0.0026
+   ],
+   "area_m2": 0.006553,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_mid",
+   "pos": [
+    0.01121,
+    0.02176,
+    0.00255
+   ],
+   "area_m2": 0.006482,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_mid",
+   "pos": [
+    0.05871,
+    0.02139,
+    0.00251
+   ],
+   "area_m2": 0.00641,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_mid",
+   "pos": [
+    0.10621,
+    0.02101,
+    0.00246
+   ],
+   "area_m2": 0.006339,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_out",
+   "pos": [
+    -0.02383,
+    0.02069,
+    0.00243
+   ],
+   "area_m2": 0.00958,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_out",
+   "pos": [
+    0.04832,
+    0.01942,
+    0.00228
+   ],
+   "area_m2": 0.009201,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_out",
+   "pos": [
+    0.12006,
+    0.01578,
+    0.00184
+   ],
+   "area_m2": 0.008087,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_L_panel_out",
+   "pos": [
+    0.18923,
+    0.00829,
+    0.00087
+   ],
+   "area_m2": 0.005416,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_in",
+   "pos": [
+    -0.1075,
+    0.02232,
+    0.00262
+   ],
+   "area_m2": 0.006242,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_in",
+   "pos": [
+    -0.0625,
+    0.02232,
+    0.00262
+   ],
+   "area_m2": 0.006242,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_in",
+   "pos": [
+    -0.0175,
+    0.02232,
+    0.00262
+   ],
+   "area_m2": 0.006242,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_in",
+   "pos": [
+    0.0275,
+    0.02232,
+    0.00262
+   ],
+   "area_m2": 0.006242,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_mid",
+   "pos": [
+    -0.10621,
+    0.02101,
+    0.00246
+   ],
+   "area_m2": 0.006339,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_mid",
+   "pos": [
+    -0.05871,
+    0.02139,
+    0.00251
+   ],
+   "area_m2": 0.00641,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_mid",
+   "pos": [
+    -0.01121,
+    0.02176,
+    0.00255
+   ],
+   "area_m2": 0.006482,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_mid",
+   "pos": [
+    0.03629,
+    0.02213,
+    0.0026
+   ],
+   "area_m2": 0.006553,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_out",
+   "pos": [
+    -0.18923,
+    0.00829,
+    0.00087
+   ],
+   "area_m2": 0.005416,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_out",
+   "pos": [
+    -0.12006,
+    0.01578,
+    0.00184
+   ],
+   "area_m2": 0.008087,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_out",
+   "pos": [
+    -0.04832,
+    0.01942,
+    0.00228
+   ],
+   "area_m2": 0.009201,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "body": "wing_R_panel_out",
+   "pos": [
+    0.02383,
+    0.02069,
+    0.00243
+   ],
+   "area_m2": 0.00958,
+   "normal": [
+    0,
+    0,
+    1
+   ]
+  }
+ ],
+ "mass_register": [
+  {
+   "object": "V7 | B01 | Rail upper L",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.55,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | B01 | Rail upper R",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.55,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | B01 | Rail lower L",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.55,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | B01 | Rail lower R",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.55,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | B02 | Neck bulkhead and servo cradle",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 4.58,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B03 | Mid bulkhead",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 2.87,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B04 | Tail bulkhead",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 4.32,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B05 | Tail boom",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.63,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | B06 | Hip servo mount L",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.46,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B06 | Hip servo mount R",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.46,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B07 | Battery tray",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 5.88,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B08 | Battery strap",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.75,
+   "basis": "CAD volume x TPU density 1.20 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | B09 | Front electronics deck",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 3.39,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B10 | Rear electronics deck",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 3.77,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B11 | Winder and speaker brackets",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 2.15,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | B12 | Tail servo saddle",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.97,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | G01 | Gearbox plate front",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 5.92,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | G01 | Gearbox plate rear",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 6.67,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | G08 | Gearbox spacers and through-bolts",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 2.49,
+   "basis": "CAD volume x AL density 2.70 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | G03 | Flap motor UNSELECTED",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 22.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | G06 | Crank shaft L",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 0.59,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | G06 | Crank shaft R",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 0.59,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | G07 | Conrod L",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 0.28,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | G07 | Conrod R",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 0.28,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | G05 | Crank gear L",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 2.13,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | G05 | Crank gear R",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 2.13,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | G04 | Compound 96T",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 1.35,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | G04 | Compound 24T",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 0.12,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | G04 | Motor 20T",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 0.06,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | G02 | Wing hinge pin L",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 0.49,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | G02 | Wing hinge pin R",
+   "body": "torso",
+   "group": "wings and flap drive",
+   "mass_g": 0.49,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | E01 | Battery UNSELECTED",
+   "body": "torso",
+   "group": "battery",
+   "mass_g": 45.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | E02 | Flight controller UNSELECTED",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 8.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | E03 | Motor controller UNSELECTED",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 8.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | E04 | Vision and audio computer UNSELECTED",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 12.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | E05 | Radio receiver UNSELECTED",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 3.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | E06 | Speaker and amp UNSELECTED",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 8.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | E07 | Microphone UNSELECTED",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 1.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | E08 | Wiring allowance",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 12.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | E10 | Charger and battery protection UNSELECTED",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 2.5,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | A02 | Chest keel",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 2.44,
+   "basis": "surface area 49 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A03 | Top hatch",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.78,
+   "basis": "surface area 36 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A04 | Back plate",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.1,
+   "basis": "surface area 22 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A05 | Flank panel L",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.63,
+   "basis": "surface area 33 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A06 | Shoulder cheek L",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.13,
+   "basis": "surface area 3 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A05 | Flank panel R",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.63,
+   "basis": "surface area 33 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A06 | Shoulder cheek R",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.13,
+   "basis": "surface area 3 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A01 | Breast plate",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 6.23,
+   "basis": "surface area 126 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A08 | Chest shield",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 1.27,
+   "basis": "surface area 26 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A09 | Breast vent inlays",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.12,
+   "basis": "surface area 4 cm2 x 0.50 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | A13 | Neck collar tube",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.85,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | A13b | Neck light ring UNSELECTED",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.5,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | A07 | Tail cone",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 3.57,
+   "basis": "surface area 72 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | T01 | Tail servo L UNSELECTED",
+   "body": "torso",
+   "group": "tail",
+   "mass_g": 4.5,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | T01 | Tail servo R UNSELECTED",
+   "body": "torso",
+   "group": "tail",
+   "mass_g": 4.5,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | T02 | Tail hub",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 1.88,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | T03 | Tail feather 1",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 0.44,
+   "basis": "surface area 40 cm2 x 110 g/m2 (assumed areal weight) film blade plus carbon shaft"
+  },
+  {
+   "object": "V7 | T03 | Tail feather 2",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 0.45,
+   "basis": "surface area 41 cm2 x 110 g/m2 (assumed areal weight) film blade plus carbon shaft"
+  },
+  {
+   "object": "V7 | T03 | Tail feather 3",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 0.47,
+   "basis": "surface area 43 cm2 x 110 g/m2 (assumed areal weight) film blade plus carbon shaft"
+  },
+  {
+   "object": "V7 | T03 | Tail feather 4",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 0.48,
+   "basis": "surface area 44 cm2 x 110 g/m2 (assumed areal weight) film blade plus carbon shaft"
+  },
+  {
+   "object": "V7 | T03 | Tail feather 5",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 0.47,
+   "basis": "surface area 43 cm2 x 110 g/m2 (assumed areal weight) film blade plus carbon shaft"
+  },
+  {
+   "object": "V7 | T03 | Tail feather 6",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 0.45,
+   "basis": "surface area 41 cm2 x 110 g/m2 (assumed areal weight) film blade plus carbon shaft"
+  },
+  {
+   "object": "V7 | T03 | Tail feather 7",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 0.44,
+   "basis": "surface area 40 cm2 x 110 g/m2 (assumed areal weight) film blade plus carbon shaft"
+  },
+  {
+   "object": "V7 | T04 | Tail aero reference",
+   "body": "tail_roll",
+   "group": "tail",
+   "mass_g": 0.0,
+   "basis": "reference surface"
+  },
+  {
+   "object": "V7 | W01 | Shoulder hinge block L",
+   "body": "wing_L_flap",
+   "group": "wings and flap drive",
+   "mass_g": 2.9,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | W01b | Shoulder riser L",
+   "body": "wing_L_flap",
+   "group": "wings and flap drive",
+   "mass_g": 0.25,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W03 | Arm yoke and elbow fork L",
+   "body": "wing_L_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 4.25,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W04 | Arm spar L",
+   "body": "wing_L_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 3.14,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W07 | Elbow pin L",
+   "body": "wing_L_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 0.71,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W05 | Fold servo L UNSELECTED",
+   "body": "wing_L_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 6.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | W08 | Elbow cord L",
+   "body": "wing_L_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 0.4,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | W09 | Forearm tongue and wrist fork L",
+   "body": "wing_L_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 4.07,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W10 | Forearm spar L",
+   "body": "wing_L_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 2.13,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W11 | Wrist pin L",
+   "body": "wing_L_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 0.42,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W12 | Wrist cord L",
+   "body": "wing_L_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 0.4,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | W13 | Hand tongue L",
+   "body": "wing_L_wrist",
+   "group": "wings and flap drive",
+   "mass_g": 1.78,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W14 | Hand spar L",
+   "body": "wing_L_wrist",
+   "group": "wings and flap drive",
+   "mass_g": 1.85,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W30 | Wing root cover L",
+   "body": "wing_L_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 0.46,
+   "basis": "surface area 14 cm2 x 0.60 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | W21 | Arm rib 1 L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W21 | Arm rib 2 L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W21 | Arm rib 3 L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W21 | Arm rib 4 L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W23 | Arm leading-edge rod and stringers L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.99,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W25 | Arm leading-edge fairing L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.11,
+   "basis": "surface area 16 cm2 x 70 g/m2 (assumed areal weight) thin printed skin"
+  },
+  {
+   "object": "V7 | W26 | Arm lesser coverts L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.61,
+   "basis": "surface area 55 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W27 | Arm greater coverts L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.86,
+   "basis": "surface area 79 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W28 | Arm secondaries L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 2.92,
+   "basis": "surface area 265 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W29 | Arm aero reference L",
+   "body": "wing_L_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.0,
+   "basis": "reference surface"
+  },
+  {
+   "object": "V7 | W15 | Elbow tuft L",
+   "body": "wing_L_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 0.43,
+   "basis": "surface area 39 cm2 x 110 g/m2 (assumed areal weight) film blades plus shafts"
+  },
+  {
+   "object": "V7 | W16 | Wrist tuft L",
+   "body": "wing_L_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 0.43,
+   "basis": "surface area 39 cm2 x 110 g/m2 (assumed areal weight) film blades plus shafts"
+  },
+  {
+   "object": "V7 | W31 | Forearm rib 1 L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.55,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W31 | Forearm rib 2 L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.55,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W31 | Forearm rib 3 L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.55,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W31 | Forearm rib 4 L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.54,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W33 | Forearm leading-edge rod and stringers L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 1.15,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W35 | Forearm leading-edge fairing L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.12,
+   "basis": "surface area 18 cm2 x 70 g/m2 (assumed areal weight) thin printed skin"
+  },
+  {
+   "object": "V7 | W36 | Forearm lesser coverts L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.75,
+   "basis": "surface area 68 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W37 | Forearm greater coverts L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 1.13,
+   "basis": "surface area 103 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W38 | Forearm secondaries L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 3.21,
+   "basis": "surface area 292 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W39 | Forearm aero reference L",
+   "body": "wing_L_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.0,
+   "basis": "reference surface"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 1 L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.51,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 2 L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.51,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 3 L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.49,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 4 L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.47,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 5 L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.43,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W43 | Hand leading-edge rod and stringers L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 1.6,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W45 | Hand leading-edge fairing L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.16,
+   "basis": "surface area 22 cm2 x 70 g/m2 (assumed areal weight) thin printed skin"
+  },
+  {
+   "object": "V7 | W46 | Hand lesser coverts L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.99,
+   "basis": "surface area 90 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W47 | Hand greater coverts L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 1.25,
+   "basis": "surface area 114 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W48 | Hand primaries L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 3.4,
+   "basis": "surface area 309 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W49 | Hand aero reference L",
+   "body": "wing_L_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.0,
+   "basis": "reference surface"
+  },
+  {
+   "object": "V7 | W01 | Shoulder hinge block R",
+   "body": "wing_R_flap",
+   "group": "wings and flap drive",
+   "mass_g": 2.9,
+   "basis": "Unioned closed CAD volume x assumed density 1.01 g/cm3"
+  },
+  {
+   "object": "V7 | W01b | Shoulder riser R",
+   "body": "wing_R_flap",
+   "group": "wings and flap drive",
+   "mass_g": 0.25,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W03 | Arm yoke and elbow fork R",
+   "body": "wing_R_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 4.25,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W04 | Arm spar R",
+   "body": "wing_R_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 3.14,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W07 | Elbow pin R",
+   "body": "wing_R_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 0.71,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W05 | Fold servo R UNSELECTED",
+   "body": "wing_R_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 6.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | W08 | Elbow cord R",
+   "body": "wing_R_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 0.4,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | W09 | Forearm tongue and wrist fork R",
+   "body": "wing_R_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 4.07,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W10 | Forearm spar R",
+   "body": "wing_R_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 2.13,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W11 | Wrist pin R",
+   "body": "wing_R_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 0.42,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W12 | Wrist cord R",
+   "body": "wing_R_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 0.4,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | W13 | Hand tongue R",
+   "body": "wing_R_wrist",
+   "group": "wings and flap drive",
+   "mass_g": 1.78,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W14 | Hand spar R",
+   "body": "wing_R_wrist",
+   "group": "wings and flap drive",
+   "mass_g": 1.85,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W30 | Wing root cover R",
+   "body": "wing_R_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 0.46,
+   "basis": "surface area 14 cm2 x 0.60 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | W21 | Arm rib 1 R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W21 | Arm rib 2 R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W21 | Arm rib 3 R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W21 | Arm rib 4 R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W23 | Arm leading-edge rod and stringers R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.99,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W25 | Arm leading-edge fairing R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.11,
+   "basis": "surface area 16 cm2 x 70 g/m2 (assumed areal weight) thin printed skin"
+  },
+  {
+   "object": "V7 | W26 | Arm lesser coverts R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.61,
+   "basis": "surface area 55 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W27 | Arm greater coverts R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.86,
+   "basis": "surface area 79 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W28 | Arm secondaries R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 2.92,
+   "basis": "surface area 265 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W29 | Arm aero reference R",
+   "body": "wing_R_panel_in",
+   "group": "wings and flap drive",
+   "mass_g": 0.0,
+   "basis": "reference surface"
+  },
+  {
+   "object": "V7 | W15 | Elbow tuft R",
+   "body": "wing_R_sweep",
+   "group": "wings and flap drive",
+   "mass_g": 0.43,
+   "basis": "surface area 39 cm2 x 110 g/m2 (assumed areal weight) film blades plus shafts"
+  },
+  {
+   "object": "V7 | W16 | Wrist tuft R",
+   "body": "wing_R_elbow",
+   "group": "wings and flap drive",
+   "mass_g": 0.43,
+   "basis": "surface area 39 cm2 x 110 g/m2 (assumed areal weight) film blades plus shafts"
+  },
+  {
+   "object": "V7 | W31 | Forearm rib 1 R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.55,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W31 | Forearm rib 2 R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.55,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W31 | Forearm rib 3 R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.55,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W31 | Forearm rib 4 R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.54,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W33 | Forearm leading-edge rod and stringers R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 1.15,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W35 | Forearm leading-edge fairing R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.12,
+   "basis": "surface area 18 cm2 x 70 g/m2 (assumed areal weight) thin printed skin"
+  },
+  {
+   "object": "V7 | W36 | Forearm lesser coverts R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.75,
+   "basis": "surface area 68 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W37 | Forearm greater coverts R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 1.13,
+   "basis": "surface area 103 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W38 | Forearm secondaries R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 3.21,
+   "basis": "surface area 292 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W39 | Forearm aero reference R",
+   "body": "wing_R_panel_mid",
+   "group": "wings and flap drive",
+   "mass_g": 0.0,
+   "basis": "reference surface"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 1 R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.51,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 2 R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.51,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 3 R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.49,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 4 R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.47,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W41 | Hand rib 5 R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.43,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W43 | Hand leading-edge rod and stringers R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 1.6,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | W45 | Hand leading-edge fairing R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.16,
+   "basis": "surface area 22 cm2 x 70 g/m2 (assumed areal weight) thin printed skin"
+  },
+  {
+   "object": "V7 | W46 | Hand lesser coverts R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.99,
+   "basis": "surface area 90 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W47 | Hand greater coverts R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 1.25,
+   "basis": "surface area 114 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W48 | Hand primaries R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 3.4,
+   "basis": "surface area 309 cm2 x 110 g/m2 (assumed areal weight) film blades plus carbon shafts"
+  },
+  {
+   "object": "V7 | W49 | Hand aero reference R",
+   "body": "wing_R_panel_out",
+   "group": "wings and flap drive",
+   "mass_g": 0.0,
+   "basis": "reference surface"
+  },
+  {
+   "object": "V7 | L00 | Jump winder gearmotor UNSELECTED",
+   "body": "torso",
+   "group": "legs",
+   "mass_g": 10.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L01 | Hip servo L UNSELECTED",
+   "body": "torso",
+   "group": "legs",
+   "mass_g": 14.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L02 | Thigh plate L",
+   "body": "leg_L_thigh",
+   "group": "legs",
+   "mass_g": 2.97,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L04 | Knee servo L UNSELECTED",
+   "body": "leg_L_thigh",
+   "group": "legs",
+   "mass_g": 14.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L06 | Shin bracket and truss L",
+   "body": "leg_L_shin",
+   "group": "legs",
+   "mass_g": 5.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L08 | Ankle servo L UNSELECTED",
+   "body": "leg_L_shin",
+   "group": "legs",
+   "mass_g": 9.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L09 | Knee jump spring L UNSELECTED",
+   "body": "torso",
+   "group": "legs",
+   "mass_g": 4.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L10 | Foot L",
+   "body": "leg_L_ankle",
+   "group": "legs",
+   "mass_g": 7.54,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L11 | Claws L",
+   "body": "leg_L_ankle",
+   "group": "legs",
+   "mass_g": 0.18,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L12 | Sole pad L",
+   "body": "leg_L_ankle",
+   "group": "legs",
+   "mass_g": 1.27,
+   "basis": "CAD volume x TPU density 1.20 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L01 | Hip servo R UNSELECTED",
+   "body": "torso",
+   "group": "legs",
+   "mass_g": 14.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L02 | Thigh plate R",
+   "body": "leg_R_thigh",
+   "group": "legs",
+   "mass_g": 2.97,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L04 | Knee servo R UNSELECTED",
+   "body": "leg_R_thigh",
+   "group": "legs",
+   "mass_g": 14.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L06 | Shin bracket and truss R",
+   "body": "leg_R_shin",
+   "group": "legs",
+   "mass_g": 5.58,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L08 | Ankle servo R UNSELECTED",
+   "body": "leg_R_shin",
+   "group": "legs",
+   "mass_g": 9.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L09 | Knee jump spring R UNSELECTED",
+   "body": "torso",
+   "group": "legs",
+   "mass_g": 4.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | L10 | Foot R",
+   "body": "leg_R_ankle",
+   "group": "legs",
+   "mass_g": 7.54,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L11 | Claws R",
+   "body": "leg_R_ankle",
+   "group": "legs",
+   "mass_g": 0.18,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | L12 | Sole pad R",
+   "body": "leg_R_ankle",
+   "group": "legs",
+   "mass_g": 1.27,
+   "basis": "CAD volume x TPU density 1.20 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | H01 | Neck yaw servo UNSELECTED",
+   "body": "torso",
+   "group": "head and neck",
+   "mass_g": 9.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H03 | Neck sockets and pitch servo cradle",
+   "body": "neck_yaw",
+   "group": "head and neck",
+   "mass_g": 2.46,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | H04 | Neck tube",
+   "body": "neck_yaw",
+   "group": "head and neck",
+   "mass_g": 0.4,
+   "basis": "CAD volume x CFRP density 1.55 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | H05 | Head pitch servo UNSELECTED",
+   "body": "neck_yaw",
+   "group": "head and neck",
+   "mass_g": 9.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H07 | Skull core",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 7.99,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | H27 | Upward distance sensor UNSELECTED",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 1.5,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H28 | Crown light ring UNSELECTED",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.4,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H12 | Upper beak",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 3.83,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | H18 | Jaw hinge pin",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.3,
+   "basis": "CAD volume x STEEL density 7.85 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | H14 | Lower beak",
+   "body": "beak",
+   "group": "head and neck",
+   "mass_g": 2.03,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | H16 | Beak servo UNSELECTED",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 3.5,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H17 | Beak tendon",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.1,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | H19 | Jaw return spring UNSELECTED",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.3,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H10 | Camera UNSELECTED",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 3.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H11 | Forward distance sensor UNSELECTED",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 1.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H10c | Sensor pad",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.07,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | H20 | Face shell",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 3.64,
+   "basis": "surface area 74 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | H21 | Rear shell",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 2.45,
+   "basis": "surface area 50 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | H22 | Forehead sensor bar",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.13,
+   "basis": "surface area 3 cm2 x 0.70 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | H25 | Cheek inlay L",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.09,
+   "basis": "surface area 3 cm2 x 0.60 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | H25 | Cheek inlay R",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.09,
+   "basis": "surface area 3 cm2 x 0.60 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | H31 | Beak collar",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.16,
+   "basis": "surface area 4 cm2 x 0.70 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | H32 | Neck ring trim",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.31,
+   "basis": "surface area 8 cm2 x 0.70 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | H26 | Top cap",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 1.02,
+   "basis": "surface area 21 cm2 x 0.90 mm wall x 0.55 g/cm3 (assumed) foamed LW-PLA"
+  },
+  {
+   "object": "V7 | H08 | Eye dome L",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 1.2,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | H09 | Eye light ring L UNSELECTED",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 1.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H24 | Eye highlight L",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.05,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | H08 | Eye dome R",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 1.2,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | H09 | Eye light ring R UNSELECTED",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 1.0,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | H24 | Eye highlight R",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.05,
+   "basis": "estimate"
+  },
+  {
+   "object": "V7 | H23 | Crest feather 1",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.05,
+   "basis": "surface area 5 cm2 x 110 g/m2 (assumed areal weight) film blade plus shaft"
+  },
+  {
+   "object": "V7 | H23 | Crest feather 2",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.04,
+   "basis": "surface area 4 cm2 x 110 g/m2 (assumed areal weight) film blade plus shaft"
+  },
+  {
+   "object": "V7 | H23 | Crest feather 3",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.04,
+   "basis": "surface area 4 cm2 x 110 g/m2 (assumed areal weight) film blade plus shaft"
+  },
+  {
+   "object": "V7 | H23 | Crest feather 4",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.03,
+   "basis": "surface area 3 cm2 x 110 g/m2 (assumed areal weight) film blade plus shaft"
+  },
+  {
+   "object": "V7 | H23 | Crest feather 5",
+   "body": "head_pitch",
+   "group": "head and neck",
+   "mass_g": 0.03,
+   "basis": "surface area 3 cm2 x 110 g/m2 (assumed areal weight) film blade plus shaft"
+  },
+  {
+   "object": "V7 | E09 | Charge contacts UNSELECTED",
+   "body": "torso",
+   "group": "electronics",
+   "mass_g": 0.8,
+   "basis": "weight target for an UNSELECTED component (budget figure, not a datasheet value)"
+  },
+  {
+   "object": "V7 | A10 | Armour clips and breast tabs",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 3.01,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | B13 | Hatch hinge and magnet latch",
+   "body": "torso",
+   "group": "body",
+   "mass_g": 0.48,
+   "basis": "CAD volume x PA12 density 1.01 g/cm3 (estimate)"
+  },
+  {
+   "object": "V7 | D01 | Dock base and contact post",
+   "body": "torso",
+   "group": "dock",
+   "mass_g": 0.0,
+   "basis": "not part of the bird"
+  },
+  {
+   "object": "V7 | D02 | Dock spring pins UNSELECTED",
+   "body": "torso",
+   "group": "dock",
+   "mass_g": 0.0,
+   "basis": "not part of the bird"
+  }
+ ],
+ "notes": "actuator limits are placeholders; masses are targets (UNSELECTED parts) or CAD estimates; wing strip forces act at the quarter-chord point"
+}

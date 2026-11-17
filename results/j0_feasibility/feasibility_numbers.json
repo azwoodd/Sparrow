@@ -1,0 +1,155 @@
+{
+ "variant": "v7e_stiffcontact",
+ "standing_height_m": 0.3389652341975605,
+ "highest_part": "mesh geom 102 on body head_pitch",
+ "mass_kg": 0.5198950000000001,
+ "com_height_standing_m": 0.18623158011133986,
+ "leg_hip_to_ankle_m": {
+  "standing": 0.14221462653327893,
+  "max_straight": 0.16946221994724903,
+  "min_at_knee_limit": 0.07420539263328704
+ },
+ "stroke_available_m": {
+  "from_standing_crouch_only_as_low_hop": 0.05500000000000001,
+  "full_knee_range": 0.09525682731396198
+ },
+ "targets": [
+  {
+   "target": "low hop today (30 mm)",
+   "foot_clearance_m": 0.03,
+   "energy_at_takeoff_J": 0.15300509850000005,
+   "takeoff_speed_m_s": 0.7672027111526654,
+   "flight_time_s": 0.15641237740115502,
+   "landing_speed_m_s": 0.7672027111526654,
+   "stroke_55mm": {
+    "mean_force_N": 7.882080831818184,
+    "mean_force_bodyweights": 1.5454545454545454,
+    "push_time_s_approx": 0.14337801261772543,
+    "mean_power_W": 3.023576891847683
+   },
+   "stroke_full_95mm": {
+    "mean_force_N": 6.706407558520202,
+    "mean_force_bodyweights": 1.3149380558426687,
+    "push_time_s_approx": 0.24832244706446785,
+    "mean_power_W": 2.5725870304957135
+   }
+  },
+  {
+   "target": "1x height",
+   "foot_clearance_m": 0.3389652341975605,
+   "energy_at_takeoff_J": 1.728780301549111,
+   "takeoff_speed_m_s": 2.5788559275299074,
+   "flight_time_s": 0.5257606376207762,
+   "landing_speed_m_s": 2.5788559275299074,
+   "stroke_55mm": {
+    "mean_force_N": 36.532539069074744,
+    "mean_force_bodyweights": 7.163004258137463,
+    "push_time_s_approx": 0.04265457361371899,
+    "mean_power_W": 47.10607746300067
+   },
+   "stroke_full_95mm": {
+    "mean_force_N": 23.24879352163265,
+    "mean_force_bodyweights": 4.558435061881152,
+    "push_time_s_approx": 0.07387526096132198,
+    "mean_power_W": 29.977644490590638
+   }
+  },
+  {
+   "target": "2x height",
+   "foot_clearance_m": 0.677930468395121,
+   "energy_at_takeoff_J": 3.457560603098222,
+   "takeoff_speed_m_s": 3.6470530281190423,
+   "flight_time_s": 0.7435378242852277,
+   "landing_speed_m_s": 3.6470530281190423,
+   "stroke_55mm": {
+    "mean_force_N": 67.9649081881495,
+    "mean_force_bodyweights": 13.326008516274928,
+    "push_time_s_approx": 0.03016133825088148,
+    "mean_power_W": 123.93581210671165
+   },
+   "stroke_full_95mm": {
+    "mean_force_N": 41.3974170932653,
+    "mean_force_bodyweights": 8.116870123762304,
+    "push_time_s_approx": 0.05223769798767661,
+    "mean_power_W": 75.4892876831501
+   }
+  },
+  {
+   "target": "3x height",
+   "foot_clearance_m": 1.0168957025926817,
+   "energy_at_takeoff_J": 5.186340904647333,
+   "takeoff_speed_m_s": 4.4667094918819625,
+   "flight_time_s": 0.9106441369789934,
+   "landing_speed_m_s": 4.4667094918819625,
+   "stroke_55mm": {
+    "mean_force_N": 99.39727730722424,
+    "mean_force_bodyweights": 19.48901277441239,
+    "push_time_s_approx": 0.024626629558049364,
+    "mean_power_W": 221.98938100770107
+   },
+   "stroke_full_95mm": {
+    "mean_force_N": 59.546040664897944,
+    "mean_force_bodyweights": 11.675305185643456,
+    "push_time_s_approx": 0.042651901802473094,
+    "mean_power_W": 132.9874325209445
+   }
+  }
+ ],
+ "servo_only_energy_upper_bound_J": {
+  "knees_2x0.35Nm_over_1.13rad": 0.794122,
+  "hips_2x0.35Nm_over_1.0rad": 0.7,
+  "ankles_2x0.2Nm_over_1.0rad": 0.4,
+  "note": "upper bound: full torque over full travel, no speed limit, no losses"
+ },
+ "spring_mass_g": {
+  "low hop today (30 mm)": {
+   "steel torsion/compression spring (~100 J/kg usable)": 2.2950764775000008,
+   "CFRP/glass leaf or bow spring (~500 J/kg usable)": 0.45901529550000014,
+   "natural rubber / latex in tension (~2000 J/kg usable)": 0.11475382387500004
+  },
+  "1x height": {
+   "steel torsion/compression spring (~100 J/kg usable)": 25.931704523236668,
+   "CFRP/glass leaf or bow spring (~500 J/kg usable)": 5.186340904647333,
+   "natural rubber / latex in tension (~2000 J/kg usable)": 1.2965852261618334
+  },
+  "2x height": {
+   "steel torsion/compression spring (~100 J/kg usable)": 51.863409046473336,
+   "CFRP/glass leaf or bow spring (~500 J/kg usable)": 10.372681809294667,
+   "natural rubber / latex in tension (~2000 J/kg usable)": 2.5931704523236667
+  },
+  "3x height": {
+   "steel torsion/compression spring (~100 J/kg usable)": 77.79511356971,
+   "CFRP/glass leaf or bow spring (~500 J/kg usable)": 15.559022713942001,
+   "natural rubber / latex in tension (~2000 J/kg usable)": 3.8897556784855003
+  }
+ },
+ "winding_time_s_at_shaft_power": {
+  "low hop today (30 mm)": {
+   "0.5 W": 0.9180305910000003,
+   "1.0 W": 0.45901529550000014,
+   "2.0 W": 0.22950764775000007
+  },
+  "1x height": {
+   "0.5 W": 10.372681809294665,
+   "1.0 W": 5.1863409046473326,
+   "2.0 W": 2.5931704523236663
+  },
+  "2x height": {
+   "0.5 W": 20.74536361858933,
+   "1.0 W": 10.372681809294665,
+   "2.0 W": 5.1863409046473326
+  },
+  "3x height": {
+   "0.5 W": 31.118045427884,
+   "1.0 W": 15.559022713942,
+   "2.0 W": 7.779511356971
+  }
+ },
+ "assumptions": [
+  "jump height = foot clearance above ground",
+  "spring sized for 1.5x take-off energy (losses in legs, foot mass, friction)",
+  "winder efficiency 50% (small gearmotor + cord/cam)",
+  "no aerodynamic help",
+  "mass fixed at model mass; extra hardware NOT yet added"
+ ]
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Work\Documents\Codex\2026-11-14\d-downloads-sparrow-locomotion-engineering-v1-2\work\flight_startup_study.py", line 160, in <module>
+    worker() if len(sys.argv)>1 and sys.argv[1]=='worker' else main()
+    ^^^^^^^^
+  File "C:\Users\Work\Documents\Codex\2026-11-14\d-downloads-sparrow-locomotion-engineering-v1-2\work\flight_startup_study.py", line 47, in worker
+    a=original(t,3.5,.8,.07,.5,(4.,1.))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: wing_forces() missing 1 required positional argument: 'cn_stall'

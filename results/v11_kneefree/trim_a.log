@@ -1,0 +1,3 @@
+﻿E=2.0J rho=-1.4 dy_c=-20mm: good/5 by trim -0.35:0 -0.21:0 -0.07:2 +0.07:3 +0.21:3 +0.35:1  best 3/5 at +0.07: clearance 72-82 mm, forward up to 137 mm, landing force up to 102 N
+E=2.4J rho=-1.3 dy_c=-25mm: good/5 by trim -0.35:1 -0.21:1 -0.07:1 +0.07:2 +0.21:2 +0.35:1  best 2/5 at +0.07: clearance 101-112 mm, forward up to 146 mm, landing force up to 189 N
+E=1.6J rho=-1.8 dy_c=-20mm: good/5 by trim -0.35:5 -0.21:5 -0.07:5 +0.07:4 +0.21:1 +0.35:0  best 5/5 at -0.35: clearance 44-53 mm, forward up to 96 mm, landing force up to 82 N

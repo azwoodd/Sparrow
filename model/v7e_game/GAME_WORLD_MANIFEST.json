@@ -1,0 +1,30 @@
+{
+ "built_from": "model/v7e_bispring",
+ "robot_changed": false,
+ "static_objects": 51,
+ "balls": 3,
+ "keyframes_extended": 7,
+ "spawns": {
+  "start": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "tower": [
+   0.0,
+   5.75,
+   12.0
+  ],
+  "ledge": [
+   -1.2,
+   -1.0,
+   0.3
+  ],
+  "open": [
+   3.0,
+   2.0,
+   0.0
+  ]
+ },
+ "note": "floor enlarged for flying; every added geom is named env_*"
+}

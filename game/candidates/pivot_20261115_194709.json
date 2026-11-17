@@ -1,0 +1,28 @@
+{
+ "task": "pivot",
+ "description": "Turning on the spot (experimental, off by default)",
+ "unit": "deg",
+ "target": null,
+ "when": "2026-11-15 20:22",
+ "score": -0.12243945304782398,
+ "start_score": -0.12243945304782398,
+ "settings": {
+  "pivot_stride": 0.004,
+  "walk.lift": 0.012
+ },
+ "history": [
+  -0.12243945304782398,
+  -0.12243945304782398,
+  -0.12243945304782398,
+  -0.12243945304782398,
+  -0.12243945304782398,
+  -0.12243945304782398,
+  -0.12243945304782398,
+  -0.12243945304782398,
+  -0.12243945304782398
+ ],
+ "generation": 8,
+ "validated": "5/5 conditions without a fall, score -6.1",
+ "routine": "4/5 conditions completed the full routine",
+ "done": true
+}

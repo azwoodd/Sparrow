@@ -1,0 +1,36 @@
+slot,group,target_g,part,real_g,conf,price_lo,price_hi,note
+G03 | Flap motor,wings and flap drive,22.0,"1806-size brushless outrunner, ~2300 KV",21.0,S,12,25,listings give 18-22 g and 80-170 W
+E01 | Battery,battery,45.0,Tattu 2S 650 mAh 75C LiPo (4.8 Wh),43.0,S,9,15,57 x 31 x 12 mm
+E02 | Flight controller,electronics,8.0,ESP32-S3 module + 9-axis IMU breakout,6.0,K,20,40,must also drive 13 servos + bus
+E03 | Motor controller,electronics,8.0,12-20 A brushless ESC,6.0,K,10,20,
+E04 | Vision and audio computer,electronics,12.0,Raspberry Pi Zero 2 W,11.0,K,15,20,
+E05 | Radio receiver,electronics,3.0,ExpressLRS nano receiver,1.0,K,10,20,
+E06 | Speaker and amp,electronics,8.0,I2S amp board + 20 mm speaker,6.0,K,8,15,
+E07 | Microphone,electronics,1.0,I2S MEMS microphone breakout,1.0,K,4,8,
+E08 | Wiring allowance,electronics,12.0,"wiring, connectors",12.0,T,10,20,allowance kept
+E10 | Charger and battery protection,electronics,2.5,2S protection/balance board,2.5,T,3,8,
+A13b | Neck light ring,body,0.5,addressable LED ring,0.5,T,3,6,target kept
+T01 | Tail servo L,tail,4.5,4-5 g digital sub-micro servo (EMAX ES9051 class),4.3,K,5,10,"about 0.08 Nm, model asks 0.10 Nm"
+T01 | Tail servo R,tail,4.5,4-5 g digital sub-micro servo (EMAX ES9051 class),4.3,K,5,10,"about 0.08 Nm, model asks 0.10 Nm"
+W05 | Fold servo L,wings and flap drive,6.0,KST X08H V6 (about 0.27 Nm at 8.4 V),8.0,K,35,45,model asks 0.30 Nm; 2 g over target each
+W05 | Fold servo R,wings and flap drive,6.0,KST X08H V6 (about 0.27 Nm at 8.4 V),8.0,K,35,45,model asks 0.30 Nm; 2 g over target each
+L00 | Jump winder gearmotor,legs,10.0,"N20-size metal gearmotor, 6 V",10.0,K,5,15,ratio depends on spring energy and winding time
+L01 | Hip servo L,legs,14.0,"KST X08H Plus (0.52 Nm at 8.4 V, 11.6 rad/s)",9.5,S,40,55,"needs 2S supply; PWM only, no readback"
+L04 | Knee servo L,legs,14.0,KST X08H Plus,9.5,S,40,55,same part as hip
+L08 | Ankle servo L,legs,9.0,"Feetech SCS0009 (0.23 Nm at 6 V, serial bus)",9.0,S,15,19,speed not listed; needs 6 V rail
+L09 | Knee jump spring L,legs,4.0,NOT SELECTABLE YET - see spring note,4.0,T,2,10,2.2-3.3 J total needed
+L01 | Hip servo R,legs,14.0,"KST X08H Plus (0.52 Nm at 8.4 V, 11.6 rad/s)",9.5,S,40,55,"needs 2S supply; PWM only, no readback"
+L04 | Knee servo R,legs,14.0,KST X08H Plus,9.5,S,40,55,same part as hip
+L08 | Ankle servo R,legs,9.0,"Feetech SCS0009 (0.23 Nm at 6 V, serial bus)",9.0,S,15,19,speed not listed; needs 6 V rail
+L09 | Knee jump spring R,legs,4.0,NOT SELECTABLE YET - see spring note,4.0,T,2,10,2.2-3.3 J total needed
+H01 | Neck yaw servo,head and neck,9.0,Feetech SCS0009,9.0,S,15,19,
+H05 | Head pitch servo,head and neck,9.0,Feetech SCS0009,9.0,S,15,19,
+H27 | Upward distance sensor,head and neck,1.5,VL53L1X time-of-flight breakout,1.5,K,8,15,
+H28 | Crown light ring,head and neck,0.4,addressable LED ring,0.4,T,3,6,target kept
+H16 | Beak servo,head and neck,3.5,3.7 g sub-micro servo,3.7,K,5,12,
+H19 | Jaw return spring,head and neck,0.3,small extension spring,0.3,T,1,2,
+H10 | Camera,head and neck,3.0,Pi Zero camera module,3.0,K,10,25,
+H11 | Forward distance sensor,head and neck,1.0,VL53L1X time-of-flight breakout,1.0,K,8,15,
+H09 | Eye light ring L,head and neck,1.0,addressable LED ring,1.0,T,3,6,target kept
+H09 | Eye light ring R,head and neck,1.0,addressable LED ring,1.0,T,3,6,target kept
+E09 | Charge contacts,electronics,0.8,pogo contacts,0.8,T,2,5,

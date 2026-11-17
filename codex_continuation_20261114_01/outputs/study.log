@@ -1,0 +1,9 @@
+Baseline {"stage": "baseline", "area": 2, "mass": 0.529, "phi": 45, "E": 13, "f": 4.5, "tw": 50, "b0": 40, "be": 15, "cn": 1.6, "eta": 0.7, "dt": 0.002, "T": 5, "eff": 0.8, "delay": 0.15, "angle": 45, "ok": true, "forward_ok": true, "hmin": 0.7135400875504182, "end": [5.001999999999671, 10.91017836897137, 3.81678386498872, 8.52015219267925, 3.3733768803469335], "aero_W": 54.071686412958826, "torque_Nm": 6.354576885084519, "metrics": {"1.0": {"peak_torque_per_wing_Nm": 6.354576885084519, "positive_mech_both_W": 61.99635879611884, "rms_torque_per_wing_Nm": 3.1926151300768053, "peak_positive_mech_both_W": 218.9323596751555}, "0.5": {"peak_torque_per_wing_Nm": 5.144437801681899, "positive_mech_both_W": 56.23791535589739, "rms_torque_per_wing_Nm": 2.4320797395662943, "peak_positive_mech_both_W": 192.0005771894282}, "0.25": {"peak_torque_per_wing_Nm": 4.608703206153606, "positive_mech_both_W": 54.65687111176527, "rms_torque_per_wing_Nm": 2.160103419000884, "peak_positive_mech_both_W": 180.136935139441}}, "wall_s": 0.23777180002070963, "wing_area_m2": 0.33214400000000005, "span_m": 1.42, "vx0": 4.433930011819813, "vz0": 4.433930011819813}
+completed 18 cases
+completed 36 cases
+completed 54 cases
+completed 72 cases
+completed 90 cases
+completed 108 cases
+Selected sensitivity candidate {"area": 3.0, "mass": 0.559, "phi": 45, "E": 13, "f": 3.5, "tw": 50, "b0": 40, "be": 15}
+FINISHED 139

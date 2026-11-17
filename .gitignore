@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# raw per-step simulation traces (45 MB); every result folder keeps its JSON/Markdown summaries
+results/**/*.csv
+
+# training by-products: keep each run's final model.zip, vecnormalize.pkl, progress.csv, config and evaluation
+game/brain/runs/*/checkpoints/
+game/logs/
+game/_try_skills.json
+game/train_smoke.log
+
+# never commit the owner's master CAD
+*.blend
+*.blend1

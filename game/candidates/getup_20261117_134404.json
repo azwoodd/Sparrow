@@ -1,0 +1,34 @@
+{
+ "task": "getup",
+ "description": "Get back up after falling backwards, left or right",
+ "unit": "points",
+ "target": null,
+ "when": "2026-11-17 14:53",
+ "score": -238.60022561701908,
+ "start_score": -241.29501726337057,
+ "settings": {
+  "getup.crouch_thigh": 0.9860747834968709,
+  "getup.crouch_knee": 0.9139010595920969,
+  "getup.done_tilt_deg": 27.194576872511625,
+  "getup.rise_time": 1.187043479995817,
+  "getup.rise_kp": 0.7130471501552513,
+  "getup.rise_kd": 0.109936153166831,
+  "getup.push_flap": -0.5270796884332074,
+  "getup.sit_head": -0.3034543062355855
+ },
+ "history": [
+  -241.29501726337057,
+  -238.80849663286142,
+  -238.80849663286142,
+  -238.77704522495958,
+  -238.77123837384957,
+  -238.6910705710893,
+  -238.6910705710893,
+  -238.68463554584346,
+  -238.64505162330065,
+  -238.60022561701908
+ ],
+ "generation": 9,
+ "validated": null,
+ "routine": null
+}

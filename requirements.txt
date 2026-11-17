@@ -1,0 +1,8 @@
+# Python 3.12. Versions are the ones this project was developed and tested with (17 Nov 2026).
+mujoco==4.0.0
+numpy==2.5.4
+gymnasium==1.4.0
+stable-baselines3==2.9.2
+torch==2.15.0          # CPU build is enough: training is simulation-bound, not network-bound
+matplotlib
+psutil                 # optional: CPU/RAM readout and memory guard in game/brain/train_brain.py

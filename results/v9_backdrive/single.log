@@ -1,0 +1,28 @@
+﻿=== bi_E080 (E 0.8 J per leg), no re-tuning
+  as validated                   5/5 good  clearance  59.9- 64.5 mm  max tilt after  13.9  | nominal: spring gave 2.02 J, drag took 0.66 J, rotors hold 0.00 J at take-off, vz 1.20 m/s, L +0.4 mNms
+  rotor inertia 1e-4             2/5 good  clearance  59.5- 62.6 mm  max tilt after  66.9  | nominal: spring gave 2.00 J, drag took 0.69 J, rotors hold 0.03 J at take-off, vz 1.17 m/s, L +2.4 mNms
+  rotor inertia 3e-4             0/5 good  clearance  53.7- 60.4 mm  max tilt after  75.2  | nominal: spring gave 1.86 J, drag took 0.56 J, rotors hold 0.21 J at take-off, vz 1.13 m/s, L +6.2 mNms
+  rotor inertia 1e-3             0/5 good  clearance  33.1- 46.1 mm  max tilt after  76.4  | nominal: spring gave 2.06 J, drag took 0.76 J, rotors hold 0.52 J at take-off, vz 0.97 m/s, L +7.2 mNms
+  dry friction 0.02 Nm           5/5 good  clearance  57.4- 62.5 mm  max tilt after  13.9  | nominal: spring gave 1.96 J, drag took 0.68 J, rotors hold 0.00 J at take-off, vz 1.18 m/s, L +1.6 mNms
+  dry friction 0.035 Nm          5/5 good  clearance  56.0- 61.2 mm  max tilt after  15.0  | nominal: spring gave 1.94 J, drag took 0.72 J, rotors hold 0.00 J at take-off, vz 1.17 m/s, L +1.6 mNms
+  dry friction 0.07 Nm           5/5 good  clearance  52.7- 57.2 mm  max tilt after  18.8  | nominal: spring gave 1.88 J, drag took 0.76 J, rotors hold 0.00 J at take-off, vz 1.14 m/s, L +2.7 mNms
+  back-EMF, no-load 14 rad/s     2/5 good  clearance  52.5- 55.9 mm  max tilt after  70.0  | nominal: spring gave 1.91 J, drag took 0.73 J, rotors hold 0.00 J at take-off, vz 1.12 m/s, L +2.4 mNms
+  back-EMF, no-load 10.5 rad/s   0/5 good  clearance  43.5- 48.2 mm  max tilt after  71.0  | nominal: spring gave 1.69 J, drag took 0.79 J, rotors hold 0.00 J at take-off, vz 1.05 m/s, L +5.1 mNms
+  back-EMF, no-load 7.5 rad/s    0/5 good  clearance  35.3- 38.3 mm  max tilt after  70.7  | nominal: spring gave 1.65 J, drag took 0.93 J, rotors hold 0.00 J at take-off, vz 0.96 m/s, L +5.6 mNms
+  LIGHT servo (all three)        0/5 good  clearance  48.8- 53.2 mm  max tilt after  71.8  | nominal: spring gave 1.72 J, drag took 0.75 J, rotors hold 0.03 J at take-off, vz 1.09 m/s, L +4.9 mNms
+  TYPICAL servo (all three)      0/5 good  clearance  35.1- 39.7 mm  max tilt after  73.3  | nominal: spring gave 1.66 J, drag took 0.77 J, rotors hold 0.14 J at take-off, vz 0.98 m/s, L +6.4 mNms
+  HEAVY servo (all three)        0/5 good  clearance  18.8- 21.6 mm  max tilt after  67.7  | nominal: spring gave 1.68 J, drag took 0.92 J, rotors hold 0.38 J at take-off, vz 0.77 m/s, L +6.7 mNms
+=== bi_E110 (E 1.1 J per leg), no re-tuning
+  as validated                   5/5 good  clearance  94.8-101.0 mm  max tilt after  15.2  | nominal: spring gave 2.26 J, drag took 0.87 J, rotors hold 0.00 J at take-off, vz 1.47 m/s, L -0.1 mNms
+  rotor inertia 1e-4             5/5 good  clearance  87.8- 95.3 mm  max tilt after  11.2  | nominal: spring gave 2.25 J, drag took 0.96 J, rotors hold 0.03 J at take-off, vz 1.44 m/s, L +1.0 mNms
+  rotor inertia 3e-4             0/5 good  clearance  73.7- 81.6 mm  max tilt after  76.1  | nominal: spring gave 2.21 J, drag took 0.84 J, rotors hold 0.26 J at take-off, vz 1.34 m/s, L +4.7 mNms
+  rotor inertia 1e-3             0/5 good  clearance  44.9- 56.8 mm  max tilt after  77.3  | nominal: spring gave 2.19 J, drag took 0.77 J, rotors hold 0.80 J at take-off, vz 1.13 m/s, L +7.5 mNms
+  dry friction 0.02 Nm           5/5 good  clearance  90.7- 98.6 mm  max tilt after  12.2  | nominal: spring gave 2.25 J, drag took 0.92 J, rotors hold 0.00 J at take-off, vz 1.48 m/s, L +0.2 mNms
+  dry friction 0.035 Nm          5/5 good  clearance  89.4- 96.6 mm  max tilt after  11.0  | nominal: spring gave 2.24 J, drag took 0.98 J, rotors hold 0.00 J at take-off, vz 1.48 m/s, L +0.7 mNms
+  dry friction 0.07 Nm           5/5 good  clearance  85.6- 93.5 mm  max tilt after  17.6  | nominal: spring gave 2.24 J, drag took 1.03 J, rotors hold 0.00 J at take-off, vz 1.44 m/s, L +1.3 mNms
+  back-EMF, no-load 14 rad/s     4/5 good  clearance  82.5- 87.7 mm  max tilt after  21.1  | nominal: spring gave 2.24 J, drag took 1.00 J, rotors hold 0.00 J at take-off, vz 1.42 m/s, L +1.3 mNms
+  back-EMF, no-load 10.5 rad/s   2/5 good  clearance  65.2- 71.0 mm  max tilt after  73.1  | nominal: spring gave 2.22 J, drag took 1.06 J, rotors hold 0.00 J at take-off, vz 1.28 m/s, L +3.0 mNms
+  back-EMF, no-load 7.5 rad/s    0/5 good  clearance  49.8- 53.9 mm  max tilt after  75.7  | nominal: spring gave 2.19 J, drag took 1.22 J, rotors hold 0.00 J at take-off, vz 1.15 m/s, L +5.3 mNms
+  LIGHT servo (all three)        1/5 good  clearance  72.8- 79.7 mm  max tilt after  76.2  | nominal: spring gave 2.20 J, drag took 1.04 J, rotors hold 0.03 J at take-off, vz 1.34 m/s, L +3.5 mNms
+  TYPICAL servo (all three)      0/5 good  clearance  56.9- 61.8 mm  max tilt after  76.6  | nominal: spring gave 2.18 J, drag took 1.09 J, rotors hold 0.16 J at take-off, vz 1.17 m/s, L +6.7 mNms
+  HEAVY servo (all three)        0/5 good  clearance  26.9- 32.8 mm  max tilt after  74.9  | nominal: spring gave 2.17 J, drag took 1.33 J, rotors hold 0.45 J at take-off, vz 0.92 m/s, L +7.3 mNms

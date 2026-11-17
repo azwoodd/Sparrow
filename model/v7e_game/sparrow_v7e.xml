@@ -1,0 +1,464 @@
+<mujoco model="sparrow_v7e_game">
+  <compiler angle="radian" autolimits="true"/>
+  <option timestep="0.001" integrator="implicitfast"/>
+  <visual><global offwidth="1280" offheight="800"/></visual>
+  <default>
+    <default class="vis"><geom contype="0" conaffinity="0" group="2" density="0"/></default>
+    <default class="col"><geom contype="1" conaffinity="0" group="3" density="0" rgba="1 0 0 0.3" solref="0.004 1"/></default>
+  </default>
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" rgb1="0.82 0.84 0.86" rgb2="0.74 0.76 0.78" width="256" height="256"/>
+    <material name="grid" texture="grid" texrepeat="107 107" reflectance="0.05"/>
+    <material name="mat0" rgba="0.96 0.5 0.08 1"/>
+    <material name="mat1" rgba="0.23 0.25 0.3 1"/>
+    <material name="mat2" rgba="0.62 0.47 0.34 1"/>
+    <material name="mat3" rgba="0.93 0.87 0.75 1"/>
+    <material name="mat4" rgba="0.85 0.65 0.2 1"/>
+    <material name="mat5" rgba="0.06 0.06 0.07 1"/>
+    <material name="mat6" rgba="0.8 0.15 0.12 1"/>
+    <material name="mat7" rgba="0 0.85 0.8 1"/>
+    <material name="mat8" rgba="0.92 0.92 0.9 1"/>
+    <material name="mat9" rgba="0.24 0.25 0.28 1"/>
+    <material name="mat10" rgba="0.12 0.12 0.12 1"/>
+    <material name="mat11" rgba="0.62 0.64 0.68 1"/>
+    <material name="mat12" rgba="0.75 0.68 0.1 1"/>
+    <material name="mat13" rgba="0.1 0.42 0.22 1"/>
+    <material name="mat14" rgba="0.7 0.36 0.12 1"/>
+    <material name="mat15" rgba="0.33 0.4 0.53 1"/>
+    <material name="mat16" rgba="0.01 0.012 0.016 1"/>
+    <material name="mat17" rgba="0.86 0.8 0.69 1"/>
+    <material name="mat18" rgba="0.3 0.37 0.5 1"/>
+    <material name="mat19" rgba="0.02 0.02 0.03 1"/>
+    <material name="mat20" rgba="1 1 1 1"/>
+    <mesh name="torso_0" file="meshes/torso_0.stl" inertia="shell"/>
+    <mesh name="torso_1" file="meshes/torso_1.stl" inertia="shell"/>
+    <mesh name="torso_2" file="meshes/torso_2.stl" inertia="shell"/>
+    <mesh name="torso_3" file="meshes/torso_3.stl" inertia="shell"/>
+    <mesh name="torso_4" file="meshes/torso_4.stl" inertia="shell"/>
+    <mesh name="torso_5" file="meshes/torso_5.stl" inertia="shell"/>
+    <mesh name="torso_6" file="meshes/torso_6.stl" inertia="shell"/>
+    <mesh name="torso_7" file="meshes/torso_7.stl" inertia="shell"/>
+    <mesh name="torso_8" file="meshes/torso_8.stl" inertia="shell"/>
+    <mesh name="torso_9" file="meshes/torso_9.stl" inertia="shell"/>
+    <mesh name="torso_10" file="meshes/torso_10.stl" inertia="shell"/>
+    <mesh name="torso_11" file="meshes/torso_11.stl" inertia="shell"/>
+    <mesh name="torso_12" file="meshes/torso_12.stl" inertia="shell"/>
+    <mesh name="torso_13" file="meshes/torso_13.stl" inertia="shell"/>
+    <mesh name="torso_14" file="meshes/torso_14.stl" inertia="shell"/>
+    <mesh name="torso_15" file="meshes/torso_15.stl" inertia="shell"/>
+    <mesh name="torso_16" file="meshes/torso_16.stl" inertia="shell"/>
+    <mesh name="tail_roll_0" file="meshes/tail_roll_0.stl" inertia="shell"/>
+    <mesh name="tail_roll_1" file="meshes/tail_roll_1.stl" inertia="shell"/>
+    <mesh name="tail_roll_2" file="meshes/tail_roll_2.stl" inertia="shell"/>
+    <mesh name="wing_L_flap_0" file="meshes/wing_L_flap_0.stl" inertia="shell"/>
+    <mesh name="wing_R_flap_0" file="meshes/wing_R_flap_0.stl" inertia="shell"/>
+    <mesh name="leg_L_thigh_0" file="meshes/leg_L_thigh_0.stl" inertia="shell"/>
+    <mesh name="leg_L_thigh_1" file="meshes/leg_L_thigh_1.stl" inertia="shell"/>
+    <mesh name="leg_L_shin_0" file="meshes/leg_L_shin_0.stl" inertia="shell"/>
+    <mesh name="leg_L_shin_1" file="meshes/leg_L_shin_1.stl" inertia="shell"/>
+    <mesh name="leg_L_ankle_0" file="meshes/leg_L_ankle_0.stl" inertia="shell"/>
+    <mesh name="leg_L_ankle_1" file="meshes/leg_L_ankle_1.stl" inertia="shell"/>
+    <mesh name="leg_L_ankle_2" file="meshes/leg_L_ankle_2.stl" inertia="shell"/>
+    <mesh name="leg_R_thigh_0" file="meshes/leg_R_thigh_0.stl" inertia="shell"/>
+    <mesh name="leg_R_thigh_1" file="meshes/leg_R_thigh_1.stl" inertia="shell"/>
+    <mesh name="leg_R_shin_0" file="meshes/leg_R_shin_0.stl" inertia="shell"/>
+    <mesh name="leg_R_shin_1" file="meshes/leg_R_shin_1.stl" inertia="shell"/>
+    <mesh name="leg_R_ankle_0" file="meshes/leg_R_ankle_0.stl" inertia="shell"/>
+    <mesh name="leg_R_ankle_1" file="meshes/leg_R_ankle_1.stl" inertia="shell"/>
+    <mesh name="leg_R_ankle_2" file="meshes/leg_R_ankle_2.stl" inertia="shell"/>
+    <mesh name="neck_yaw_0" file="meshes/neck_yaw_0.stl" inertia="shell"/>
+    <mesh name="neck_yaw_1" file="meshes/neck_yaw_1.stl" inertia="shell"/>
+    <mesh name="neck_yaw_2" file="meshes/neck_yaw_2.stl" inertia="shell"/>
+    <mesh name="head_pitch_0" file="meshes/head_pitch_0.stl" inertia="shell"/>
+    <mesh name="head_pitch_1" file="meshes/head_pitch_1.stl" inertia="shell"/>
+    <mesh name="head_pitch_2" file="meshes/head_pitch_2.stl" inertia="shell"/>
+    <mesh name="head_pitch_3" file="meshes/head_pitch_3.stl" inertia="shell"/>
+    <mesh name="head_pitch_4" file="meshes/head_pitch_4.stl" inertia="shell"/>
+    <mesh name="head_pitch_5" file="meshes/head_pitch_5.stl" inertia="shell"/>
+    <mesh name="head_pitch_6" file="meshes/head_pitch_6.stl" inertia="shell"/>
+    <mesh name="head_pitch_7" file="meshes/head_pitch_7.stl" inertia="shell"/>
+    <mesh name="head_pitch_8" file="meshes/head_pitch_8.stl" inertia="shell"/>
+    <mesh name="head_pitch_9" file="meshes/head_pitch_9.stl" inertia="shell"/>
+    <mesh name="head_pitch_10" file="meshes/head_pitch_10.stl" inertia="shell"/>
+    <mesh name="head_pitch_11" file="meshes/head_pitch_11.stl" inertia="shell"/>
+    <mesh name="head_pitch_12" file="meshes/head_pitch_12.stl" inertia="shell"/>
+    <mesh name="head_pitch_13" file="meshes/head_pitch_13.stl" inertia="shell"/>
+    <mesh name="beak_0" file="meshes/beak_0.stl" inertia="shell"/>
+    <mesh name="wing_L_sweep_0" file="meshes/wing_L_sweep_0.stl" inertia="shell"/>
+    <mesh name="wing_L_sweep_1" file="meshes/wing_L_sweep_1.stl" inertia="shell"/>
+    <mesh name="wing_L_sweep_2" file="meshes/wing_L_sweep_2.stl" inertia="shell"/>
+    <mesh name="wing_L_sweep_3" file="meshes/wing_L_sweep_3.stl" inertia="shell"/>
+    <mesh name="wing_L_sweep_4" file="meshes/wing_L_sweep_4.stl" inertia="shell"/>
+    <mesh name="wing_L_sweep_5" file="meshes/wing_L_sweep_5.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_in_0" file="meshes/wing_L_panel_in_0.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_in_1" file="meshes/wing_L_panel_in_1.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_in_2" file="meshes/wing_L_panel_in_2.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_in_3" file="meshes/wing_L_panel_in_3.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_in_4" file="meshes/wing_L_panel_in_4.stl" inertia="shell"/>
+    <mesh name="wing_L_elbow_0" file="meshes/wing_L_elbow_0.stl" inertia="shell"/>
+    <mesh name="wing_L_elbow_1" file="meshes/wing_L_elbow_1.stl" inertia="shell"/>
+    <mesh name="wing_L_elbow_2" file="meshes/wing_L_elbow_2.stl" inertia="shell"/>
+    <mesh name="wing_L_elbow_3" file="meshes/wing_L_elbow_3.stl" inertia="shell"/>
+    <mesh name="wing_L_elbow_4" file="meshes/wing_L_elbow_4.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_mid_0" file="meshes/wing_L_panel_mid_0.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_mid_1" file="meshes/wing_L_panel_mid_1.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_mid_2" file="meshes/wing_L_panel_mid_2.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_mid_3" file="meshes/wing_L_panel_mid_3.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_mid_4" file="meshes/wing_L_panel_mid_4.stl" inertia="shell"/>
+    <mesh name="wing_L_wrist_0" file="meshes/wing_L_wrist_0.stl" inertia="shell"/>
+    <mesh name="wing_L_wrist_1" file="meshes/wing_L_wrist_1.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_out_0" file="meshes/wing_L_panel_out_0.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_out_1" file="meshes/wing_L_panel_out_1.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_out_2" file="meshes/wing_L_panel_out_2.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_out_3" file="meshes/wing_L_panel_out_3.stl" inertia="shell"/>
+    <mesh name="wing_L_panel_out_4" file="meshes/wing_L_panel_out_4.stl" inertia="shell"/>
+    <mesh name="wing_R_sweep_0" file="meshes/wing_R_sweep_0.stl" inertia="shell"/>
+    <mesh name="wing_R_sweep_1" file="meshes/wing_R_sweep_1.stl" inertia="shell"/>
+    <mesh name="wing_R_sweep_2" file="meshes/wing_R_sweep_2.stl" inertia="shell"/>
+    <mesh name="wing_R_sweep_3" file="meshes/wing_R_sweep_3.stl" inertia="shell"/>
+    <mesh name="wing_R_sweep_4" file="meshes/wing_R_sweep_4.stl" inertia="shell"/>
+    <mesh name="wing_R_sweep_5" file="meshes/wing_R_sweep_5.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_in_0" file="meshes/wing_R_panel_in_0.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_in_1" file="meshes/wing_R_panel_in_1.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_in_2" file="meshes/wing_R_panel_in_2.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_in_3" file="meshes/wing_R_panel_in_3.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_in_4" file="meshes/wing_R_panel_in_4.stl" inertia="shell"/>
+    <mesh name="wing_R_elbow_0" file="meshes/wing_R_elbow_0.stl" inertia="shell"/>
+    <mesh name="wing_R_elbow_1" file="meshes/wing_R_elbow_1.stl" inertia="shell"/>
+    <mesh name="wing_R_elbow_2" file="meshes/wing_R_elbow_2.stl" inertia="shell"/>
+    <mesh name="wing_R_elbow_3" file="meshes/wing_R_elbow_3.stl" inertia="shell"/>
+    <mesh name="wing_R_elbow_4" file="meshes/wing_R_elbow_4.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_mid_0" file="meshes/wing_R_panel_mid_0.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_mid_1" file="meshes/wing_R_panel_mid_1.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_mid_2" file="meshes/wing_R_panel_mid_2.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_mid_3" file="meshes/wing_R_panel_mid_3.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_mid_4" file="meshes/wing_R_panel_mid_4.stl" inertia="shell"/>
+    <mesh name="wing_R_wrist_0" file="meshes/wing_R_wrist_0.stl" inertia="shell"/>
+    <mesh name="wing_R_wrist_1" file="meshes/wing_R_wrist_1.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_out_0" file="meshes/wing_R_panel_out_0.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_out_1" file="meshes/wing_R_panel_out_1.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_out_2" file="meshes/wing_R_panel_out_2.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_out_3" file="meshes/wing_R_panel_out_3.stl" inertia="shell"/>
+    <mesh name="wing_R_panel_out_4" file="meshes/wing_R_panel_out_4.stl" inertia="shell"/>
+  </asset>
+  <worldbody>
+    <light pos="0.5 -1 2" dir="-0.2 0.4 -1" diffuse="0.9 0.9 0.9"/><light pos="-1 1 2" dir="0.3 -0.3 -1" diffuse="0.4 0.4 0.4"/>
+    <geom name="floor" type="plane" size="80 80 0.1" material="grid" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_step1" type="box" pos="0 -1.05 0.01" size="0.25 0.15 0.01" rgba="0.55 0.62 0.70 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_step2" type="box" pos="0 -1.35 0.02" size="0.25 0.15 0.02" rgba="0.55 0.62 0.70 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_step3" type="box" pos="0 -1.65 0.03" size="0.25 0.15 0.03" rgba="0.55 0.62 0.70 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_plateau" type="box" pos="0 -2.35 0.03" size="0.25 0.4 0.03" rgba="0.50 0.58 0.66 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_hurdle15" type="box" pos="-0.7 -0.9 0.0075" size="0.2 0.006 0.0075" rgba="0.90 0.45 0.20 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_hurdle30" type="box" pos="-0.7 -1.5 0.015" size="0.2 0.006 0.015" rgba="0.90 0.30 0.20 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_ledge" type="box" pos="-1.2 -1.0 0.15" size="0.3 0.3 0.15" rgba="0.60 0.55 0.45 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_tower" type="box" pos="0 6.0 6.0" size="0.6 0.6 6.0" rgba="0.45 0.47 0.52 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_tower_rim" type="box" pos="0 6.62 12.05" size="0.6 0.02 0.05" rgba="0.85 0.75 0.25 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_post0" type="cylinder" pos="4 -6 0.75" size="0.06 0.75" rgba="0.35 0.55 0.35 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_crown0" type="sphere" pos="4 -6 1.75" size="0.35" rgba="0.30 0.62 0.32 1" contype="0" conaffinity="0"/>
+<geom name="env_post1" type="cylinder" pos="-5 -9 1.0" size="0.06 1.0" rgba="0.35 0.55 0.35 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_crown1" type="sphere" pos="-5 -9 2.25" size="0.35" rgba="0.30 0.62 0.32 1" contype="0" conaffinity="0"/>
+<geom name="env_post2" type="cylinder" pos="7 -14 1.25" size="0.06 1.25" rgba="0.35 0.55 0.35 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_crown2" type="sphere" pos="7 -14 2.75" size="0.35" rgba="0.30 0.62 0.32 1" contype="0" conaffinity="0"/>
+<geom name="env_post3" type="cylinder" pos="-8 -18 0.75" size="0.06 0.75" rgba="0.35 0.55 0.35 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_crown3" type="sphere" pos="-8 -18 1.75" size="0.35" rgba="0.30 0.62 0.32 1" contype="0" conaffinity="0"/>
+<geom name="env_post4" type="cylinder" pos="3 -24 1.5" size="0.06 1.5" rgba="0.35 0.55 0.35 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_crown4" type="sphere" pos="3 -24 3.25" size="0.35" rgba="0.30 0.62 0.32 1" contype="0" conaffinity="0"/>
+<geom name="env_post5" type="cylinder" pos="-3 -30 1.0" size="0.06 1.0" rgba="0.35 0.55 0.35 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_crown5" type="sphere" pos="-3 -30 2.25" size="0.35" rgba="0.30 0.62 0.32 1" contype="0" conaffinity="0"/>
+<geom name="env_post6" type="cylinder" pos="10 -32 1.25" size="0.06 1.25" rgba="0.35 0.55 0.35 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_crown6" type="sphere" pos="10 -32 2.75" size="0.35" rgba="0.30 0.62 0.32 1" contype="0" conaffinity="0"/>
+<geom name="env_post7" type="cylinder" pos="-10 -4 1.0" size="0.06 1.0" rgba="0.35 0.55 0.35 1" contype="0" conaffinity="1" friction="1.0 0.02 0.001" solref="0.004 1"/>
+<geom name="env_crown7" type="sphere" pos="-10 -4 2.25" size="0.35" rgba="0.30 0.62 0.32 1" contype="0" conaffinity="0"/>
+<geom name="env_gate0_0" type="box" pos="0 -8 5.3" size="0.85 0.04 0.04" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate0_1" type="box" pos="0 -8 3.7" size="0.85 0.04 0.04" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate0_2" type="box" pos="0.8 -8 4.5" size="0.04 0.04 0.85" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate0_3" type="box" pos="-0.8 -8 4.5" size="0.04 0.04 0.85" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate1_0" type="box" pos="2 -18 4.8" size="0.85 0.04 0.04" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate1_1" type="box" pos="2 -18 3.2" size="0.85 0.04 0.04" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate1_2" type="box" pos="2.8 -18 4.0" size="0.04 0.04 0.85" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate1_3" type="box" pos="1.2 -18 4.0" size="0.04 0.04 0.85" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate2_0" type="box" pos="-3 -28 5.8" size="0.85 0.04 0.04" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate2_1" type="box" pos="-3 -28 4.2" size="0.85 0.04 0.04" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate2_2" type="box" pos="-2.2 -28 5.0" size="0.04 0.04 0.85" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate2_3" type="box" pos="-3.8 -28 5.0" size="0.04 0.04 0.85" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate3_0" type="box" pos="0 -40 4.3" size="0.85 0.04 0.04" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate3_1" type="box" pos="0 -40 2.7" size="0.85 0.04 0.04" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate3_2" type="box" pos="0.8 -40 3.5" size="0.04 0.04 0.85" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_gate3_3" type="box" pos="-0.8 -40 3.5" size="0.04 0.04 0.85" rgba="0.95 0.80 0.15 1" contype="0" conaffinity="0"/>
+<geom name="env_line1" type="box" pos="0 -1 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line2" type="box" pos="0 -2 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line3" type="box" pos="0 -3 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line4" type="box" pos="0 -4 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line5" type="box" pos="0 -5 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line6" type="box" pos="0 -6 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line7" type="box" pos="0 -7 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line8" type="box" pos="0 -8 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line9" type="box" pos="0 -9 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+<geom name="env_line10" type="box" pos="0 -10 0.0005" size="1.5 0.004 0.0005" rgba="0.30 0.30 0.35 1" contype="0" conaffinity="0"/>
+    <body name="torso" pos="0 0 0.165">
+      <freejoint name="root"/>
+      <inertial pos="0.000570781 -0.00639425 0.0331198" mass="0.277197" fullinertia="0.00087 0.000234767 0.000773319 5.33503e-06 1.85614e-06 3.88572e-05"/>
+      <geom type="mesh" mesh="torso_0" material="mat0" class="vis"/>
+      <geom type="mesh" mesh="torso_1" material="mat1" class="vis"/>
+      <geom type="mesh" mesh="torso_2" material="mat2" class="vis"/>
+      <geom type="mesh" mesh="torso_3" material="mat3" class="vis"/>
+      <geom type="mesh" mesh="torso_4" material="mat4" class="vis"/>
+      <geom type="mesh" mesh="torso_5" material="mat5" class="vis"/>
+      <geom type="mesh" mesh="torso_6" material="mat6" class="vis"/>
+      <geom type="mesh" mesh="torso_7" material="mat7" class="vis"/>
+      <geom type="mesh" mesh="torso_8" material="mat8" class="vis"/>
+      <geom type="mesh" mesh="torso_9" material="mat9" class="vis"/>
+      <geom type="mesh" mesh="torso_10" material="mat10" class="vis"/>
+      <geom type="mesh" mesh="torso_11" material="mat11" class="vis"/>
+      <geom type="mesh" mesh="torso_12" material="mat12" class="vis"/>
+      <geom type="mesh" mesh="torso_13" material="mat13" class="vis"/>
+      <geom type="mesh" mesh="torso_14" material="mat14" class="vis"/>
+      <geom type="mesh" mesh="torso_15" material="mat15" class="vis"/>
+      <geom type="mesh" mesh="torso_16" material="mat16" class="vis"/>
+      <geom name="col_body" type="ellipsoid" pos="0 -0.005 0.04" size="0.044 0.125 0.045" class="col"/>
+      <site name="imu" pos="0 -0.012 0.037"/>
+      <body name="tail_pitch" pos="0 0.114 0.046">
+        <joint name="tail_pitch" type="hinge" axis="1 0 0" range="-0.610865 0.610865" damping="0.02" armature="2e-05"/>
+        <inertial pos="0 0 0" mass="0.0005" fullinertia="2e-08 2e-08 2e-08 0 0 0"/>
+        <body name="tail_roll" pos="0 0 0">
+          <joint name="tail_roll" type="hinge" axis="0 1 0" range="-0.523599 0.523599" damping="0.02" armature="2e-05"/>
+          <inertial pos="0.00111051 0.0486994 0.0008482" mass="0.00508" fullinertia="1.14e-05 2.47805e-06 1.38522e-05 -1.46624e-07 -1.96632e-09 -1.06061e-07"/>
+          <geom type="mesh" mesh="tail_roll_0" material="mat17" class="vis"/>
+          <geom type="mesh" mesh="tail_roll_1" material="mat18" class="vis"/>
+          <geom type="mesh" mesh="tail_roll_2" material="mat9" class="vis"/>
+          <geom name="col_tail" type="sphere" pos="0 0.14 0.003" size="0.012" class="col"/>
+        </body>
+      </body>
+      <body name="wing_L_flap" pos="0.04 -0.06 0.07">
+        <joint name="wing_L_flap" type="hinge" axis="0 -1 0" range="-0.541052 0.541052" damping="0.02" armature="2e-05"/>
+        <inertial pos="0.00389934 0 -0.0053051" mass="0.003149" fullinertia="3.49904e-07 7.15651e-07 6.47279e-07 0 1.14415e-08 0"/>
+        <geom type="mesh" mesh="wing_L_flap_0" material="mat9" class="vis"/>
+        <body name="wing_L_sweep" pos="-1.2862e-09 0 0.0135">
+          <joint name="wing_L_sweep" type="hinge" axis="0 0 1" range="0 1.51844" damping="0.02" armature="2e-05"/>
+          <inertial pos="0.0734206 -0.00270521 -0.00837101" mass="0.01539" fullinertia="2.03743e-06 5.57489e-05 5.52226e-05 -1.63726e-06 -2.72833e-06 -4.20326e-07"/>
+          <geom type="mesh" mesh="wing_L_sweep_0" material="mat3" class="vis"/>
+          <geom type="mesh" mesh="wing_L_sweep_1" material="mat5" class="vis"/>
+          <geom type="mesh" mesh="wing_L_sweep_2" material="mat6" class="vis"/>
+          <geom type="mesh" mesh="wing_L_sweep_3" material="mat9" class="vis"/>
+          <geom type="mesh" mesh="wing_L_sweep_4" material="mat11" class="vis"/>
+          <geom type="mesh" mesh="wing_L_sweep_5" material="mat15" class="vis"/>
+          <body name="wing_L_panel_in" pos="0.06 0 0">
+            <joint name="wing_L_panel_in" type="hinge" axis="-1 0 0" range="0 2.05949" damping="0.004" armature="2e-05"/>
+            <inertial pos="0.0442063 0.0495982 0.00611178" mass="0.00781" fullinertia="1.34841e-05 1.89554e-05 3.22355e-05 -2.63034e-07 -4.51889e-09 -5.04145e-07"/>
+            <geom type="mesh" mesh="wing_L_panel_in_0" material="mat2" class="vis"/>
+            <geom type="mesh" mesh="wing_L_panel_in_1" material="mat3" class="vis"/>
+            <geom type="mesh" mesh="wing_L_panel_in_2" material="mat5" class="vis"/>
+            <geom type="mesh" mesh="wing_L_panel_in_3" material="mat17" class="vis"/>
+            <geom type="mesh" mesh="wing_L_panel_in_4" material="mat9" class="vis"/>
+          </body>
+          <body name="wing_L_elbow" pos="0.19 -0.006 0">
+            <joint name="wing_L_elbow" type="hinge" axis="0 0 1" range="-3.03687 0" damping="0.02" armature="2e-05"/>
+            <inertial pos="0.103968 0.00916439 -0.00544797" mass="0.00745" fullinertia="1.14365e-06 2.65737e-05 2.67458e-05 -1.04975e-06 -5.07881e-07 -8.94906e-08"/>
+            <geom type="mesh" mesh="wing_L_elbow_0" material="mat3" class="vis"/>
+            <geom type="mesh" mesh="wing_L_elbow_1" material="mat5" class="vis"/>
+            <geom type="mesh" mesh="wing_L_elbow_2" material="mat6" class="vis"/>
+            <geom type="mesh" mesh="wing_L_elbow_3" material="mat9" class="vis"/>
+            <geom type="mesh" mesh="wing_L_elbow_4" material="mat11" class="vis"/>
+            <body name="wing_L_panel_mid" pos="0.06 0.006 0">
+              <joint name="wing_L_panel_mid" type="hinge" axis="-1 0 0" range="0 1.5708" damping="0.004" armature="2e-05"/>
+              <inertial pos="0.0301041 0.0492588 0.00633387" mass="0.00855" fullinertia="1.45199e-05 2.74187e-05 4.17456e-05 5.44191e-07 5.41207e-08 -5.00838e-07"/>
+              <geom type="mesh" mesh="wing_L_panel_mid_0" material="mat2" class="vis"/>
+              <geom type="mesh" mesh="wing_L_panel_mid_1" material="mat3" class="vis"/>
+              <geom type="mesh" mesh="wing_L_panel_mid_2" material="mat5" class="vis"/>
+              <geom type="mesh" mesh="wing_L_panel_mid_3" material="mat17" class="vis"/>
+              <geom type="mesh" mesh="wing_L_panel_mid_4" material="mat9" class="vis"/>
+            </body>
+            <body name="wing_L_wrist" pos="0.19 0.017 0">
+              <joint name="wing_L_wrist" type="hinge" axis="0 0 1" range="0 3.07178" damping="0.02" armature="2e-05"/>
+              <inertial pos="0.0617656 -0.00759201 -0.00201047" mass="0.00363" fullinertia="1.54361e-07 1.9632e-05 1.96876e-05 7.29463e-07 -4.3033e-07 2.58496e-08"/>
+              <geom type="mesh" mesh="wing_L_wrist_0" material="mat5" class="vis"/>
+              <geom type="mesh" mesh="wing_L_wrist_1" material="mat9" class="vis"/>
+              <body name="wing_L_panel_out" pos="0.06 -0.011 0">
+                <joint name="wing_L_panel_out" type="hinge" axis="-1 0 0" range="0 1.67552" damping="0.004" armature="2e-05"/>
+                <inertial pos="0.0621301 0.043603 0.00590884" mass="0.00981" fullinertia="1.5955e-05 5.42626e-05 7.00279e-05 -1.82454e-06 -6.72563e-08 -4.29026e-07"/>
+                <geom type="mesh" mesh="wing_L_panel_out_0" material="mat2" class="vis"/>
+                <geom type="mesh" mesh="wing_L_panel_out_1" material="mat3" class="vis"/>
+                <geom type="mesh" mesh="wing_L_panel_out_2" material="mat5" class="vis"/>
+                <geom type="mesh" mesh="wing_L_panel_out_3" material="mat18" class="vis"/>
+                <geom type="mesh" mesh="wing_L_panel_out_4" material="mat9" class="vis"/>
+                <geom name="col_tip_L" type="sphere" pos="0.15 0.03 0" size="0.012" class="col"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="wing_R_flap" pos="-0.04 -0.06 0.07">
+        <joint name="wing_R_flap" type="hinge" axis="0 1 0" range="-0.541052 0.541052" damping="0.02" armature="2e-05"/>
+        <inertial pos="-0.00389934 0 -0.0053051" mass="0.003149" fullinertia="3.49904e-07 7.15651e-07 6.47279e-07 0 -1.14415e-08 0"/>
+        <geom type="mesh" mesh="wing_R_flap_0" material="mat9" class="vis"/>
+        <body name="wing_R_sweep" pos="1.2862e-09 0 0.0135">
+          <joint name="wing_R_sweep" type="hinge" axis="0 0 -1" range="0 1.51844" damping="0.02" armature="2e-05"/>
+          <inertial pos="-0.0735277 -0.00270623 -0.00837101" mass="0.01539" fullinertia="2.03698e-06 5.61043e-05 5.55776e-05 1.67475e-06 2.75246e-06 -4.20095e-07"/>
+          <geom type="mesh" mesh="wing_R_sweep_0" material="mat3" class="vis"/>
+          <geom type="mesh" mesh="wing_R_sweep_1" material="mat5" class="vis"/>
+          <geom type="mesh" mesh="wing_R_sweep_2" material="mat6" class="vis"/>
+          <geom type="mesh" mesh="wing_R_sweep_3" material="mat9" class="vis"/>
+          <geom type="mesh" mesh="wing_R_sweep_4" material="mat11" class="vis"/>
+          <geom type="mesh" mesh="wing_R_sweep_5" material="mat15" class="vis"/>
+          <body name="wing_R_panel_in" pos="-0.06 0 0">
+            <joint name="wing_R_panel_in" type="hinge" axis="-1 0 0" range="0 2.05949" damping="0.004" armature="2e-05"/>
+            <inertial pos="-0.0487112 0.0495247 0.00611163" mass="0.00781" fullinertia="1.34612e-05 1.91274e-05 3.23846e-05 1.39422e-06 7.84135e-08 -5.02899e-07"/>
+            <geom type="mesh" mesh="wing_R_panel_in_0" material="mat2" class="vis"/>
+            <geom type="mesh" mesh="wing_R_panel_in_1" material="mat3" class="vis"/>
+            <geom type="mesh" mesh="wing_R_panel_in_2" material="mat5" class="vis"/>
+            <geom type="mesh" mesh="wing_R_panel_in_3" material="mat17" class="vis"/>
+            <geom type="mesh" mesh="wing_R_panel_in_4" material="mat9" class="vis"/>
+          </body>
+          <body name="wing_R_elbow" pos="-0.19 -0.006 0">
+            <joint name="wing_R_elbow" type="hinge" axis="0 0 -1" range="-3.03687 0" damping="0.02" armature="2e-05"/>
+            <inertial pos="-0.10419 0.00916229 -0.00544798" mass="0.00745" fullinertia="1.14332e-06 2.68282e-05 2.69999e-05 1.08101e-06 5.27191e-07 -8.93058e-08"/>
+            <geom type="mesh" mesh="wing_R_elbow_0" material="mat3" class="vis"/>
+            <geom type="mesh" mesh="wing_R_elbow_1" material="mat5" class="vis"/>
+            <geom type="mesh" mesh="wing_R_elbow_2" material="mat6" class="vis"/>
+            <geom type="mesh" mesh="wing_R_elbow_3" material="mat9" class="vis"/>
+            <geom type="mesh" mesh="wing_R_elbow_4" material="mat11" class="vis"/>
+            <body name="wing_R_panel_mid" pos="-0.06 0.006 0">
+              <joint name="wing_R_panel_mid" type="hinge" axis="-1 0 0" range="0 1.5708" damping="0.004" armature="2e-05"/>
+              <inertial pos="-0.034785 0.0491825 0.00633371" mass="0.00855" fullinertia="1.44971e-05 2.73697e-05 4.16738e-05 6.5266e-07 2.01391e-08 -4.99584e-07"/>
+              <geom type="mesh" mesh="wing_R_panel_mid_0" material="mat2" class="vis"/>
+              <geom type="mesh" mesh="wing_R_panel_mid_1" material="mat3" class="vis"/>
+              <geom type="mesh" mesh="wing_R_panel_mid_2" material="mat5" class="vis"/>
+              <geom type="mesh" mesh="wing_R_panel_mid_3" material="mat17" class="vis"/>
+              <geom type="mesh" mesh="wing_R_panel_mid_4" material="mat9" class="vis"/>
+            </body>
+            <body name="wing_R_wrist" pos="-0.19 0.017 0">
+              <joint name="wing_R_wrist" type="hinge" axis="0 0 -1" range="0 3.07178" damping="0.02" armature="2e-05"/>
+              <inertial pos="-0.0617656 -0.00759201 -0.00201047" mass="0.00363" fullinertia="1.54361e-07 1.9632e-05 1.96876e-05 -7.29463e-07 4.3033e-07 2.58496e-08"/>
+              <geom type="mesh" mesh="wing_R_wrist_0" material="mat5" class="vis"/>
+              <geom type="mesh" mesh="wing_R_wrist_1" material="mat9" class="vis"/>
+              <body name="wing_R_panel_out" pos="-0.06 -0.011 0">
+                <joint name="wing_R_panel_out" type="hinge" axis="-1 0 0" range="0 1.67552" damping="0.004" armature="2e-05"/>
+                <inertial pos="-0.0649961 0.0416287 0.00590865" mass="0.00981" fullinertia="1.52824e-05 5.22334e-05 6.73261e-05 2.45734e-06 1.11159e-07 -3.97629e-07"/>
+                <geom type="mesh" mesh="wing_R_panel_out_0" material="mat2" class="vis"/>
+                <geom type="mesh" mesh="wing_R_panel_out_1" material="mat3" class="vis"/>
+                <geom type="mesh" mesh="wing_R_panel_out_2" material="mat5" class="vis"/>
+                <geom type="mesh" mesh="wing_R_panel_out_3" material="mat18" class="vis"/>
+                <geom type="mesh" mesh="wing_R_panel_out_4" material="mat9" class="vis"/>
+                <geom name="col_tip_R" type="sphere" pos="-0.15 0.03 0" size="0.012" class="col"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="leg_L_thigh" pos="0.03 0 0">
+        <joint name="leg_L_thigh" type="hinge" axis="1 0 0" range="-1.0472 1.0472" damping="0.02" armature="2e-05"/>
+        <inertial pos="-0.00806609 -0.0321823 -0.0527165" mass="0.01697" fullinertia="5.87499e-06 5.80859e-06 3.02633e-06 -4.35904e-07 -6.62655e-07 -9.65498e-07"/>
+        <geom type="mesh" mesh="leg_L_thigh_0" material="mat9" class="vis"/>
+        <geom type="mesh" mesh="leg_L_thigh_1" material="mat15" class="vis"/>
+        <body name="leg_L_shin" pos="0 -0.035 -0.06">
+          <joint name="leg_L_shin" type="hinge" axis="1 0 0" range="-1.0472 1.13446" damping="0.02" armature="2e-05"/>
+          <inertial pos="-0.00441975 0.0485951 -0.0627151" mass="0.01458" fullinertia="1.67471e-05 1.1664e-05 7.34786e-06 -5.95338e-07 7.45671e-07 3.8312e-06"/>
+          <geom type="mesh" mesh="leg_L_shin_0" material="mat9" class="vis"/>
+          <geom type="mesh" mesh="leg_L_shin_1" material="mat15" class="vis"/>
+          <body name="leg_L_ankle" pos="0 0.06 -0.08">
+            <joint name="leg_L_ankle" type="hinge" axis="1 0 0" range="-1.22173 1.22173" damping="0.02" armature="2e-05"/>
+            <inertial pos="0.003 -0.0392422 -0.0104108" mass="0.00899" fullinertia="1.17341e-05 2.28778e-06 1.24605e-05 1.30278e-13 -7.44512e-14 3.9415e-07"/>
+            <geom type="mesh" mesh="leg_L_ankle_0" material="mat0" class="vis"/>
+            <geom type="mesh" mesh="leg_L_ankle_1" material="mat9" class="vis"/>
+            <geom type="mesh" mesh="leg_L_ankle_2" material="mat10" class="vis"/>
+            <geom name="col_foot_L" type="box" pos="0.003 -0.043 -0.0219" size="0.024 0.064 0.0015" class="col" friction="1.0 0.02 0.001"/>
+          </body>
+        </body>
+      </body>
+      <body name="leg_R_thigh" pos="-0.03 0 0">
+        <joint name="leg_R_thigh" type="hinge" axis="1 0 0" range="-1.0472 1.0472" damping="0.02" armature="2e-05"/>
+        <inertial pos="0.00806609 -0.0321823 -0.0527165" mass="0.01697" fullinertia="5.87499e-06 5.80859e-06 3.02633e-06 4.35904e-07 6.62655e-07 -9.65498e-07"/>
+        <geom type="mesh" mesh="leg_R_thigh_0" material="mat9" class="vis"/>
+        <geom type="mesh" mesh="leg_R_thigh_1" material="mat15" class="vis"/>
+        <body name="leg_R_shin" pos="0 -0.035 -0.06">
+          <joint name="leg_R_shin" type="hinge" axis="1 0 0" range="-1.0472 1.13446" damping="0.02" armature="2e-05"/>
+          <inertial pos="0.00441975 0.0485951 -0.0627151" mass="0.01458" fullinertia="1.67471e-05 1.1664e-05 7.34786e-06 5.95338e-07 -7.45671e-07 3.8312e-06"/>
+          <geom type="mesh" mesh="leg_R_shin_0" material="mat9" class="vis"/>
+          <geom type="mesh" mesh="leg_R_shin_1" material="mat15" class="vis"/>
+          <body name="leg_R_ankle" pos="0 0.06 -0.08">
+            <joint name="leg_R_ankle" type="hinge" axis="1 0 0" range="-1.22173 1.22173" damping="0.02" armature="2e-05"/>
+            <inertial pos="-0.003 -0.0392422 -0.0104108" mass="0.00899" fullinertia="1.17341e-05 2.28778e-06 1.24605e-05 -1.30278e-13 7.44512e-14 3.9415e-07"/>
+            <geom type="mesh" mesh="leg_R_ankle_0" material="mat0" class="vis"/>
+            <geom type="mesh" mesh="leg_R_ankle_1" material="mat9" class="vis"/>
+            <geom type="mesh" mesh="leg_R_ankle_2" material="mat10" class="vis"/>
+            <geom name="col_foot_R" type="box" pos="-0.003 -0.043 -0.0219" size="0.024 0.064 0.0015" class="col" friction="1.0 0.02 0.001"/>
+          </body>
+        </body>
+      </body>
+      <body name="neck_yaw" pos="0 -0.1 0.06">
+        <joint name="neck_yaw" type="hinge" axis="0 0 1" range="-1.0472 1.0472" damping="0.02" armature="2e-05"/>
+        <inertial pos="-0.00279511 -0.00774191 0.0325175" mass="0.01186" fullinertia="1.6802e-06 1.57633e-06 1.54068e-06 -6.40333e-09 3.11886e-08 4.29359e-08"/>
+        <geom type="mesh" mesh="neck_yaw_0" material="mat5" class="vis"/>
+        <geom type="mesh" mesh="neck_yaw_1" material="mat9" class="vis"/>
+        <geom type="mesh" mesh="neck_yaw_2" material="mat15" class="vis"/>
+        <body name="head_pitch" pos="0 -0.012 0.036">
+          <joint name="head_pitch" type="hinge" axis="-1 0 0" range="-0.349066 0.523599" damping="0.02" armature="2e-05"/>
+          <inertial pos="0.000560868 -0.0230635 0.0179739" mass="0.03457" fullinertia="2.41326e-05 1.8692e-05 2.1683e-05 6.8081e-08 -6.2403e-08 -2.15966e-06"/>
+          <geom type="mesh" mesh="head_pitch_0" material="mat0" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_1" material="mat2" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_2" material="mat3" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_3" material="mat6" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_4" material="mat19" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_5" material="mat7" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_6" material="mat17" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_7" material="mat18" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_8" material="mat20" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_9" material="mat9" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_10" material="mat11" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_11" material="mat13" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_12" material="mat15" class="vis"/>
+          <geom type="mesh" mesh="head_pitch_13" material="mat16" class="vis"/>
+          <geom name="col_head" type="sphere" pos="0 -0.006 0.014" size="0.037" class="col"/>
+          <body name="beak" pos="0 -0.037 -0.000499994">
+            <joint name="beak" type="hinge" axis="1 0 0" range="0 0.523599" damping="0.004" armature="2e-05"/>
+            <inertial pos="0 -0.0123 0.000549998" mass="0.00203" fullinertia="2.3674e-07 1.06956e-07 2.70585e-07 0 0 0"/>
+            <geom type="mesh" mesh="beak_0" material="mat0" class="vis"/>
+          </body>
+        </body>
+      </body>
+    </body>
+  <body name="env_ball0" pos="0.35 -0.6 0.03"><freejoint/><geom name="env_ball0" type="sphere" size="0.03" mass="0.004" rgba="0.9 0.2 0.2 1" contype="1" conaffinity="1" friction="0.6 0.01 0.001" solref="0.004 1"/></body><body name="env_ball1" pos="0.45 -0.9 0.03"><freejoint/><geom name="env_ball1" type="sphere" size="0.03" mass="0.004" rgba="0.2 0.5 0.9 1" contype="1" conaffinity="1" friction="0.6 0.01 0.001" solref="0.004 1"/></body><body name="env_ball2" pos="0.3 -1.3 0.03"><freejoint/><geom name="env_ball2" type="sphere" size="0.03" mass="0.004" rgba="0.95 0.8 0.1 1" contype="1" conaffinity="1" friction="0.6 0.01 0.001" solref="0.004 1"/></body></worldbody>
+  <equality>
+    <joint joint1="wing_L_panel_in" joint2="wing_L_sweep" polycoef="0 1.35632 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_L_elbow" joint2="wing_L_sweep" polycoef="0 -2 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_L_panel_mid" joint2="wing_L_sweep" polycoef="0 1.03448 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_L_wrist" joint2="wing_L_sweep" polycoef="0 2.02299 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_L_panel_out" joint2="wing_L_sweep" polycoef="0 1.10345 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_R_panel_in" joint2="wing_R_sweep" polycoef="0 1.35632 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_R_elbow" joint2="wing_R_sweep" polycoef="0 -2 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_R_panel_mid" joint2="wing_R_sweep" polycoef="0 1.03448 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_R_wrist" joint2="wing_R_sweep" polycoef="0 2.02299 0 0 0" solref="0.004 1"/>
+    <joint joint1="wing_R_panel_out" joint2="wing_R_sweep" polycoef="0 1.10345 0 0 0" solref="0.004 1"/>
+  </equality>
+  <actuator>
+    <position name="act_tail_pitch" joint="tail_pitch" kp="1" ctrlrange="-0.610865 0.610865" forcerange="-0.1 0.1"/>
+    <position name="act_tail_roll" joint="tail_roll" kp="1" ctrlrange="-0.523599 0.523599" forcerange="-0.1 0.1"/>
+    <position name="act_wing_L_flap" joint="wing_L_flap" kp="12" ctrlrange="-0.541052 0.541052" forcerange="-1.5 1.5"/>
+    <position name="act_wing_L_sweep" joint="wing_L_sweep" kp="3" ctrlrange="0 1.51844" forcerange="-0.3 0.3"/>
+    <position name="act_wing_R_flap" joint="wing_R_flap" kp="12" ctrlrange="-0.541052 0.541052" forcerange="-1.5 1.5"/>
+    <position name="act_wing_R_sweep" joint="wing_R_sweep" kp="3" ctrlrange="0 1.51844" forcerange="-0.3 0.3"/>
+    <position name="act_leg_L_thigh" joint="leg_L_thigh" kp="4" ctrlrange="-1.0472 1.0472" forcerange="-0.35 0.35"/>
+    <position name="act_leg_L_shin" joint="leg_L_shin" kp="4" ctrlrange="-1.0472 1.13446" forcerange="-0.35 0.35"/>
+    <position name="act_leg_L_ankle" joint="leg_L_ankle" kp="2.5" ctrlrange="-1.22173 1.22173" forcerange="-0.2 0.2"/>
+    <position name="act_leg_R_thigh" joint="leg_R_thigh" kp="4" ctrlrange="-1.0472 1.0472" forcerange="-0.35 0.35"/>
+    <position name="act_leg_R_shin" joint="leg_R_shin" kp="4" ctrlrange="-1.0472 1.13446" forcerange="-0.35 0.35"/>
+    <position name="act_leg_R_ankle" joint="leg_R_ankle" kp="2.5" ctrlrange="-1.22173 1.22173" forcerange="-0.2 0.2"/>
+    <position name="act_neck_yaw" joint="neck_yaw" kp="1.5" ctrlrange="-1.0472 1.0472" forcerange="-0.15 0.15"/>
+    <position name="act_head_pitch" joint="head_pitch" kp="1.5" ctrlrange="-0.349066 0.523599" forcerange="-0.15 0.15"/>
+    <position name="act_beak" joint="beak" kp="0.5" ctrlrange="0 0.523599" forcerange="-0.05 0.05"/>
+    <motor name="jump_spring_L" joint="leg_L_shin" ctrlrange="-3 3"/>
+    <motor name="jump_spring_R" joint="leg_R_shin" ctrlrange="-3 3"/>
+    <motor name="jump_spring_hip_L" joint="leg_L_thigh" ctrlrange="-3 3"/>
+    <motor name="jump_spring_hip_R" joint="leg_R_thigh" ctrlrange="-3 3"/>
+  </actuator>
+  <sensor><accelerometer name="acc" site="imu"/><gyro name="gyro" site="imu"/></sensor>
+  <keyframe>
+    <key name="stand_wings_stowed" qpos="0 0 0.165 1 0 0 0 0 0 0 1.51844 2.05949 -3.03687 1.5708 3.07178 1.67552 0 1.51844 2.05949 -3.03687 1.5708 3.07178 1.67552 0 0 0 0 0 0 0 -0 0 0.35 -0.6 0.03 1 0 0 0 0.45 -0.9 0.03 1 0 0 0 0.3 -1.3 0.03 1 0 0 0"/>
+    <key name="stand_wings_deployed" qpos="0 0 0.165 1 0 0 0 0 0 0 0 -0 0 -0 0 -0 0 -0 -0 -0 -0 -0 -0 0 0 0 0 0 0 0 -0 0 0.35 -0.6 0.03 1 0 0 0 0.45 -0.9 0.03 1 0 0 0 0.3 -1.3 0.03 1 0 0 0"/>
+    <key name="flap_up" qpos="0 0 0.165 1 0 0 0 0 0 -0.526927 0 -0 0 -0 0 -0 -0.526927 -0 -0 -0 -0 -0 -0 0 0 0 0 0 0 0 -0 0 0.35 -0.6 0.03 1 0 0 0 0.45 -0.9 0.03 1 0 0 0 0.3 -1.3 0.03 1 0 0 0"/>
+    <key name="flap_down" qpos="0 0 0.165 1 0 0 0 0 0 0.517498 0 -0 0 -0 0 -0 0.517498 -0 -0 -0 -0 -0 -0 0 0 0 0 0 0 0 -0 0 0.35 -0.6 0.03 1 0 0 0 0.45 -0.9 0.03 1 0 0 0 0.3 -1.3 0.03 1 0 0 0"/>
+    <key name="crouch" qpos="0 0 0.165 1 0 0 0 0 0 0 1.51844 2.05949 -3.03687 1.5708 3.07178 1.67552 0 1.51844 2.05949 -3.03687 1.5708 3.07178 1.67552 -0.436332 0.959931 -0.523599 -0.436332 0.959931 -0.523599 0 -0 0 0.35 -0.6 0.03 1 0 0 0 0.45 -0.9 0.03 1 0 0 0 0.3 -1.3 0.03 1 0 0 0"/>
+    <key name="glide_legs_tucked" qpos="0 0 0.165 1 0 0 0 0 0 0 0 -0 0 -0 0 -0 0 -0 -0 -0 -0 -0 -0 0.610865 1.0472 -0.698132 0.610865 1.0472 -0.698132 0 -0 0 0.35 -0.6 0.03 1 0 0 0 0.45 -0.9 0.03 1 0 0 0 0.3 -1.3 0.03 1 0 0 0"/>
+    <key name="look_left_beak_open" qpos="0 0 0.165 1 0 0 0 0 0 0 1.51844 2.05949 -3.03687 1.5708 3.07178 1.67552 0 1.51844 2.05949 -3.03687 1.5708 3.07178 1.67552 0 0 0 0 0 0 1.0472 0.174533 0.436332 0.35 -0.6 0.03 1 0 0 0 0.45 -0.9 0.03 1 0 0 0 0.3 -1.3 0.03 1 0 0 0"/>
+  </keyframe>
+</mujoco>

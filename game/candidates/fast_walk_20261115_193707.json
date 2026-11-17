@@ -1,0 +1,25 @@
+{
+ "task": "fast_walk",
+ "description": "Fast walk speed (SHIFT+UP)",
+ "unit": "mm/s",
+ "target": null,
+ "when": "2026-11-15 19:38",
+ "score": 214.74507923983379,
+ "start_score": 214.74507923983379,
+ "settings": {
+  "run.f": 3.5,
+  "run.s": 0.04,
+  "run.lift": 0.012,
+  "run.back": 0.02,
+  "run.duty": 0.6
+ },
+ "history": [
+  214.74507923983379,
+  214.74507923983379,
+  214.74507923983379
+ ],
+ "generation": 2,
+ "validated": "5/5 conditions without a fall, score 213.9",
+ "routine": "4/5 conditions completed the full routine",
+ "done": true
+}

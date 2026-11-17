@@ -1,0 +1,6 @@
+﻿cushion   1.6 J  split -1.8  trim -0.35: 0/5 good | clearance 30-33 mm, forward 148-160 mm, take-off spin -2.8 mNms | gear loss in push 0.69 J + rotors 0.09 J of 1.67 J delivered
+          spring peak knee 1.01 hip 1.82 Nm | gear-train peak in push hip/knee/ankle 1.87/0.11/0.41 Nm, at landing 0.87/0.61/2.04 Nm | touchdown force up to 136 N, max tilt after 56 deg
+cushion   2.0 J  split -1.4  trim -0.35: 3/5 good | clearance 51-62 mm, forward 123-166 mm, take-off spin +0.4 mNms | gear loss in push 0.89 J + rotors 0.08 J of 2.20 J delivered
+          spring peak knee 1.46 hip 2.04 Nm | gear-train peak in push hip/knee/ankle 2.20/0.16/0.50 Nm, at landing 1.55/1.54/1.59 Nm | touchdown force up to 138 N, max tilt after 28 deg
+cushion   2.4 J  split -1.2  trim +0.07: 5/5 good | clearance 93-106 mm, forward 92-148 mm, take-off spin +3.6 mNms | gear loss in push 1.06 J + rotors 0.09 J of 2.57 J delivered
+          spring peak knee 1.71 hip 2.06 Nm | gear-train peak in push hip/knee/ankle 2.27/0.19/0.58 Nm, at landing 2.02/2.30/3.32 Nm | touchdown force up to 218 N, max tilt after 19 deg

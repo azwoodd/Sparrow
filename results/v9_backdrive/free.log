@@ -1,0 +1,14 @@
+﻿=== bi_E080: knee servo decoupled during the push, no re-tuning
+  light                        0/5 good  clearance  48.8- 53.2 mm  max tilt after  71.8  | drag took 0.75 J, rotors 0.03 J
+  light + knee decoupled       0/5 good  clearance 120.0-132.5 mm  max tilt after  66.7  | drag took 0.54 J, rotors 0.02 J
+  typical                      0/5 good  clearance  35.1- 39.7 mm  max tilt after  73.3  | drag took 0.77 J, rotors 0.14 J
+  typical + knee decoupled     0/5 good  clearance 136.6-162.9 mm  max tilt after  72.8  | drag took 0.62 J, rotors 0.05 J
+  heavy                        0/5 good  clearance  18.8- 21.6 mm  max tilt after  67.7  | drag took 0.92 J, rotors 0.38 J
+  heavy + knee decoupled       0/5 good  clearance 123.8-151.1 mm  max tilt after 105.1  | drag took 0.58 J, rotors 0.19 J
+=== bi_E110: knee servo decoupled during the push, no re-tuning
+  light                        1/5 good  clearance  72.8- 79.7 mm  max tilt after  76.2  | drag took 1.06 J, rotors 0.03 J
+  light + knee decoupled       0/5 good  clearance 185.2-219.9 mm  max tilt after  74.1  | drag took 0.66 J, rotors 0.04 J
+  typical                      0/5 good  clearance  56.9- 61.8 mm  max tilt after  76.6  | drag took 1.09 J, rotors 0.16 J
+  typical + knee decoupled     0/5 good  clearance 224.7-261.3 mm  max tilt after  97.7  | drag took 0.69 J, rotors 0.14 J
+  heavy                        0/5 good  clearance  26.9- 32.8 mm  max tilt after  74.9  | drag took 1.33 J, rotors 0.45 J
+  heavy + knee decoupled       0/5 good  clearance 234.0-281.2 mm  max tilt after 116.1  | drag took 0.78 J, rotors 0.20 J

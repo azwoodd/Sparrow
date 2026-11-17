@@ -1,0 +1,13 @@
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.stl binary
+*.obj binary
+*.zip binary
+*.pkl binary
+*.png binary
+
+# byte-exact copies of the owner's code and model exports: never convert line endings (fingerprints must match)
+src/vendor/** -text
+model/** -text
+manifests/** -text
