@@ -27,7 +27,7 @@ Read this before changing anything. The owner is building a real robot bird from
 - `game/selftest.py robust`: the 45 s game routine on 5 conditions. Currently 4/5 complete. Never make it worse.
 - `game/brain/evaluate.py <task>`: a brain must beat the scripted controller **with full physics (air forces on)**
   on 20 unseen episodes before it is used in the game. Training may run with air forces off for speed.
-- Reports: append a lettered section to `REPORT.md` (next letter after W) or a dated Markdown file next to the work.
+- Reports: append a lettered section to `REPORT.md` (next letter after X) or a dated Markdown file next to the work.
 
 ## Work streams and who owns them
 

@@ -33,7 +33,7 @@ Sparrow bot team, keep them from colliding, and report evidence-backed progress 
 - **Sparrow QA** reviews and runs the sanity checks on every PR before merge. Nothing merges red.
 - Large outputs: commit only final `model.zip`, `vecnormalize.pkl`, `progress.csv`, `config.json`, `evaluation.json`
   per training run (checkpoints and raw traces are git-ignored).
-- Write results as a lettered section appended to `REPORT.md` (next is X) or a dated Markdown file next to the work.
+- Write results as a lettered section appended to `REPORT.md` (next is Y) or a dated Markdown file next to the work.
 - Brains are switched on in the game only through `game/skills.json -> brain`, pinned to a specific run folder, and
   only after `evaluate.py` shows they beat the scripted controller with air forces on AND `selftest.py robust` does
   not get worse.
