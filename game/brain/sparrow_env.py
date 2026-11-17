@@ -34,9 +34,9 @@ def brain_joints(lab):
     return [s.act[n] for n in names]
 
 
-def brain_obs(lab, acts, last_action, extra=()):
+def brain_obs(lab, acts, last_action, extra=(), z0=0.0):
     """Body-frame state: gravity direction, angular and linear velocity, torso height, actuated joint angles and speeds,
-    foot loads, last action, task extras."""
+    foot loads, last action, task extras. z0 = height of the ground the bird stands on (training is at 0)."""
     m, d = lab.m, lab.d
     R = d.xmat[1].reshape(3, 3)
     g = R.T @ np.array([0.0, 0.0, -1.0])
@@ -45,7 +45,7 @@ def brain_obs(lab, acts, last_action, extra=()):
     q = d.qpos[m.jnt_qposadr[jid]]; qd = d.qvel[m.jnt_dofadr[jid]]
     cs = lab.contact_state()
     fl = [cs.get(lab.foot_geom[S], {'fn': 0.0})['fn'] / max(lab.weight, 1e-6) for S in 'LR']
-    return np.concatenate([g, v[:3] * 0.2, v[3:] * 0.5, [d.qpos[2] * 5.0], q, qd * 0.1, np.clip(fl, 0, 3), last_action, np.asarray(extra, float)]).astype(np.float32)
+    return np.concatenate([g, v[:3] * 0.2, v[3:] * 0.5, [(d.qpos[2] - z0) * 5.0], q, qd * 0.1, np.clip(fl, 0, 3), last_action, np.asarray(extra, float)]).astype(np.float32)
 
 
 class SparrowEnv(gym.Env):

@@ -145,7 +145,8 @@
   "reverse_scale": "0 = off. Experimental backwards walk: at 0.25-0.6 it stayed up only 1-4 of 5 in the 15 Nov test. A training target.",
   "flight": "EXPERIMENTAL and not the current hardware: wing acting as 3x chord, tail acting as 8x area, wing mounted 15 mm further back, 30 deg stroke, 20 deg passive-style twist, 6 Nm flap drive. Free-body flight found 15 Nov 2026.",
   "jump_moving": "jump pressed while walking: starts from the jump settings, faster crouch; untrained",
-  "getup": "wing-push / crouch / rise get-up, hand-tuned 17 Nov 2026: reaches ~34 deg then stalls; a training target"
+  "getup": "wing-push / crouch / rise get-up, hand-tuned 17 Nov 2026: reaches ~34 deg then stalls; a training target",
+  "brain": "recover brain (PPO, 250k steps, 17 Nov 2026), used while walking only: shove test 20/20 vs scripted 16/20 with full physics; full game routine 5/5 vs scripted 4/5. Used while standing it made the routine worse (3/5). Not valid for the hip-twist model."
  },
  "pivot_stride": 0.0,
  "flight": {
@@ -188,6 +189,7 @@
   "flare_f": 2.0,
   "land_dy": -0.03,
   "glide_land_throttle": 0.15,
+  "v_course": 7.0,
   "auto": true
  },
  "getup": {
@@ -210,5 +212,12 @@
  },
  "step_trigger": 0.7,
  "moving_hop": true,
- "post_hop_settle_s": 0.4
+ "post_hop_settle_s": 0.4,
+ "brain": {
+  "recover": "runs/recover_20261117_224830",
+  "recover_modes": [
+   "walk"
+  ],
+  "getup": null
+ }
 }

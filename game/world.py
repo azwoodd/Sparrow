@@ -58,6 +58,7 @@ class World:
         lab.reset(dict(self.case))
         sx, sy, sz = SPAWNS.get(spawn, (0.0, 0.0, 0.0)) if isinstance(spawn, str) else spawn
         lab.d.qpos[0] += sx; lab.d.qpos[1] += sy; lab.d.qpos[2] += sz; mujoco.mj_forward(lab.m, lab.d)
+        lab.ground_z = float(sz)                          # ground height under the spawn (brains see height above it)
         self.pilot = Pilot(self.skills); self.pilot.start(lab)
         self.rig = FlightRig(lab, self.skills.get('flight')); self.fpilot = FlightPilot(self.rig)
         self.corrector = self.brain_getup = None
@@ -145,7 +146,7 @@ class World:
             for _ in range(10):
                 if self.i % 10 == 0:
                     p(lab, self.t)
-                    if self.corrector is not None and p.mode in ('walk', 'stand'): self.corrector.apply(lab, p)
+                    if self.corrector is not None and p.mode in self.skills.get('brain', {}).get('recover_modes', ['walk', 'stand']): self.corrector.apply(lab, p)
                 p.substep(lab); lab.e.step(); self.i += 1
         r = lab.measure(); self.row = r
         fz = r['fz_L'] + r['fz_R']; touching = fz > 0 or r['fz_other'] > 0

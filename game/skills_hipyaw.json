@@ -189,6 +189,7 @@
   "flare_f": 2.0,
   "land_dy": -0.03,
   "glide_land_throttle": 0.15,
+  "v_course": 7.0,
   "auto": true
  },
  "getup": {

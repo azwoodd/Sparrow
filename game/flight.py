@@ -17,7 +17,7 @@ import mujoco
 RHO = 1.225
 FLIGHT_DEFAULT = dict(area_scale=3.0, stroke_deg=30.0, twist_tip_deg=20.0, twist_vref=1.5, incidence_deg=4.0, cn_stall=1.6, eta_s=0.7, cf=0.02,
                       body_cda=0.008, flap_torque=6.0, flap_kp=60.0, flap_kv=0.6, f_min=1.5, f_max=3.2, mass_scale=1.0,
-                      k_pitch=1.2, k_q=0.12, k_roll=0.8, k_p=0.08, pitch_trim_deg=6.0, sweep_gain=0.0, diff_gain=0.5, sweep_trim=0.0, com_shift=0.0, tail_scale=8.0, v_safe=5.5, dive_deg=-25.0, wing_aft=0.015, bank_deg=50.0, turn_rate_deg=60.0, k_course=1.5, k_sw=0.2, k_swd=0.04, sw_max=0.12, flare_h=0.8, flare_deg=40.0, flare_f=2.0, land_dy=-0.03, glide_land_throttle=0.15)
+                      k_pitch=1.2, k_q=0.12, k_roll=0.8, k_p=0.08, pitch_trim_deg=6.0, sweep_gain=0.0, diff_gain=0.5, sweep_trim=0.0, com_shift=0.0, tail_scale=8.0, v_safe=5.5, dive_deg=-25.0, wing_aft=0.015, bank_deg=50.0, turn_rate_deg=60.0, k_course=1.5, k_sw=0.2, k_swd=0.04, sw_max=0.12, flare_h=0.8, flare_deg=40.0, flare_f=2.0, land_dy=-0.03, glide_land_throttle=0.15, v_course=7.0)
 
 
 class FlightRig:
@@ -129,10 +129,12 @@ class FlightPilot:
         # No input = keep the current course, which also cancels the model's own pull to the right. The stick moves the
         # target course at turn_rate_deg; the bird banks towards it.
         vx, vy = float(d.qvel[0]), float(d.qvel[1]); course = math.atan2(vx, -vy)          # + = to the bird's start-left
-        if not hasattr(self, 'target') or self.target is None: self.target = course
-        if abs(self.turn) > 0.05:
+        if math.hypot(vx, vy) < p['v_course']:              # too slow for the course to mean anything: wings level
+            self.target = None
+        elif not hasattr(self, 'target') or self.target is None: self.target = course
+        if abs(self.turn) > 0.05 and self.target is not None:
             self.target += math.radians(p['turn_rate_deg']) * self.turn * dt
-        err = (self.target - course + math.pi) % (2 * math.pi) - math.pi
+        err = 0.0 if self.target is None else (self.target - course + math.pi) % (2 * math.pi) - math.pi
         if abs(err) > math.radians(70): self.target = course + math.copysign(math.radians(70), err); err = math.copysign(math.radians(70), err)
         self.course_err = err
         bank = float(np.clip(p['k_course'] * math.degrees(err), -p['bank_deg'], p['bank_deg']))
@@ -147,7 +149,7 @@ class FlightPilot:
             # roll with the wing-sweep (fold) servos: measured as by far the strongest roll control the model has
             # (sweeping the LEFT wing back 0.3 rad rolls the bird ~110 deg right in 1 s; flap-size difference and tail roll
             # do almost nothing). Bank left = sweep the right wing back, and vice versa.
-            us = float(np.clip(p['k_sw'] * (roll_want - roll) - p['k_swd'] * self.droll, -p['sw_max'], p['sw_max']))
+            us = 0.0 if self.target is None else float(np.clip(p['k_sw'] * (roll_want - roll) - p['k_swd'] * self.droll, -p['sw_max'], p['sw_max']))
             back = max(0.0, -us) if S == 'L' else max(0.0, us)
             d.ctrl[self.rig.sweep_a[k]] = float(np.clip(p['sweep_trim'] + back, 0.0, 0.8))
         d.ctrl[self.rig.tail_p] = float(np.clip(up, *m.actuator_ctrlrange[self.rig.tail_p]))

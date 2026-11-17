@@ -1,0 +1,16 @@
+{
+ "task": "recover",
+ "episodes": 20,
+ "air_forces": true,
+ "scripted": {
+  "success": 0.8,
+  "fell": 0.2,
+  "return": 837.1805318259061
+ },
+ "brain": {
+  "success": 1.0,
+  "fell": 0.0,
+  "return": 1120.7439666269684
+ },
+ "run": "D:\\Downloads\\Sparrow_Locomotion_Engineering_V1\\game\\brain\\runs\\recover_20261117_224830"
+}

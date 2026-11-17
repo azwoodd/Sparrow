@@ -23,7 +23,7 @@ class WalkCorrector:
 
     def apply(self, lab, pilot):
         ph = [math.sin(2 * math.pi * pilot.cyc), math.cos(2 * math.pi * pilot.cyc)] if pilot.mode == 'walk' else [0.0, 0.0]
-        o = brain_obs(lab, self.acts, self.last, [pilot.speed, pilot.turn] + ph)
+        o = brain_obs(lab, self.acts, self.last, [pilot.speed, pilot.turn] + ph, getattr(lab, 'ground_z', 0.0))
         a = np.clip(self.b.act(o), -1, 1); self.last = a
         d = lab.d; d.ctrl[lab.ids] = np.clip(d.ctrl[lab.ids] + 0.15 * a[:6], lab.m.actuator_ctrlrange[lab.ids, 0], lab.m.actuator_ctrlrange[lab.ids, 1])
 
